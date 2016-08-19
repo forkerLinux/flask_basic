@@ -1,18 +1,16 @@
 # -*- coding: utf-8 -*-
 
-import json
 import warnings
-from datetime import datetime
-from multiprocessing.pool import ThreadPool
 
 from flask import url_for
 from flask_script import Manager, prompt_bool, Shell
 from flask_script import Server
-from flask_migrate import Migrate, MigrateCommand
+from flask_migrate import MigrateCommand
 from flask.exthook import ExtDeprecationWarning
 
 from RcatAPP import create_app
-from RcatAPP.configs import db, logger
+from RcatAPP.configs import db
+
 
 app = create_app
 manager = Manager(app)
@@ -38,6 +36,7 @@ def rdb():
         db.drop_all()
         db.create_all()
 
+
 @manager.command
 def list_routes():
     from urllib.parse import unquote
@@ -56,6 +55,7 @@ def list_routes():
 
     for line in sorted(output):
         print(line)
+
 
 def _make_context():
     return dict(app=app, db=db)

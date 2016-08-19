@@ -6,6 +6,7 @@ from flask_redis import FlaskRedis as fRedis
 from flask_cache import Cache
 from flask_login import LoginManager
 from flask_migrate import Migrate
+from flask_restful import Api
 
 db = SQLAlchemy()
 redis = fRedis()
@@ -13,6 +14,7 @@ cache = Cache()
 lm = LoginManager()
 logger = None
 migrate = Migrate()
+rest_api = Api()
 
 
 class DefaultConfig(object):

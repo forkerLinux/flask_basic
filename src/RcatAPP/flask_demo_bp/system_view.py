@@ -1,16 +1,7 @@
 #! /usr/bin/env python3.4
 # -*- coding: utf-8
 
-import json
-from random import randint
-import uuid
-
-from flask import Blueprint, render_template, session,\
-    request, abort, make_response, redirect, url_for
 from flask.views import MethodView
-import flask_login
-
-from RcatAPP.configs import db, cache, logger
 from . import instance
 
 

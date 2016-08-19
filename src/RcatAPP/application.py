@@ -1,14 +1,11 @@
 #! /usr/bin/env python3.4
 # -*- coding: utf-8 -*-
 
-from flask import Flask, session
-from flask import request
-from flask_login import LoginManager
-import flask_login
+from flask import Flask
 
 from RcatAPP import configs
 from RcatAPP.configs import lm
-from RcatAPP.configs import db, cache, redis, logger, migrate
+from RcatAPP.configs import db, cache, redis, migrate, rest_api
 
 
 __all__ = ['create_app']
@@ -38,6 +35,7 @@ def configure_app(app, config):
     configure_loginmanager(app)
     configure_template_filter(app)
     configure_migrate(app)
+    configure_rest(app)
 
 
 def configure_redis(app):
@@ -51,12 +49,15 @@ def configure_cache(app):
 def configure_db(app):
     db.init_app(app)
 
+
 def configure_migrate(app):
     migrate.init_app(app, db)
+
 
 def configure_logger(app):
     from RcatAPP.configs import config_logger
     config_logger(app)
+
 
 def configure_blueprints(app):
     from RcatAPP import flask_demo_bp
@@ -69,6 +70,10 @@ def configure_blueprints(app):
 
 def configure_template_filter(app):
     pass
+
+
+def configure_rest(app):
+    rest_api.init_app(app)
 
 
 def configure_loginmanager(app):
