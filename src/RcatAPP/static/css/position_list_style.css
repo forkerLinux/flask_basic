@@ -1,0 +1,256 @@
+.job_enter{
+	float: left;
+    width: 100%;
+}
+.job_detail{
+	padding:20px;
+	background-color: #fff;
+	margin:0px;
+}
+.job_zw{
+	padding:0;
+}
+.gs_info {
+	text-align: right;
+}
+.job_name{
+	/*margin-bottom: 7px;*/
+	overflow: hidden;
+}
+.job_name>p{
+   max-width:85%;
+   overflow: hidden;
+   text-overflow:ellipsis;
+   white-space: nowrap;
+   float: left;
+   
+}
+.job_name>p>a{
+    font-size: 1.8rem;
+    color:#00a1df;
+}
+.job_name>p>a:hover{
+	color:#00aaf7;
+}
+.job_name>span{
+	float: left;
+	margin-left: 10px;
+	font-size: 1.3rem;
+	color: #c0c0c0;
+	position: relative;
+	top:4px;
+
+}
+.company_name{
+	color:#333;
+	overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin-top: 2px;
+    margin-bottom: 18px;
+    font-size:1.6rem;
+}
+.interval{
+	margin:0px 6px 0px 4px;
+}
+.industry_name{
+	color:#666;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    /*margin-bottom: 15px;*/
+}
+.update_time {
+	font-size: 1.2rem;
+	color: #999;
+	margin-top: 14px;
+}
+.welfare{
+    width: 88%;
+    overflow: hidden;
+    height:25px;
+}
+.welfare span{
+	font-size: 1.2rem;
+    padding: 2px 8px;
+    border: 1px solid #eee;
+    color: #777;
+    margin-right: 10px;
+    display: block;
+    float: left;
+	
+}
+.money{
+	font-size: 2rem;
+	color:#ff8d59;
+	text-align: center;
+	margin-right: 5px;
+}
+a,a:hover{
+	text-decoration: none
+}
+.apply{
+	color:#00a1df;
+	cursor: pointer;
+}
+
+.apply:hover{
+    color:#00aaf7;
+}
+
+.add_bg{
+	background: url("../images/like_collect.png") left center no-repeat;
+	background-size: 42px;
+    width: 14px;
+    height: 18px;
+    margin-right: 7px;
+
+}
+.jobdetail_list{
+	 border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+.jobdetail_list:hover{
+	outline:1px solid #beedff;
+}
+.add_collect:hover p{
+	background-position: -14px;
+	color:#f47156;
+}
+.add_show{
+	background: url("../images/like_collect.png") right center no-repeat;
+	background-size: 42px;
+    width: 14px;
+    height: 18px;
+    margin-right: 7px;
+	color:#f47156;
+}
+.color{
+	color:#f47156;
+}
+
+.all_job_list {
+
+}
+/*取消收藏*/
+.job_op {
+	position: relative;
+}
+.already_collect {
+	right: 70px;
+	position: absolute;
+	float: left;
+}
+.already_collect p {
+	color: #00a1df;
+	cursor: pointer;
+}
+.already_collect p:hover {
+	color: #00aaf7;
+}
+.add_collect {
+	display: none;
+}
+.job_op>a {
+	float: right;
+}
+a:hover {
+	text-decoration: none;
+}
+/*推荐职位*/
+.recommend {
+	/*margin-top: 50px;*/
+	padding: 15px;
+	background-color: #fff;
+	float: left;
+	width: 100%;
+}
+.recommend .title {
+	color: #333;
+	font-size: 14px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #00a7e7;
+	margin-bottom: 0px;
+}
+.recommend .job_con {
+	border-bottom: 1px dashed #f0f0f0;
+    float: left;
+    padding: 14px 10px 2px;
+    width: 100%;
+}
+.job_con:hover {
+	background-color: #f5f5f5;
+}
+.job_con .left {
+	width: 65%;
+	float: left;
+}
+.job_con .right {
+	width: 35%;
+	float: right;
+}
+.job_con .right p {
+	text-align: right;
+}
+.left a, .left p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.left .job_name {
+	color: #333;
+	font-size: 1.5rem;
+	display: inline-block;
+	margin-bottom:4px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;	
+}
+.left .gs_name {
+	color: #666;
+	font-size: 1.2rem;
+	margin-bottom: 12px;
+}
+.left .job_name:hover {
+	/*color: #00a1df;*/
+}
+.right .salary {
+	color: #ff7755;
+	font-size: 1.4rem;
+}
+.right .city {
+	color: #999;
+	font-size: 1.2rem;
+}
+.more_recommend {
+	/*border-top: 1px solid #f0f0f0;*/
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+.more_recommend a {
+	cursor: pointer;
+	color: #666;
+	padding: 10px;
+}
+.more_recommend a:hover {
+	color: #00a1df;
+}
+.recommend .no_date{
+	color:#777;
+	font-size: 1.6rem;
+	width:100%;
+	text-align: center;
+	height:89px;
+	position: relative;
+	background: url(../images/wushuju.png?v=1) top center no-repeat;
+	background-size: 16%;
+	margin-top: 24px;
+}
+.recommend .no_date span{
+	display: inline-block;
+	margin-top: 60px;
+}
+

@@ -1,0 +1,236 @@
+.table_list{
+	width:1140px!important;
+	margin-left:16px;
+}
+.detail_middle h1{
+	background-image: url(../images/man.jpg);
+	background-size: 20px 20px;
+	background-position:13px 7px;
+
+}
+ul.con_dtl{
+	width:auto;
+	/*width:auto;*/
+	height:auto;
+	/*margin-left:30px;*/
+	border-top: 1px solid #D2D2D2;
+	border-left: 1px solid #D2D2D2;
+	border-right: 1px solid #D2D2D2;
+	font-family: 'microsoft yahei';
+	font-size: 14px;
+}
+ul.con_dtl>li{
+	/*width:auto;*/
+	height:40px;
+	border-bottom:1px solid #D2D2D2;
+}
+ul.con_dtl li.title{
+	background: #F5F6FA;
+}
+ul.con_dtl li.sex, ul.con_dtl li.op{
+	width:102px;
+	 /*overflow:hidden;text-overflow:ellipsis;white-space:nowrap;*/
+	/*width: 5%*/
+}
+ul.con_dtl li.match{
+	width:10%;
+	display: none;
+	 /*overflow:hidden;text-overflow:ellipsis;white-space:nowrap;*/
+}
+ul.con_dtl li.name{
+	/*width:9%;*/
+	 width: 119px;
+	  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+	/*color:#174577;*/
+	/*font-weight:bold;*/
+}
+ul.con_dtl li.num{
+  /*width: 5%;*/
+   width: 57px;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+li.name a:hover{
+	color: #029774;
+}
+/*.dropdown a .dept:hover{
+	color: #029774;
+}*/
+
+ul.con_dtl li.job{
+	width:210px;
+	 /*overflow:hidden;text-overflow:ellipsis;white-space:nowrap;*/
+	/*width: 15%;*/
+	/*overflow-x: hidden;*/
+}
+ul.con_dtl li.edu{
+  width: 90px;
+   /*overflow:hidden;text-overflow:ellipsis;white-space:nowrap;*/
+  /*width: 10%;*/
+}
+ul.con_dtl li.school{
+  width: 168px;
+   overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  /*width:15%;*/
+  overflow: hidden;
+}
+ul.con_dtl>li>ul{
+	width:auto;
+	height: 100%;
+}
+.job ul{
+	width:150px;
+	 /*overflow:hidden;text-overflow:ellipsis;white-space:nowrap;*/
+}
+ul.con_dtl>li>ul>li{
+	width:134px;
+	/*width:10%;*/
+	height:40px;
+	line-height: 40px;
+	float:left;
+	text-align: center;
+	/*overflow: hidden;*/
+	/*margin-left: 12px;*/
+}
+.clearfix a{
+		color:#174577;
+	/*font-weight:bold;*/
+}
+
+/* 操作下拉框 */
+.dropdown{
+  position:relative;
+  margin-top:11px;
+}
+.dropdown a{
+  color:#174577;
+  display: block;
+  line-height: 18px;
+
+}
+span.caret{
+  width:0px;
+  height:0px;
+  margin-left:2px;
+  vertical-align: middle;
+  border-top:4px solid black;
+  border-right:4px solid transparent;
+  border-left:4px solid transparent;
+  display: inline-block;
+}
+.dropdown ul.dropdown-menu{
+  display:none;
+  left:59px;
+  position:absolute;
+  z-index:100;
+  background: #F5F6FA;
+  border:1px solid #D2D2D2;
+  margin:0;
+  background-clip: padding-box;
+  margin:2px 0 0;
+  margin-right:17px;
+  position: relative;
+  float: right;
+}
+.dropdown ul.op_list{
+	width: 100px;
+}
+.dropdown ul.dropdown-menu li{
+  float:left;
+  border:none;
+  font-weight:normal;
+  width:100%;
+  border-bottom:1px solid #E5E5E5; 
+}
+.dropdown ul.dropdown-menu li:hover{
+	background-color: #C6C6C6;
+}
+.dropdown ul.show{
+  display:block;
+  width:105%;
+}
+ul.dropdown-menu li a{
+  line-height:20px;
+  padding:5px 16px;
+}
+
+.page_new{
+	display: block;
+	/*display:inline-block;*/
+	/*border:1px solid #eeeeee;*/
+	font-family:microsoft yahei;
+	font-size:12px;
+	height:25px;
+	line-height:25px;
+	width:100%;
+	bottom:20px;
+	text-align: center;
+	margin:15px auto 0;
+}
+.page_new>span{
+	/*color:grey;*/
+	margin:10px;
+	cursor: pointer;
+	/*border: 1px solid #D3D3D3;*/
+	
+
+}
+.page_new>span a:hover{
+	color:white!important;
+	background-color: #029774;
+}
+/*.page_new span.sele a{color: red;}*/
+.cur{ background-color:#174577;}
+.cash_ditl{ width:80%;border-collapse:collapse; }
+/*#you_pev{
+	position: fixed;
+	top:419px;
+}*/
+li.name a:hover{
+  color: #029774;
+
+}
+li.name a:active{
+  color: #000;
+
+}
+
+.goback{
+	width: 50px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+/*position: relative;*/
+
+/*top: -11px;*/
+/*left: 18px;*/
+/*font-size: 14px;*/
+cursor: pointer;
+background-color: rgb(2, 151, 116);
+	margin-left: 17px;
+	/*float:right;*/
+	/*margin-top:13px;*/
+}
+.goback a{
+	color: #fff;
+	font-size: 14px;
+}
+/*li.name a:link, a:hover{
+	font-weight: bold;
+}*/
+ul.con_dtl li.name a:hover{
+	color:#029774;
+}
+.dept:hover{
+	color:#029774;
+}
+ul.con_dtl li.name a:visited{
+	color:#000;
+}
+/*.dropdown-menu show li{
+	border-bottom:1px solid #E5E5E5; 
+}*/
+.goback:hover{
+ /*background-color: #037458;*/
+ border-bottom: 3px solid #037458;
+ border-radius: 5px
+}

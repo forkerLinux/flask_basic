@@ -1,0 +1,88 @@
+.main {
+	display: none;
+}
+.path_nav {
+	width: 50%;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 30px 0;
+	text-align: center;
+	background-color: #fff;
+	float: left;
+}
+.path_nav img {
+	margin-bottom: 20px;
+	width: 35px;
+	height: 35px;
+}
+.path_nav p {
+	font-size: 1.8rem;
+}
+.path_nav:nth-child(2), .path_nav:nth-child(4) {
+	border-right: 0;
+}
+.step {
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+.jobname p {
+	text-align: center;
+	font-size: 1.8rem;
+	background: url(../images/point_to.png?v=1) center bottom no-repeat;
+}
+.jobname:last-child p {
+	background: none;
+}
+.jobname p a {
+	color: #333;
+	padding: 6px 20px;
+	border: 1px solid #3b5b98; 
+	background-color: #f0f5ff; 
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.jobname p a.active {
+	color: #fff;
+	font-size: 2.0rem;
+	background-color: #ff9059;
+	border: 1px solid #ff6d25;
+	padding: 8px 22px;
+}
+/*推荐*/
+.job_list {
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.jobdetail_list {
+    margin: 15px 15px 0;
+}
+.jobdetail_list:last-child {
+	border-bottom: 0;
+} 
+.job_enter .title {
+	font-size: 1.8rem;
+	color: #333;
+	border-bottom: 1px solid #f1f1f1;
+	padding: 10px 15px 15px;
+}
+/*暂无数据*/
+.no_record {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+}
+.no_record img {
+    width: 35%;
+}
+.no_record p:nth-child(2) {
+    font-size: 1.6rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.no_record p:nth-child(3) {
+    color: #aaa;
+}
+   

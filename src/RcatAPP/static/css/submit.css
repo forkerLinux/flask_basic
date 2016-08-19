@@ -1,0 +1,39 @@
+*{margin:0; padding: 0;font-family: microsoft yahei;font-size: 12px}
+.detail_middle2{width: 85%;margin:10px auto;height:700px;}
+.top{width: 100%;height: 160px;}
+.title-h1{text-align: center;font-size: 22px;margin-top: 10px;letter-spacing: 5px;}
+.content{width: 100%;height: 5px;background-color: #029774;position: relative;top:129px;margin: auto}
+.three-step{width: 100%;height: 100px;margin-top:40px;line-height: 23px;color: gray;}
+.number{font-size: 30px;margin-left:38px;}
+.information{margin-left:2px;font-size: 17px;height: 40px;line-height: 40px;}
+.three-step div{width: 140px;height: 100px;float: left;margin-left: 200px;position: relative;}
+.three-step div p{width: 20px;height: 20px;border: 1px solid #BADBFF;background-color:white;border-radius: 20px;margin-left: 30%;margin-top:5px;z-index: 88;}
+/*#circle2{width: 20px;height: 20px;border: 1px solid #BADBFF;background-color: white;border-radius: 20px;}
+#circle3{width: 20px;height: 20px;border: 1px solid #BADBFF;background-color: white;border-radius: 20px;}*/
+/*#cricle1,#criclr2,#cricle3{background-color: #fff}*/
+
+.show{color:gray;}
+
+#show_first{margin-left: 71px;}
+.channel{clear: both;width: 100%;height: auto;overflow: hidden;}
+.choose{width: 100%;height: auto;background-color: #fff; }
+.choose p{float: left;outline: 1px solid lightgray;width: 13.5%;height: 50px;line-height: 50px;margin-left:50px;cursor: pointer;margin-top: 20px;}
+.choose p img{width: 30px;height: 30px}
+.choose>span{float: left;position: relative;top: 40px;left: 10px;;visibility: hidden}
+.choose>p span{position:relative;top: 10px;margin-left: 10px;margin-right: 10px;}
+.submit-form{clear:both;height:auto;margin:180px auto;width: 40%;line-height: 40px;outline: 3px solid #0E97E6;text-align: center; display: none;}
+.submit-form p{line-height: 55px}
+.submit-form input[type=submit]{width: 50px;margin-left: 80px;}
+.submit-form input[type=button]{width: 50px;margin-left: 40px;}
+.submit-form input[type=text]{width: 190px;height: 35px;text-indent: 10px}
+.submit-form input[type=password]{width: 190px;height: 35px;text-indent: 10px}
+.more_add{float: right;}
+.more_add input{height: 40px;width: 130px;margin-top: 5px}
+.submit-form2{clear:both;height: 300px;margin:180px auto;width: 40%;line-height: 40px;border: 1px dashed #F590A2;text-align: center; display: none;}
+.submit-form2 input[type=submit]{width: 150px;margin-left: 60px;margin-bottom: 10px}
+.submit-form2 input[type=text]{width: 150px;height: 25px;}
+.submit-form2 input[type=submit]{width: 50px;margin-left: 80px;}
+.submit-form2 input[type=button]{width: 50px;margin-left: 40px;margin-bottom: 10px}
+.submit-form2 input{border: 1px solid #0E97E6}
+.submit-form input{border: 1px solid #0E97E6}
+.content-title{margin-left: 30px}

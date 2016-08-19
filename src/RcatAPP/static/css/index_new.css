@@ -1,0 +1,272 @@
+
+
+
+
+
+/*新的*/
+.main_w{
+	width:1038px;
+	margin:10px auto;
+	clear: both;
+	
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+	
+}
+.select_right{
+	float: right;
+}
+.zw_left{
+	float: left;
+	width:230px;
+
+	/*overflow: hidden;*/
+}
+.sidebar{
+	width:249px;
+	background-color:#eaeaea;
+	/*height:500px;*/
+	/*overflow: auto;*/
+
+}
+.sidebar .menu_main {
+    padding: 6px 12px;
+    *padding-bottom: 10px;
+  
+    border-right: 0;
+    overflow: hidden;
+    position: relative;
+        z-index: 10000;
+
+    /*background-color: #fff;*/
+    width:225px;
+}
+.sidebar .menu_main:hover{background-color: #fff}
+.sidebar .menu_main h2 {
+    font-size: 16px;
+    padding-left: 8px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.sidebar .menu_main>span {
+    float: left;
+    white-space: nowrap;
+    margin: 0 5px 5px 0;
+    padding: 0 8px;
+    color: #555;
+background-color: transparent;
+text-decoration: none;
+font-size: 14px;
+  
+}
+.sidebar .menu_main>span>a{
+ color: #555;
+ 	text-decoration: none;
+}
+.sidebar .menu_main>span:hover{
+	color:#029774;
+	text-decoration: underline;
+	cursor: pointer;
+
+}
+.sidebar .menu_main>span>a:hover{
+color:#029774;
+}
+.sidebar .menu_main h2>span {
+    width: 13px;
+    height: 14px;
+    background: url(../images/arr_6c6ecd7.png) 0 0 no-repeat;
+    float: right;
+    margin-top: 4px;
+}
+.sidebar .menu_box{
+	position: relative;
+	/*background-color: #eaeaea;*/
+}
+.sidebar .menu_sub {
+    width: 540px;
+    padding: 15px 30px 5px;
+    position: absolute;
+    top: 0;
+    left: 249px;
+    z-index: 101;
+    border: 2px solid #c9cbce;
+    background: #fff;
+}
+.dn{
+	display: none;
+}
+.sidebar .menu_sub dl {
+    margin: 0 0 20px;
+    margin-left: -10px;
+width: 560px;
+
+}
+.sidebar .menu_sub dt {
+    width: 80px;
+    font-size: 14px;
+    margin: 0;
+    text-align: right;
+    position: absolute;
+  
+}
+.sidebar .menu_sub dd {
+    margin-left: 100px;
+    overflow: hidden;
+    line-height: 22px;
+    font-size: 14px;
+}
+.sidebar .menu_sub dt span {
+    padding: 0;
+    color: #333;
+    line-height: 28px;
+   
+}
+.sidebar .menu_sub dt span a{
+  color: #333;
+  text-decoration: underline;
+}
+.sidebar .menu_sub dt span a:hover{
+ color: #029774;
+}
+.sidebar .menu_sub dd span {
+    white-space: nowrap;
+padding: 0 10px;
+background: url(../images/arr_6c6ecd7.png) -29px center no-repeat;
+color: #777;
+line-height: 28px;
+margin-left: -1px;
+}
+.sidebar .menu_sub dd span a{
+color: #777;
+}
+.sidebar .menu_sub dd span a:hover{
+color:#029774;
+}
+.sidebar .menu_sub dd span:hover{
+		color:#029774;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.bar{
+	clear: both;
+	margin-top: 20px;
+}
+.show_border{
+	 	border:2px solid #c9cbce;
+       	border-right:none;
+       	z-index: 1000;
+      
+}
+.bg_color{
+		background-color: #eaeaea;
+		border: none;
+}
+
+.updata{
+	background-color: #eaeaea;
+    width: 100%;
+    height: 41px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.updata span{
+ font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    border-top: 3px solid #029774;
+    background-color: #fff;
+    padding: 4px 10px 4px 10px;
+    position: absolute;
+}
+
+/*列表*/
+.found_jobs li {
+    width: 727px;
+    height: auto;
+    margin-top: 5px;
+    border: 1px solid #E5E5E5;
+    /* background: #eaeaea; */
+    padding: 8px 10px;
+    overflow: hidden;
+}
+.left_jobinfo,.right_gsinfo{
+	float: left;
+	width:350px;
+	margin-left: 8px;
+	margin-top: 10px;
+}
+.job_name a{
+	font-size: 18px;
+	color:#029774;
+}
+.gs_name a{
+	font-size: 16px;
+	color:#029774;
+}
+.p_two{
+	width: 350px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	margin-top: 
+}
+.p_two span {
+    padding-right: 3px;
+    padding-left: 7px;
+    border-left: 1px solid #ccc;
+    font-size: 16px;
+}
+span.c_trade {
+    padding-left: 0;
+    border-left: none;
+}
+.all_jobs p {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+#title_one p {
+    float: left;
+    /* font-size: 13px; */
+}
+
+.job_op a {
+    padding: 5px 12px;
+    color: #fff;
+    margin-right: 15px;
+    /* border-radius: 2px; */
+}
+.lock_applyjob {
+    background: #FF6363;
+}
+.lock_like {
+    background: #029774;
+}
+.lock_notlike {
+    background: #2F89D4;
+}
+.lock_source {
+    background: #ccc;
+    color: #000!important;
+}
+.list_more {
+       font-size: 16px;
+    color: #fff;
+    background: #029774 url(../images/arrow_54116b2.png) 88px center no-repeat;
+    padding: 5px 40px 5px 15px;
+    margin: 10px 0 0;
+    margin-top: 25px;
+    width: 64px;
+    float: right;
+    cursor:pointer;
+}
+.list_more a{
+font-size: 16px;
+color: #fff;
+}
+.list_more:hover{
+background-color:#036F55
+}

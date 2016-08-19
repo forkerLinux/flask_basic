@@ -1,0 +1,487 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	background: url(../images/cv_start_bg.png?v=1) left repeat;
+}
+.wrap {
+	width: 100%;
+}
+.no_scroll {
+	top: 0;
+	bottom: 0;
+	position: fixed;
+}
+.header {
+	padding: 0;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.main {
+	position: relative;
+}
+.start {
+	width: 45%;
+	height: 504px;
+	margin: auto;
+	position: relative;
+	background: url(../images/start_bg.png) bottom no-repeat;
+	background-size: 100%;
+}
+.btn_start {
+	padding: 6px 5%;
+	color: #fff;
+	background-color: #3b5b98;
+	bottom:12%;
+	left: 42%;
+	position: absolute;
+	font-size: 1.6rem;
+}
+.btn_start:hover {
+	color: #fff;
+}
+/*填写简历*/
+.fill_my_cv {
+	background-color: #fff;
+	width: 50%;
+	padding: 0 0 10px;
+	margin-top: 90px;
+	margin-bottom: 100px;
+	left: 50%;
+	margin-left: -25%;
+	position: relative;
+	float: left;
+	display: none;
+}
+.fill_will {
+	display: none;
+}
+.fill_basic, .will_con, .will_submit {
+	padding: 0 10%;
+}
+.fill_basic {
+	padding-bottom: 20px;
+}
+.head_bg {
+	width: 100%;
+	position: relative;
+}
+.head_bg img {
+	width: 100%;
+}
+.head_img {
+	width: 120px;
+	height: 120px;
+	left: 50%;
+	margin-left: -60px;
+	bottom: -55px;
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+}
+.head_img img {
+	border-radius: 50%;
+}
+.head_img_bg {
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	background: url(../images/head_img_bg.png?v=1) center no-repeat;
+}
+.head_img_note {
+	display: none;
+	background: #f1f1f1;
+	color: #999999;
+	font-size: 1.2rem;
+	padding: 2px 8px;
+	right: -256px;
+	bottom: 10px;
+	position: absolute;
+}
+.title {
+	color: #333333;
+	margin-top: 70px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+form>div {
+	margin-bottom: 20px!important;
+}
+.fill_my_cv input[type="text"] {
+	border-radius: 0;
+	border: 0;
+	background-color: #f5f5f5;
+	height: 40px;
+	box-shadow: none;
+}
+.btn_save {
+	color: #fff;
+	background-color: #3b5b98;
+	font-size: 1.6rem;
+	height: 45px;
+	border: 0;
+	border-radius: 0;
+}
+.btn_save:hover {
+	color: #fff;
+}
+.go-index {
+	text-align: center;	
+}
+.go-index a {
+	padding: 0 40px;
+	background: url(../images/go_index_icon.png?v=1) left top no-repeat;
+}
+.go-index a:hover{
+	background: url(../images/go_index_icon.png?v=1) left -18px no-repeat;
+}
+/*职业意向*/
+.skill p {
+	color: #333333;
+	margin-bottom: 10px;
+}
+.example {
+	margin-top: 8px;
+}
+.hot_tag span, .my_skill span {
+	padding: 4px 10px;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.hot_tag span {
+	border: 1px solid #5C85CF;
+	color: #5C85CF;
+} 
+.my_skill span {
+	color: #fff;
+	background-color: #5C85CF;
+	cursor: pointer;
+	position: relative;
+}
+.my_skill b {
+	font-weight: normal;
+}
+span.active {
+	cursor: default;
+}
+span.active b {
+	color: #5C85CF;
+}
+span.active a {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	top: 2px;
+	left: 50%;
+	margin-left: -11px;
+	position: absolute;
+	background-image: url(../images/go_index_icon.png?v=1);
+	background-position: left -37px;
+	background-repeat: no-repeat;
+}
+.add_skill {
+	width: 80%;
+	position: relative;
+	margin-bottom: 25px;
+}
+.btn_addskill {
+	right: 0;
+	position: absolute;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 25px;
+	padding-right: 50px;
+	border: 1px solid #3b5b98;
+	border-radius: 0;
+	z-index: 10;
+	color: #fff;
+	background-color: #3b5b98;
+	cursor: pointer;
+}
+.save_skill {
+	text-align: center;
+}
+.will_submit {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #F1F1F1;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.btn_prev {
+	float: left;
+	width: 30%;
+	background-color: #F1F1F1;
+	color: #999999;
+	height: 45px;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 1.6rem;
+}
+.will_submit .btn_save {
+	width: 30%;
+	float: right;
+}
+.address_info, .trade_info, .job_info {
+	position: relative;
+}
+.address_info input, .trade_info input, #expect_job {
+	cursor: pointer;
+}
+.down_icon {
+	color: #e1e1e1;
+	right: 3%;
+	top: 13px;
+	position: absolute;
+	cursor: pointer;
+}
+
+/*弹出框*/
+.black_overlay {
+	display: none;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 200;
+}
+/*头像弹出框*/
+.pop_modify_pic{
+	width: 400px;
+	height: 190px;
+	border: 1px solid #f1f1f1;
+	border-radius: 3px;
+	padding: 25px;
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -95px;
+	background: #fff;
+}
+.p_title{
+	font-size: 26px;
+	color: #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.pic_info {
+	position: relative;
+	width: 100%;
+	margin-top: 45px;
+}
+.upload_pic{
+	position: absolute;
+	top: 2px;
+	right: 82px;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	width: 76%;
+	overflow: hidden;
+	cursor: pointer;
+}
+#img_text{
+	width: 55%;
+}
+.btn_upload{
+	padding:4px 15px;
+	font-size: 16px;
+	display: inline-block;
+	background-color: #3b5b98;
+	color: #FFF;
+	border-radius: 0;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+}
+.btn_savepic{
+	padding:4px 15px;
+	font-size: 16px;
+	background-color: #3b5b98;
+	color: #FFF;
+	border-radius: 0;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	margin-left: 10px;
+}
+.btn_upload:hover, .btn_savepic:hover {
+	color: #fff;
+}
+.pic_show{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px #ccc;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.pop_close{
+	right: 10px;
+	top:10px;
+	position: absolute;
+	cursor: pointer;
+	font-size: 2.0rem;
+	color: #8AA4CC;
+}
+/*地点弹出框*/
+.p_panel {
+	width: 50%;
+	height: 420px;
+	left: 50%;
+	top: 50%;
+	margin-left: -25%;
+	margin-top: -210px;
+	position: fixed;
+	border: 1px solid #f1f1f1;
+	z-index: 200;
+	background-color: #fff;
+	padding: 20px;
+	display: none;
+}
+.p_panel p{
+	font-size: 1.6rem; 
+	margin-bottom: 20px; 
+}
+.pop_area {
+	width: 500px!important;
+	margin-left: -250px;
+}
+.area {
+	height: 290px;
+	border: 1px solid #f1f1f1;
+	position: relative;
+}
+.area>div {
+	float: left;
+}
+.province {
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	overflow: auto;
+}
+.province li {
+	padding: 5px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.province li:hover {
+	color: #fff;
+	background-color: #3b5b98;
+}
+.city {
+	width: 74%;
+	height: 100%;
+	left: 119px;
+	position: absolute;
+	background-color: #fff;
+	border-left: 1px solid #f1f1f1;
+	overflow: auto;
+}
+.city li {
+	float: left;
+	padding: 3px 10px;
+	margin: 7px  10px;
+	cursor: pointer;
+}
+.city li:hover, .trade span:hover {
+	background-color: #3b5b98;
+	color: #fff;
+}
+.op_panel {
+	margin-top: 20px;
+	text-align: center;
+}
+.cancel {
+	color: #3b5b98;
+	padding: 6px 12px;
+	cursor: pointer;
+}
+
+/*行业*/
+.trade {
+	height: 80%;
+	border: 1px solid #f1f1f1;
+	overflow: auto;
+	padding: 5px 10px;
+}
+.trade span {
+	padding: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+.submit {
+	padding: 5px 15px;
+	cursor: pointer;
+	color: #fff;
+	background: #3b5b98;
+}
+.submit:hover {
+	color: #fff;
+}
+a:hover {
+	text-decoration: none;
+}
+.select {
+	color: #fff;
+	background-color: #3b5b98;
+}
+/*职位*/
+.pop_jobs {
+	width: 600px!important;
+	height: 460px;
+	margin-left: -300px;
+	margin-top: -240px;
+}
+.all_job {
+	height: 340px;
+	border: 1px solid #f1f1f1;
+	position: relative;
+}
+.all_job>div {
+	float: left;
+}
+.job_trade {
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	overflow: auto;
+}
+.job_trade li {
+	padding: 5px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.job_trade li:hover {
+	color: #fff;
+	background-color: #3b5b98;
+}
+.jobs {
+	width: 73%;
+	height: 100%;
+	left: 150px;
+	position: absolute;
+	background-color: #fff;
+	border-left: 1px solid #f1f1f1;
+	overflow: auto;
+}
+.jobs li {
+	float: left;
+	padding: 3px 10px;
+	margin: 7px  10px;
+	cursor: pointer;
+}
+.jobs li:hover {
+	background-color: #3b5b98;
+	color: #fff;
+}
+

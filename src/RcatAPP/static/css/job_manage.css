@@ -1,0 +1,590 @@
+/*.main {
+	margin-top: 50px;
+}*/
+
+/*发布中职位*/
+.publish_job_list {
+	background-color: #fff;
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+	border-radius: 2px;
+	border: 1px solid #dee0e1;
+}
+.right_content>.title {
+	border-bottom: 1px solid #dee0e1;
+	margin-bottom: 20px;
+}
+.right_content>.title p {
+	padding: 15px;
+	color: #333;
+	font-size: 2.0rem;
+	margin-bottom: 0;
+}
+.right_content>.title .gray {
+	color: #999;
+	font-size: 1.6rem;
+	margin-left: 15px;
+}
+.right_content>.title p a {
+	float: right;
+	color: #00a1df;
+	font-size: 1.4rem;
+	padding: 5px;
+	margin-top: 10px;
+}
+.right_content>.title .blue, .no_record .blue {
+	color: #00a1df;
+}
+.check_all{
+	float: left;
+	color: #333;
+	cursor: pointer;
+	padding: 6px 25px;
+	margin-left: 15px;
+	margin-top: -4px;
+	background: url(../images/no_select_icon.png?v=1) left 9px no-repeat;
+}
+.select {
+	background: url(../images/select_icon.png?v=1) left 9px no-repeat;
+}
+.op_job a {
+	float: right;
+	color: #fff;
+	background-color: #00a7e7;
+	margin-right: 15px;
+	border-radius: 2px;
+	margin-top: 20px;
+}
+.op_job a:hover {
+	background-color: #0090cc;
+	color: #fff;
+}
+a.already_flush, a.already_flush:hover {
+	background-color: #eee;
+	color: #999;
+	border: 1px solid #eee;
+}
+a.visit {
+	background-color: #6d8dcc;
+	color: #fff;
+}
+.job_list {
+	padding: 15px 15px 0;
+	margin-top: 55px;
+	margin-bottom: 20px;
+}
+.job_list table {
+	margin-bottom: 0;
+}
+.job_list td {
+	text-align: center;
+}
+.job_list .list_th {
+	background-color: #0097da;
+}
+.job_list .list_th td {
+	border: none;
+	color: #fff;
+	padding: 15px 8px;
+}
+.job_list .list_th span {
+	display: inline-block;
+	float: right;
+	margin-right: -8px;
+	border-left: 1px solid #00a4ee;
+	height: 20px;
+}
+.job_list .list_con td {
+	border-top: 0;
+	border-bottom: 1px solid #f0f0f0;
+	padding: 11px 8px;
+}
+td.job_name_td {
+	position: relative;
+}
+.choose_job {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-top: 10px;
+	float: left;
+	cursor: pointer;
+	background: url(../images/no_select_icon.png?v=1) left top no-repeat;
+}
+.list_con a:hover {
+	color: #3b5b98;
+}
+a.already_flush_job, a.already_flush_job:hover {
+	color: #999!important;
+}
+a.job_name {
+	color: #333;
+	font-size: 1.6rem;
+	display: inline-block;
+	max-width: 215px;
+	padding: 6px 2px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+a.job_name:hover {
+	color: #00a1df;
+}
+a.cv_number {
+	color: #333;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+a.cv_number:hover {
+	color: #00a1df;
+}
+.color {
+	color: #666;
+	padding-top: 20px!important;
+}
+.color2 {
+	color: #45bdea;
+	padding-top: 20px!important;
+}
+.color3 {
+	color: #999;
+	padding-top: 20px!important;
+}
+tr.active {
+	background-color: #fff5ef;
+}
+tr.active .choose_job {
+	background: url(../images/select_icon.png?v=1) left top no-repeat;
+}
+.list_con:hover {
+	background-color: #f1fbff;
+}
+.job_name_td span {
+	display: inline-block;
+	border: 2px solid #7fd7ff;
+	left: 0;
+	top: 0;
+	position: absolute;
+	height: 100%;
+	display: none;
+}
+td.option {
+	padding: 12px 0 0!important;
+}
+td.option a, td.option a:hover {
+	padding: 7px 5px;
+	color: #0097da;
+}
+#page {
+	margin-top: 50px;
+}
+/*发布新职位*/
+.right_content .notice {
+	float: right;
+	color: #999;
+	margin-top: -25px;
+}
+.new_job {
+	margin: 20px 6%;
+	border-bottom: 1px dashed #d5dadf;
+}
+.job_title {
+	font-size: 1.8rem;
+	color: #00a1df;
+	margin-bottom: 20px;
+}
+.form_content table td{
+	border-top: 0!important;
+}
+.title_box {
+	text-align: right;
+	width: 20%;
+}
+.title_box label {
+	color: #333;
+	font-weight: normal;
+	position: relative;
+	padding-left: 15px;
+	margin-right: 4px;
+	margin-top: 10px;
+}
+.title_box .red {
+	color: #ff6767;
+	top: 2px;
+	left: 0;
+	position: absolute;
+}
+.textbox {
+	height: 40px;
+	box-shadow: none;
+	padding-left: 10px;
+	border: 1px solid #d5dadf;
+	width: 85%;
+}
+.textbox:focus {
+	box-shadow: none;
+	border: 1px solid #00a7e7;
+}
+.select_box {
+	position: relative;
+}
+.select_box span {
+	height: 40px;
+	line-height: 40px;
+	color: #555;
+	right: 15%;
+}
+input[readonly], input[disabled] {
+	background-color: #fff!important;
+	cursor: pointer;
+}
+.major_menu, .school_menu, .welfare_menu {
+	border: 1px solid #f0f0f0;
+	border-radius: 3px;
+	float: left;
+	width: 85%;
+	/*display: none;*/
+	padding: 0;
+}
+.welfare_menu {
+	padding: 10px 10px 0;
+}
+.choose_major, .choose_school {
+	border-bottom: 1px solid #f0f0f0;
+	float: left;
+	width: 100%;
+}
+.major_menu ul, .school_menu ul {
+	outline: 1px solid #f0f0f0;
+	border-radius: 3px;
+	height: 140px;
+	overflow: auto;
+	padding: 5px 0;
+	float: left;
+	margin-bottom: 0;
+}
+.major_menu ul li, .school_menu ul li {
+	padding: 3px 20px;
+	color: #333;
+	cursor: pointer;
+}
+.major_list li:hover, .school_one li:hover {
+	background-color: #f5f5f5;
+}
+.major_one, .school_one {
+	width: 30%;
+}
+.major_two {
+	margin-left: 1%;
+	width: 34%;
+}
+.school_list {
+	margin-left: 1%;
+	width: 69%;
+	float: left;
+	outline: 1px solid #f0f0f0;
+	display: none;
+}
+.major_three {
+	margin-left: 1%;
+	width: 34%;
+}
+.major_active {
+	background-color: #f5f5f5;
+}
+.school_list label {
+	font-weight: normal;
+	margin: 5px 0;
+	color: #333;
+	padding-left: 33px;
+	background: url(../images/no_check_icon.png?v=1) 10px 4px no-repeat;
+	cursor: pointer;
+}
+label.checked {
+	background: url(../images/check_icon.png?v=1) 10px 4px no-repeat;  
+}
+ul.school_two {
+	height: 110px;
+}
+ul.school_two li {
+	width: 50%;
+	float: left;
+}
+ul.major_three li, ul.school_two li {
+	padding-left: 33px;
+	background: url(../images/no_check_icon.png?v=1) 10px 7px no-repeat;   
+}
+ul.major_three li.checked, ul.school_two li.checked {
+	background: url(../images/check_icon.png?v=1) 10px 7px no-repeat;   
+}
+.show_checked {
+	float: left;
+	width: 100%;
+}
+.show_checked p {
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #ceeefe;
+	padding: 0 3px 0 10px;
+	background-color: #f7fcff;
+}
+.show_checked p span {
+	height: 25px;
+	line-height: 25px;
+	color: #42aade;
+}
+.show_checked p img {
+	padding: 0 0 12px 10px;
+	cursor: pointer;
+}
+.more_notice {
+	color: #999;
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: right;
+	font-size: 1.2rem;
+}
+.more_notice span {
+	height: 13px;
+	line-height: 13px;
+}
+.optionbox {
+	margin-top: 15px;
+	padding-bottom: 25px;
+	float: left;
+	width: 100%;
+}
+.btn_save, .btn_save:hover {
+	color: #fff;
+	background-color: #00a7e7;
+	margin-right: 10px;
+}
+.btn_cancel, .btn_cancel:hover {
+	color: #999;
+	background-color: #f9f9f9;
+	border: 1px solid #d5dadf;
+}
+.more_notice span.blue {
+	color:  #00a1df;
+}
+.my_major_show, .my_school_show, .my_welfare_show {
+	display: none;
+	margin-top: 7px;
+}
+.my_major_show p:last-child, .my_school_show p:last-child, .my_welfare_show p:last-child {
+	margin-right: 0;
+}
+.my_major_show>div, .my_school_show>div, .my_welfare_show>div {
+	float: left;
+}
+.my_major_list, .my_school_list, .my_welfare_list {
+	margin-right: 20px;
+}
+.edit_option {
+	margin-top: 3px;
+	cursor: pointer;
+	color: #00a7e7
+}
+.edit_option img {
+	margin-top: -3px;
+	margin-right: 5px;
+}
+/*职位描述*/
+.job_type, .salary2 {
+	display: inline-block;
+	padding: 9px 15px;
+	border: 1px solid #f0f0f0;
+	color: #999;
+	margin-right: 20px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.selected {
+	border: 1px solid #00a7e7;
+	color: #00a7e7;
+	background: url(../images/checked_icon.png?v=1) right bottom no-repeat;
+}
+#number {
+	width: 80px;
+	float: left;
+}
+.word {
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	float: left;
+}
+.salary {
+	position: relative;
+	float: left;
+}
+#salary1, #salary2 {
+	width: 100px;
+	float: left;
+}
+.unit {
+	top: 10px;
+	right: 10px;
+	position: absolute;
+	color: #999;
+}
+.line {
+	float: left;
+	display: inline-block;
+	margin: 10px 10px 0;
+}
+.salary2 {
+	margin-left: 25px;
+}
+.address_box {
+	float: left;
+	width: 20%;
+	margin-right: 1%;
+	position: relative;
+}
+.address_box span {
+	height: 40px;
+	line-height: 40px;
+	color: #555;
+}
+.address_box input {
+	width: 100%;
+}
+#detail_address {
+	width: 43%;
+	float: left;
+}
+.province_menu, .city_menu {
+	height: 170px;
+	overflow: auto;
+}
+.welfare_title {
+	color: #333;
+}
+.no_welfare {
+	padding: 10px;
+	color: #999;
+	background-color: #f9f9f9;
+}
+.add_welfare {
+	width: 50%;
+}
+.add_welfare span{
+	height: auto;
+	line-height: 0;
+	color: #fff;
+	background-color: #42aade;
+	border: 1px solid #42aade;
+	cursor: pointer;
+}
+.add_welfare input {
+	border: 1px solid #f0f0f0;
+	box-shadow: none;
+}
+.add_welfare input:focus {
+	box-shadow: none;
+	border: 1px solid #42aade;
+}
+.allow_select_welfare {
+	margin-top: 25px;
+}
+.welfare_list li {
+	float: left;
+	margin-right: 10px;
+	padding: 3px 5px;
+	color: #42aade;
+	border: 1px solid #ceeefe;
+	background-color: #f7fcff;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.welfare_list li.welfare_checked {
+	color: #ccc;
+	background-color: #f9f9f9;
+	border: 1px solid #f0f0f0;
+}
+.wrong {
+	border: 1px solid #ff6767!important;
+}
+.textfield{
+	padding: 6px 10px;
+	resize: none;
+	line-height: 25px;
+	border: 1px solid #d5dadf;
+	width: 85%;
+	box-shadow: none;
+}
+.textfield:focus {
+	box-shadow: none;
+	border: 1px solid #00a7e7;
+}
+.textfield[disabled]{
+	background-color: #fff!important;
+}
+.job_detail {
+	border-bottom: 0;
+}
+.btn_publish {
+	color: #fff;
+	background-color: #00a7e7;
+	padding: 8px 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1.6rem;
+}
+.btn_publish:hover {
+	background-color: #0090cc;
+	color: #fff;
+}
+.education_menu {
+	min-width: 85%;
+}
+.layui-layer {
+	margin-top: 3px!important;
+}
+/*修改发布职位*/
+.show_job_info {
+	margin-top: 5px;
+}
+.show_job_info span {
+	padding: 0 8px;
+	height: 28px;
+	line-height: 28px;
+	background-color: #f9f9f9;
+	border: 1px solid #f0f0f0;
+	color: #999;
+	float: left;
+	margin-right: 10px;
+}
+.layui-layer-setwin a.layui-layer-close1 {
+	width: 63px;
+	margin-top: 7px;
+	color: #ccdfff;
+	background: none;
+	font-size: 1.4rem;
+	text-decoration: none;
+}
+a.layui-layer-close1:hover {
+	color: #ccdfff;
+}
+/*暂无数据*/
+.no_record {
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	background-color: #fff;
+}
+.no_record p {
+	font-size: 1.6rem;
+	margin-top: 30px;
+}
+a.lock_publish_job {
+	color: #6d8dcc;
+}
+a.lock_publish_job:hover {
+	color: #3b5b98;
+}

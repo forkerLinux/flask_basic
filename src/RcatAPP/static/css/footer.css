@@ -1,0 +1,53 @@
+.footer{
+    text-align:center;
+    font-size:12px; 
+    margin-top:50px;
+    /*padding-bottom: 30px;*/
+    padding-top:15px;
+    border-top:1px solid #a0a0a0;color:#716c6c;
+    background: #fff;
+}
+.footer ul li{ 
+    float:left;
+   
+}
+.footer ul{
+    text-align:center;
+    height:25px;
+    line-height: 25px;
+}
+.footer ul li img{
+    vertical-align:middle; 
+    margin-right:7px;
+}
+.footer_link{
+    width:490px; 
+    margin:0 auto;
+}
+.footer_link li a{ 
+    display:block;
+    color:#312e2e;
+}
+.footer_link li{
+    width:80px; 
+    padding:0 10px;
+}
+.footer_link li.last_link{ 
+    padding-right:0px;
+}
+.hr_cpny{
+    width:630px;
+    margin:15px auto;
+}
+.hr_cpny li{
+    width:190px;
+}
+.hr_cpny_fst{ 
+    margin-right:30px;
+}
+.footer p span{ 
+    padding-left:8px;
+}
+.footer p{ 
+    margin-bottom:20px;
+}

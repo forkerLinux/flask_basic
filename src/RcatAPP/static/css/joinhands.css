@@ -1,0 +1,29 @@
+.middle_con{
+    max-width: 1200px;
+    min-width: 1000px;
+    margin: auto;
+    position: relative;
+    padding-top: 20px;
+}
+.middle_con p{
+    width: 100%;
+    height:auto;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'microsoft yahei';
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.middle_con ul{
+    width: 100%;
+    float: left;
+}
+.middle_con ul li{
+    float: left;
+    width: 240px;
+    margin-bottom: 50px;
+}
+.middle_con li img{
+    width: 100px;
+    height: 30px;
+}

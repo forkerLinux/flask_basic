@@ -1,0 +1,192 @@
+.detail_middle form p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.detail_middle label {
+ width: 100px;
+text-align: left;
+display: block;
+float: left;
+font-size: 16px;
+position: relative;top:5px;
+margin-left: 20px;
+}
+.detail_middle label span{
+    color: red;
+    position: relative;
+    top:4px;
+    font-size: 17px;
+    margin-right: 5px;
+    display:none;
+}
+.detail_middle input[type=text],.detail_middle input[type=file] {
+    width: 315px;
+height: 35px;
+margin-left: 10px;
+margin-bottom: 18px;
+vertical-align: middle;
+padding-left: 10px;
+font-size: 14px;
+border: 1px solid #ccc;
+}
+.detail_middle .save, .detail_middle input[type=button]{
+    width: 200px;
+height: 40px;
+margin-left: 131px;
+font-size: 16px;
+background-color: #029774;
+border: none;
+color: #fff;
+margin-top: 29px;
+border-radius: 5px;
+cursor: pointer;
+}
+.detail_middle input[type=file] {
+    width: 326px;
+height: 35px;
+margin-left: 10px;
+margin-bottom: 18px;
+vertical-align: middle;
+padding-left: 0px;
+font-size: 14px;
+border: 1px solid #ccc;
+}
+.suc{
+	display: none;
+}
+.suc input[type=text]{
+	background: none;
+	border: none;
+	cursor: default;
+}
+.suc input[type=text]:focus{
+	background: none;
+	border: none!important;
+}
+
+a.lock{
+	color: #029774;
+	cursor: pointer;
+}
+a.lock:hover{
+	color:#FF6363; 
+}
+.modify_pic{
+	margin-right: 30px;
+}
+
+form img, .suc img{
+	cursor: pointer;
+}
+
+form img:hover, .suc img:hover{
+	width: 300px;
+}
+
+
+/*修改头像弹出框*/
+.pop_modify_pic{
+	width: 355px;
+	height: 155px;
+	border: 1px solid #666;
+	border-radius: 3px;
+	padding: 25px;
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 50%;
+	left: 50%;
+	margin-left: -225px;
+	margin-top: -175px;
+	background: #fff;
+}
+.p_title{
+	font-size: 26px;
+	color: #029774;
+	border-bottom: 1px solid #ccc;
+	/*margin-left:20px;*/
+}
+.pop_modify_pic span{
+	font-size: 14px;
+	/*margin-left: 20px;*/
+	color: #999;
+}
+.upload_pic{
+	position: absolute;
+	margin-left: -1px;
+	margin-right: -1px;
+	top: 1px;
+	font-size: 16px;
+	right: 88px;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	width: 70px;
+	overflow: hidden;
+	cursor: pointer;
+}
+#img_text{
+	width: 180px;
+	height: 30px;
+	border: 1px solid #D9D9D9;
+	margin-right: 10px;
+}
+.btn_upload{
+	padding:4px 15px;
+	font-size: 16px;
+	display: inline-block;
+	background-color: #029774;
+	color: #FFF;
+	border-radius: 3px;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+}
+.btn_savepic{
+	padding:4px 15px;
+	font-size: 16px;
+	background-color: #029774;
+	color: #FFF;
+	border-radius: 3px;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	margin-left: 10px;
+	border:none;
+}
+.pic_show{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px #ccc;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.op{
+	background: url(../images/pop_close.png) center no-repeat;
+	right: -14px;
+	top:-13px;
+	position: absolute;
+	width:31px;
+	height: 31px;
+	cursor: pointer;
+}
+
+
+select {
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    padding-right: 14px;
+    background: url("../images/xiala.png") no-repeat scroll right center transparent;
+    background-size: 20px 18px;
+    width: 327px;
+	border: 1px solid #D9D9D9;
+	
+	height:36px;
+	font-size: 14px;
+	margin-left: 10px;
+	margin-bottom: 18px;
+    
+}
+select option{
+font-size: 14px;
+}

@@ -1,0 +1,236 @@
+.jobs {
+	background-color: #fff;
+}
+.basic_info {
+	padding: 0 15px;
+	color: #333;
+	border-bottom: 1px solid #eee;
+}
+.job_name span:nth-child(1) {
+	display: inline-block;
+	font-size: 1.8rem;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 60%;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.job_name span:nth-child(2){
+	display: inline-block;
+    font-size: 1.2rem;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    width: 30%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	color: #aaa;
+	float: right;
+	/*margin-right:2%;*/
+	text-align: right;
+}
+.salary {
+	color: #ff9059;
+	font-size: 2.0rem;
+	margin-bottom: 15px;
+}
+.other {
+	color: #999;
+	margin-bottom: 15px;
+}
+.other span{
+	margin-right: 15px;
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+}
+.address {
+	background: url(../images/adress_icon.png?v=1) left 1px no-repeat;
+	background-size: 11px;
+	padding-left: 18px;
+}
+.education {
+	background: url(../images/edu_icon.png?v=1) left 2px no-repeat;
+	background-size: 14px;
+	padding-left: 21px;
+}
+.work_year {
+	background: url(../images/work_year_icon.png?v=1) left 3px  no-repeat;
+	background-size: 12px;
+	padding-left: 20px;
+}
+.job_weal {
+	margin-bottom: 20px;
+}
+.job_weal span {
+	display: inline-block;
+	color: #5cbce6;
+	font-size: 1.2rem;
+	padding: 3px 12px;
+	border: 1px solid #beedff;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+
+.gs_info {
+	padding: 0 15px;
+	margin-bottom: 10px;
+}
+.gs_name {
+	margin: 15px 0 10px;
+	color: #666;
+	font-size: 1.6rem;
+}
+.gs_info .other {
+	color: #ccc;
+	margin-bottom: 10px;
+}
+.gs_info .other span {
+	margin: 0 8px;
+	color: #999;
+}
+.other span.trade {
+	margin-left: 0;
+}
+.other span.scale {
+	margin-right: 0;
+}
+.gs_address {
+	color: #aaa;
+	font-size: 1.2rem;
+	margin-bottom: 15px;
+}
+
+.job_detail, .gs_detail {
+	padding: 0 15px;
+	color: #666;
+	margin-bottom: 10px;
+}
+.title {
+	color: #333;
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+	padding: 15px 0 15px 25px;
+	border-bottom: 1px solid #eee;
+}
+.job {
+	background: url(../images/job_detail_icon_3.png?v=1) left no-repeat;
+	background-size: 15px;
+}
+.con {
+	line-height: 25px;
+	margin-bottom: 25px;
+}
+
+.gs_detail {
+	margin-bottom: 100px;
+}
+.gs {
+	background: url(../images/job_detail_icon_4.png?v=1) left no-repeat;
+	background-size: 18px;
+}
+
+/*投递简历*/
+.job_op {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 3px 15px;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+.op_inner {
+	width: 100%;
+	height: 100%;
+}
+.op_inner a {
+	
+	/*display: inline-block;
+	font-size: 1.8rem;
+	width: 46%;
+	text-align: center;
+	padding: 10px 0;
+	color: #fff;
+	float: left;*/
+}
+a.lock_apply_job {
+    background-color: #00a7e7;
+    display: inline-block;
+    font-size: 1.8rem;
+    width: 79%;
+    height: 49px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 4% 0px;
+    /* min-height: 100%; */
+    color: #fff;
+    float: left;
+    margin-top: 11px;
+     text-decoration none;
+
+}
+.lock_like_job {
+	/*background-color: #ff9059;*/
+
+}
+.delete_collect {
+/*	 background-color: #00a7e7;
+    display: inline-block;
+    font-size: 1.8rem;
+    width: 79%;
+    height: 49px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 4% 0px;*/
+    /* min-height: 100%; */
+/*    color: #fff;
+    float: left;
+    margin-top: 11px;
+     text-decoration none;*/
+}
+.shoucang{
+    display: inline-block;
+    font-size: 1.8rem;
+    width: 18%;
+    height: 73px;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    float: left;
+    margin-right: 3%;
+     text-decoration none;
+}
+.shoucang img{
+	width:95%;
+	height:95%;
+}
+.ready_apply_job{
+	background-color: #ccc!important;
+    display: inline-block;
+    font-size: 1.8rem;
+    width: 79%;
+    height: 49px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 4% 0px;
+    /* min-height: 100%; */
+    color: #fff;
+    float: left;
+    margin-top: 11px;
+    text-decoration none;
+}
+.person_center {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+.person_center img{
+	width: 60%;
+}
+.job_name{
+	margin:0 0 8px;
+}
+a:hover, a:focus {
+    color: #fff;
+    text-decoration: none;
+}

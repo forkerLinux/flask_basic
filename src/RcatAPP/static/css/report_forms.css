@@ -1,0 +1,133 @@
+        .report_forms {
+            background-color: #434649!important;
+            color: #37c1ff!important;
+        }
+        .choose_outer {
+            float: left;
+            width: 100%;
+            margin: 20px 0 20px;
+            padding: 0 15px;
+        }
+       .choose_inner {
+            background-color: #f5f5f5;
+            border: 1px solid #f0f0f0;
+            float: left;
+            height: 53px;
+            padding: 13px 10px;
+            width: 100%;
+        }
+        .report-title-menu1{
+            float:left;
+        }
+
+        .report-title-menu1 span:nth-child(1) {
+            color:#333;
+            font-size:16px;
+        }
+
+        .report-title-menu1 span:nth-child(2) {
+            font-size: 12px;
+            color:#999;
+            padding-left:10px;
+        }
+        
+        .position_job p{
+            background-color: #fff;
+            border:1px #f0f0f0 solid;
+            padding:3px 10px;
+            cursor: pointer;
+        }
+        .choose_con {
+            float:right;   
+        }
+       .report-title-menu2{
+            float:right;
+            margin-top: 4px;
+        }
+        .report-title-menu2 span{
+            background-color: #f9f9f9;
+            border: 1px solid #f0f0f0;
+            color: #333;
+            cursor: pointer;
+            padding: 3px 11px;
+        }
+        .report-title-menu2 span.choosen{
+        }
+        #linechart-cv{
+            margin-bottom: 20px;
+            width: 100%;
+            height:300px;
+            overflow: auto;
+            margin-bottom: 40px;
+        }
+        #education-piechart{
+             width: 45%;
+             height:220px;   
+             float: left;
+             background-color: #f5f5f5;  
+             margin: 4px 20px;
+
+        }
+        #sex-piechart{
+             margin-left:   10px;
+             width: 45%;
+             height:220px;   
+             float: left;
+             background-color: #f5f5f5; 
+             margin: 4px 15px; 
+        }
+        #area-barchart{
+            
+            height: 350px;
+             padding-left: 18px;
+            overflow-x: auto;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        #school-piechart{
+            height: 220px;
+            padding-left: 18px;
+            width: 50%;
+            margin-bottom:10px;
+         }               
+        #school-barchart{
+            width:100%;
+             /*overflow: auto;*/
+            height:350px;
+             padding-left :18px;
+             margin-top: -50px;
+             margin-bottom: 40px;
+        }
+        #major-barchart{
+             width:100%;
+            height:350px;
+            padding-left :18px;
+            margin-bottom: 10px;
+             
+        }
+        .cv_status{
+            text-align: center;
+             width: 80%;
+             margin-left: 30px;
+        }
+        .cv_status tr {
+            height:30px;
+        }
+        .cv_status tr:nth-child(1){
+            font-size:16px;
+            font-family:Arial,Verdana,Sans-serif;
+            /*font-weight: bold;*/
+        }
+        .cv_status tr:nth-child(1) td:nth-child(1){
+           color:#00a1d7;
+        }
+        .cv_status tr:nth-child(2) td{
+            border-bottom: 1px #f0f0f0 solid;
+            color:#666;
+        }
+         .cv_status tr:nth-child(2) td:nth-child(1){
+          border-bottom: 2px #00a1d7 solid;
+        }
+        .clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+        .clearfloat{zoom:1} 
+        .position_job .caret {color:#666;}

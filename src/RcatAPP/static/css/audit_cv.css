@@ -1,0 +1,209 @@
+.left_con, .right_con {
+	width: 49%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #d9d9d9;
+	margin-right: 2%;
+	margin-bottom: 30px;
+}
+.right_con {
+	margin-right: 0;
+}
+.title strong {
+	border-left: 4px solid #3b5b98;
+	padding-left: 10px;
+}
+.job_name .title strong {
+	border: none;
+	padding: 0;
+	font-size: 1.8rem;
+}
+.base_info, .con {
+	padding-left: 14px;
+}
+.base_info p {
+	margin-bottom: 15px;
+}
+.job_name p {
+	display: inline-block;
+}
+.update_share {
+	float: right;
+	margin-right: 3%;
+	color: #999999;
+	width: 40%;
+}
+.updata_share>span {
+	display: inline-block;
+}
+.update {
+	margin-right: 4%;
+}
+.share a {
+	color: #3b5b98;
+	font-size: 1.2rem;
+	cursor: pointer;
+	margin-right: 5px;
+}
+.share a:hover {
+	text-decoration: none;
+}
+.share img {
+	display: inline-block;
+	margin-right: 3px;
+	margin-top: -2px;
+}
+.salary {
+	color: #F74529;
+	font-size: 1.8rem;
+}
+p.other {
+	color: #999999;
+	margin-bottom: 25px;
+}
+.other span:not(:first-child) {
+	background: url(../images/arr_job.png) -29px 2px no-repeat;
+	padding: 0 5px;
+}
+.other span:first-child {
+	padding-right: 5px;
+}
+.job_op a{
+	padding: 5px 10px;
+	color: #fff;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.job_op a:hover {
+	text-decoration: none;
+}
+.lock_apply_job {
+	background: #F74529;
+}
+.lock_like_job {
+	background: #00B76E;
+}
+.lock_find_source {
+	background: #5489EA;
+}
+.apply {
+	background: #EBF0EF;
+	color: #000!important;
+}
+
+.jobs {
+	margin-top: 30px;
+}
+.con p {
+	line-height: 25px;
+	color: #999999;
+}
+.job_weal .con p {
+	margin-top: -10px;
+}
+.job_weal .con span, .good_skills .con span {
+	padding: 2px 6px;
+	border: 1px solid #d9d9d9;
+	margin-right: 10px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.job_weal .con span:last-child {
+	margin-right: 0;
+}
+
+/*简历详情*/
+.left_con>div {
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+}
+.cv_base_info {
+	margin-top: 0;
+}
+.cv_base_info>div {
+	float: left;
+}
+.head_img {
+	margin-right: 10px;
+}
+.head_img img {
+	border-radius: 50px;
+}
+.user_name {
+	margin-top: 5px;
+	font-size: 1.8rem;
+}
+.address {
+	font-size: 1.6rem;
+}
+
+/*.job_wish .con p, .job_exp .con p {
+	margin-bottom: 2px;
+}*/
+
+.education ul {
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.education li {
+	float: left;
+	color: #999999;
+	margin-right: 20px;
+}
+
+.job_exp .con p:first-child span {
+	float: right;
+	color: #3b5b98;
+}
+.job_exp .con>div {
+	float: left;
+}
+.job_exp .con>div p{
+	float: left;
+}
+.job_exp .con>div p:last-child {
+	width: 85%;
+}
+.job_exp .con {
+	float: left;
+	width: 100%;
+	padding-top: 10px; 
+	border-top: 1px dashed #999999;
+}
+.job_exp .con:nth-child(2) {
+	border-top: none;
+	padding-top: 0;
+}
+
+/*推荐不推荐*/
+.audit_cv_op {
+	height: 60px;
+	background: rgba(0, 0, 0, 0.4);
+	bottom: 0;
+	position: fixed;
+	z-index: 1001;
+	width: 100%;
+	text-align: center;
+}
+.choose{
+	height: 60px;
+	line-height: 60px;
+}
+.choose span{
+	background-color: #3b5b98;	
+	margin-right: 100px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1.6rem;
+}
+span.recommend{
+	color:#fff;
+	padding:5px 40px;
+}
+span.not_recommend{
+	background-color: #d9d9d9;
+	margin-right: 0;
+	padding:5px 30px;
+}

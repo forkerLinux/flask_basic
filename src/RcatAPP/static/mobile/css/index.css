@@ -1,0 +1,254 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑"
+}
+input{
+    -webkit-appearance: none;
+}
+.main_whole{
+	background-color: #fff;
+}
+.login_status{
+	margin-top: 10px;
+	overflow: hidden;
+
+}
+.login_status {
+	float: right;
+	width: 25%;
+	text-align: right;
+}
+.main_whole .main{
+	margin-top: 20%;
+}
+.logo_sign{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.logo_sign span{
+   font-size: 3rem;
+   color: #00a7e7;
+}
+.logo_sign img{
+	width:55%;
+}
+#search{
+	height:42px;
+	box-shadow:none;
+	border: 1px solid #00a7e7;
+	font-size: 1.4rem
+}
+.btn_search{
+	height:42px;
+	background-color: #00a7e7;
+	width:60px;
+	border: none;
+	border-radius: 0;
+}
+.btn_search img{
+	width:68%;
+	margin-top: 7%
+}
+.menu_bar{
+	text-align: center;
+}
+.menu_bar a p{
+	color:#333;
+	font-size: 1.4rem;
+}
+.menu_bar>p{
+     margin: 3px 0px 13px 0px;
+}
+.list_menu{
+	margin-top: 25px
+}
+.list_menu img{
+	width:60%;
+}
+.list_part{
+  padding:0;
+  margin-top: 3%;
+  margin-bottom: 20px;
+
+}
+.img_bar{
+	margin-bottom: 3%;
+}
+.img_bar img{
+	width:100%;
+}
+.search{
+	background-color: #fff;
+	margin-top: 3%;
+	padding-bottom: 5px;
+	clear: both;
+	overflow: hidden;
+}
+.banner_index{
+	padding-bottom: 50px;
+}
+.search .title_sear{
+	padding:15px;
+	font-size: 1.6rem;
+	border-bottom: 1px solid #eee;
+}
+.search .parts{
+	margin: 12px 15px;
+	clear: both;
+	overflow: hidden;
+}
+.search .parts>div{
+	background-color: #e1ecff;
+	text-align: center;
+	font-size: 1.6rem ;
+	color:#3b5b98;
+	width: 48%;
+    height: 50px;
+    line-height: 50px;
+}
+.search .parts>div.left{
+	float: left;
+	margin-right:5px;
+}
+.search .parts>div.right{
+	float: right;
+
+}
+.parts_career{
+	margin: 0px 15px;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
+}
+.parts_career .banner{
+	padding-right: 8px;
+	padding-left: 0px
+}
+.parts_career .banner img{
+    width: 100%;
+    height: 92px;
+}
+.parts_career .font{
+    padding:0;
+}
+.parts_career .font p{
+	color:#333;
+	font-size: 1.4rem;
+	margin:2% 0px
+}
+.parts_career .font>div{
+	color: #999;
+	font-size: 1.2rem;
+    line-height: 140%;
+}
+.bottom{
+	padding-bottom: 50px
+}
+.pop_job{
+	margin:32% -2%;
+}
+.black_overlay{
+	left:0;
+}
+.form-control[readonly]{
+	background-color: #fff;
+}
+
+.searchType{
+    height: 42px;
+    box-shadow: none;
+    border: 1px solid #00a7e7;
+    font-size: 1.4rem;
+    width: 32px;
+    padding-left:3px;
+    padding-right: 3px;
+    border-right: none;
+    text-align: center;
+}
+.caret{
+	color: #666;
+	margin-left: 1px;
+}
+.dropdown-menu{
+	/*min-width: 18% !important;*/
+}
+.divide-4 {
+/*   border-bottom: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;*/
+    /*color: #fff;*/
+    /*margin:10px 10px;*/
+    float: left;
+    height: 32px;
+    line-height: 31px;
+    border:1px dashed #b0daf5;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 23.5%;
+    /*margin:2px;*/
+    margin-left: 1.5%;
+    margin-top:2px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+.trade_block_title{
+	padding-top: 2% ;
+	padding-bottom: 2%;
+	height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.trade_block_title img{
+	width: 18px;
+	height:18px;
+	margin-right: 10px;
+}
+.trade_block_body{
+	/*padding-left: 10%;*/
+	text-align: center;
+	margin:0 auto;
+	padding-bottom: 15px;
+	/*padding-left:1%;*/
+	width:100%;
+}
+.trade_block{
+	/*margin: 4%;*/
+	margin-top: 2%;
+	background-color: #fff;
+}
+.trade_block hr {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1} 
+.msg-tt{
+	/*margin-top:10px;*/
+	padding-top: 10px;
+	font-size: 1.2rem;
+	color: 	#666;
+	text-align: center;
+}
+.msg-tt span:nth-child(2){
+
+	color: #00a1df;
+
+}
+
+
+.searchType_menu{
+	border-radius: 2px;
+    min-width: auto;
+    border: 1px solid #eee;
+}
+.searchType_menu  > li > a {
+    display: block;
+    padding: 3px 10px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}

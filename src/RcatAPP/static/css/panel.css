@@ -1,0 +1,186 @@
+a:hover {
+	text-decoration: none;
+}
+/*弹出框*/
+.black_overlay {
+	display: none;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 200;
+}
+/*地点弹出框*/
+.p_panel {
+	width: 50%;
+	height: 420px;
+	left: 50%;
+	top: 50%;
+	margin-left: -25%;
+	margin-top: -210px;
+	position: fixed;
+	border: 1px solid #f1f1f1;
+	z-index: 200;
+	background-color: #fff;
+	padding: 20px;
+	display: none;
+}
+.p_panel p{
+	text-align: center;
+	color: #00a1df;
+	font-size: 2.2rem;
+	margin-bottom: 20px;
+}
+.pop_area {
+	width: 500px!important;
+	margin-left: -250px;
+}
+.area {
+	height: 290px;
+	border: 1px solid #f1f1f1;
+	position: relative;
+}
+.area>div {
+	float: left;
+}
+.province {
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	overflow: auto;
+}
+.province li {
+	padding: 5px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.province li:hover {
+	color: #333;
+	background-color: #f1f1f1;
+}
+.city {
+	width: 74%;
+	height: 100%;
+	left: 119px;
+	position: absolute;
+	background-color: #fff;
+	border-left: 1px solid #f1f1f1;
+	overflow: auto;
+}
+.city li {
+	float: left;
+	padding: 3px 10px;
+	margin: 7px  10px;
+	cursor: pointer;
+}
+.city li:hover, .trade span:hover {
+	background-color: #f1f1f1;
+	color: #333;
+}
+.p_panel .cancel {
+	color: #666;
+	padding: 6px 12px;
+	cursor: pointer;
+	background-color: #f1f1f1;
+}
+.p_panel .cancel:hover {
+	color: #fff;
+	background-color: #00a7e7;
+}
+.op_panel {
+    margin-top: 20px;
+    text-align: center;
+}
+/*行业*/
+.trade {
+	height: 76%;
+	border: 1px solid #f1f1f1;
+	overflow: auto;
+	padding: 5px 10px;
+}
+.trade span {
+	padding: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+.submit {
+	padding: 6px 15px;
+	cursor: pointer;
+	color: #fff;
+	background: #00a7e7;
+	margin-right: 20px;
+}
+.submit:hover {
+	color: #fff;
+}
+.select {
+	color: #fff;
+	background-color: #00a7e7;
+}
+.select:hover {
+	color: #fff!important;
+	background-color: #00a7e7!important;
+}
+/*职位*/
+.pop_jobs {
+     width: 900px!important;
+    height: 480px;
+    margin-left: -450px;
+    margin-top: -240px;
+}
+.pop_jobs>p{
+    text-align: center;
+    color: #00a1df;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.all_job {
+    height: 340px;
+    border: 1px solid #f1f1f1;
+    position: relative;
+}
+.all_job>div {
+    float: left;
+}
+.job_trade {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    overflow: auto;
+}
+.job_trade li {
+    padding: 12px 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.job_trade li:hover {
+    color: #333;
+    background-color: #f1f1f1;
+}
+.jobs {
+    width: 72%;
+    height: 100%;
+    left: 240px;
+    position: absolute;
+    background-color: #fff;
+    border-left: 1px solid #f1f1f1;
+    overflow: auto;
+}
+.jobs li {
+    float: left;
+    padding: 9px 0px;
+    margin:5px 4px 5px 7px;
+    width:23%;
+    text-align: center;
+    cursor: pointer;
+}
+.jobs li:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+

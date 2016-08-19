@@ -1,0 +1,53 @@
+
+#recruit, .container{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.report_refer{
+    width: 1200px;
+    height: 445px;
+    margin: 20px auto 0;
+    position: relative;
+}
+.refer{
+    width: 520px;
+    height: auto;
+    padding: 10px;
+    position: absolute;
+    border: 1px solid #C8C8C8;
+    border-radius: 3px;
+}
+.left_con{
+    left:101px;
+}
+.right_con{
+    right: -49px;
+}
+.refer p{
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.refer strong{
+    font-size: 16px;
+    color: #029774;   
+}
+.refer ul{
+    padding-left: 22px;
+}
+.refer li{
+    height: 30px;
+    line-height: 30px;
+    list-style-type: disc;
+}
+.refer li a{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.refer li a:hover{
+    color: #EA5504;
+    text-decoration: underline;
+}

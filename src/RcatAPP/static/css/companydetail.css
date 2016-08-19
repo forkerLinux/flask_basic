@@ -1,0 +1,118 @@
+
+/*company_detail statrt*/
+ .company_info_nav {
+            background-color: #434649!important;
+            color: #37c1ff!important;
+        }
+        .company_open a {
+            display: block;
+        }
+        #editor{
+        	margin-left:100px;
+        	width:68%;
+        	height:300px;
+        }
+        th,td{
+        	border-top: none!important;
+        }
+        .descForbtn{
+            left: 100px;
+		    position: relative;
+            color: #ccc;
+        }
+        .descForbtn2{
+        	 left: 100px;
+		    position: relative;
+            color: #ccc;
+             top: -26px;
+        }
+        .companyinfo-title2{
+				font-size: 16px;
+        }
+        .companyinfo-title2 span{
+				font-size: 13px;		
+        }
+        .right_content .title {
+			border-bottom: 1px solid #d5dadf;
+			margin-bottom: 20px;
+			height: 177px;
+			background: url(/static/images/company-info-title.png) left 0px no-repeat;
+			background-size:100% 100%;
+		}
+		.right_content .title p {
+	        color: #fff;
+            font-size: 2rem;
+            margin-bottom: 0;
+            margin-top: 12px;
+            padding: 15px;
+            text-align: center;
+        }
+/*end companydetail*/
+
+
+/*recruitment start*/
+        .company_info_nav {
+            background-color: #434649!important;
+            color: #37c1ff!important;
+        }
+        .company_open a {
+            display: block;
+        }
+        #editor{
+        	margin-left:100px;
+        	width:68%;
+        	height:300px;
+        }
+        .recui {
+		    margin: 20px 46px;
+		}
+		.recui table{
+			width: 85%;
+			border-radius: 4px;
+			margin-left:100px;
+			border: 1px solid #dee0e1;
+		}
+		.recui p{
+			font-size: 16px;
+		}
+		.recui tr {
+			border: 1px solid #dee0e1;
+			height: 40px;
+			background-color: #fff;
+		}
+		.recui td{
+			width: 	20%;
+			text-align: center;
+		}
+		.recui th{
+			width: 	20%;
+			text-align: center;
+			background-color: #fff;
+		}
+		.recui table tbody tr:nth-child(odd){
+			background-color: #fafafa;
+		}
+		.recui .textfield{
+			margin-left: 100px;
+		}
+		.recui .btn{
+				margin-left: 100px;	
+				width:100px;
+		}
+	
+		.right_content .title {
+			border-bottom: 1px solid #d5dadf;
+			background: url(/static/images/company-info-title.png) left 0px no-repeat;
+			background-size:100% 100%;
+			margin-bottom: 20px;
+			height: 177px;
+		}
+		.right_content .title p {
+			color: #fff;
+		    font-size: 2rem;
+		    margin-bottom: 0;
+		    margin-top: 12px;
+		    padding: 15px;
+		    text-align: center;
+		}
+/*recruitment end*/

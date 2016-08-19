@@ -1,0 +1,138 @@
+/*添加订阅*/
+.advanced_search {
+	background-color: #fff;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.advanced_search>div {
+	margin-top: 30px;
+}
+div.condition2 {
+	margin-top: 0;
+}
+.btn_save {
+	color: #fff;
+	font-size: 1.8rem;
+	margin-right: 10px;
+	touch-action: manipulation;
+}
+.btn_save:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.title_name{
+	padding: 10px 15px;
+	background-color:#ecf3ff;
+	color: #3b5b98;
+	font-size: 1.6rem;
+}
+input[type="text"] {
+	width:100%;
+	height:44px;
+	border: 1px solid #eee;
+	box-shadow: none;
+	border-radius: 0;
+	background-color:#fff!important;
+}
+input[type="text"]:focus {
+	box-shadow: none;
+	border: 1px solid #3b5b98;
+}
+#zhiwei_id{
+	 margin:30px 15px 0px 15px;
+	border-bottom: 1px dashed #eee;
+	padding-bottom: 20px;
+}
+.fill_in{
+	margin:30px 15px 0px 15px;
+	border-bottom: 1px dashed #eee;
+	padding-bottom: 20px;
+	position: relative;
+}
+.fill_in input {
+	cursor: pointer;
+}
+.other_salary{
+	border: none;
+	position: relative;
+
+}
+.cb_list{
+	position: absolute;
+    height: auto;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+    display: none;
+    line-height: 30px;
+    width: 100%;
+    z-index: 1000;
+    top:44px;
+    margin-bottom: 50px;
+    
+}
+.cb_list span:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+.cb_list span {
+     float: left; 
+    height: 30px;
+    line-height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    width: 68px;
+    text-align: center;
+}
+.down_icon {
+	top: 15px;
+	right: 15px;
+	position: absolute;
+	color: #b3b3b3;
+}
+/*我的订阅*/
+.show_condition{
+	background-color: #fff;
+}
+.con {
+	border: 1px solid #3b5b98;
+	padding: 10px 15px;
+	margin: 15px;
+	position: relative;
+}
+.subscribe_search{
+	font-size: 1.8rem;
+	color:#3b5b98;
+}
+.subscribe_other {
+	color: #698CC8;
+}
+.subscribe_other span:nth-child(2) {
+	color: #999;
+}
+.subscribe_other span{
+	margin-right: 5px
+}
+.op {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	position: absolute;
+}
+.edit_info{
+	top:10px;
+	right:34px;
+	background: url(../../images/account_icon.png?v=1) left -118px no-repeat;
+}
+.delete_info{
+	top:10px;
+	right: 10px;
+	background: url(../../images/account_icon.png?v=1) -23px -176px no-repeat;
+}
+.job_enter {
+	padding: 0 15px;
+}
+.result {
+	margin: 20px 0;
+	color: #666;
+}

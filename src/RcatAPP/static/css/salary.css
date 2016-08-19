@@ -1,0 +1,128 @@
+html{
+	font-size: 62.5%;
+}
+*{
+    margin:0px;
+    padding:0;
+    font-family: microsoft yahei;
+    font-size: 1.2rem;
+}
+.in_title{
+	    text-align: center;
+    width: 100%;
+    margin-top: -21px;
+    height: 44px;
+    line-height: 49px;
+    font-size: 2rem;
+    color: #029774;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.list{
+	width:100%;
+	margin-bottom: 20px;
+
+	
+}
+.list>div,.f_title{
+    font-size: 1.6rem;
+    margin: 1px 0px 14px 0px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    width: 77%;
+    margin: auto;
+    position: relative;
+    height: 50px;
+
+}
+.list>ul{
+	list-style-type: none;
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+	/*margin-top: 10px;*/
+	border-bottom: 1px solid #d9d9d9;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.list ul:nth-child(2){
+	border-top:1px solid #d9d9d9;
+}
+.list>ul>li{
+	    width: 40%;
+    /*margin-bottom: 10px;*/
+    font-size: 1.6rem;
+    margin-left: 20px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 30px;
+    height:30px;
+}
+.list>ul>li>a{
+	color:#029774;
+	font-size: 1.6rem;
+	text-decoration: none;
+}
+.in_salary{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 32px;
+		font-size: 1.6rem;
+}
+.in_salary span{
+	font-size: 1.9rem;
+	color:red;
+	    font-weight: bold;
+}
+.chance{
+	float: right;
+	margin-right: 20px;
+	background-color: #029774;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	padding:0px 5px 0px 5px;
+	/*font-size: 1.6rem;*/
+}
+.chance a{
+	text-decoration: none;
+	color: #fff;
+    font-size: 1.6rem;
+
+}
+.list ul:hover{
+	background-color: #eaeaea;
+}
+.no_hy{
+	display: block;
+	    width: 112px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #FF3700;
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-weight: normal;
+}
+.hy_back{
+    display: block;
+    padding:0px 5px 0px 5px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #029774;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-weight: normal;
+    cursor: pointer;
+}

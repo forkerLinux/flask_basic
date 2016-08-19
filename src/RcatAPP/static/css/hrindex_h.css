@@ -1,0 +1,451 @@
+body, div,iframe, ul, ol, dl, dt, dd, li, dl, 
+h1, h2, h3, h4, table,th, td, input, button, select,
+ textarea,p{margin:0; padding:0;;font-family: microsoft yahei;font-size: 12px}
+ a{ text-decoration:none;}
+ ul,ol,li{
+	list-style: none;
+}
+ button, select,
+ textarea{ border:none;}
+body{font-family:"Microsoft Yahei";}
+
+.clearfix:after {
+   content: ".";
+   display:block;
+   height:0;
+   clear: both; 
+   visibility: hidden;
+}
+.clearfix{zoom:1;}
+
+.container p.title{ font-size:18px;padding-bottom:20px; font-weight: bold;}
+.container p.title span{ padding-right:10px;}
+.index_left{ float:left; position:relative;} 
+.index_left .title a{
+	color:#000;
+}
+.index_left .title a:hover{
+	color:#029774;
+}
+.index_right{ 
+	float:right;  
+	color:#fff;
+}
+.index_right form{ font-size:14px;background-color:#029774;padding:25px 55px 25px 55px;}
+.index_right form label{ width:95px; display:inline-block;}
+.index_right form input.capache{ width:130px; margin-right:5px;}
+.index_right form span{ font-size:14px;}
+.index_right form p{ margin-top:20px;}
+.index_right form .capache_box p{  float:left;}
+.index_right form input.submit{
+	font-size: 14px;
+    
+	color:#262222;
+	width:70px;
+	height:27px;
+	margin-left:95px;
+	margin-top:20px;
+	border-radius:4px;
+}
+.cpc_img img{ float:left;}
+.change{ display:block;float:left;height:42px; line-height:42px;padding-left:20px;}
+.index_right form p span img{ display:inline-block;margin-right:20px;}
+.index_right form input{ width:180px;height:30px;}
+.index_right form h2{ font-size:22px; text-align:center; font-weight:normal;}
+.index_right ul {
+	padding-top: 20px;
+}
+.index_right ul li{
+	color:#ba1625; 
+	font-size:14px;
+	text-align:center;
+	line-height:38px;
+}
+.index_right ul li img{ vertical-align:middle; margin-right:12px;}
+.index{ color:#ff0101;font-size:16px;padding-bottom:20px;}
+.tatai_idx{ font-size:28px;} 
+.index img{ padding:0 10px 0 5px;}
+.time{ font-size:12px; color:#5e5d5d;padding-bottom:20px;}
+.instructions ol li{
+	list-style-position: inside;
+	line-height:22px;	
+}
+.index_data{color:#524e4e;}
+.index_img,data_count{ float:left;}
+.data_count{ float:right;}
+.data_count p{ font-size:12px;}
+.data_count p a{color:#524e4e;padding-left:20px;}
+.data_count p .rise_num a{color:#ff0000;}
+.data_count p span.count_name{width:125px; display:inline-block;}
+
+.index_img ul li{ float:left;padding-left:72px;font-size:10px;}
+.index_img ul li.index_img_fst{ padding-left:30px;}
+.index_img ul{margin-top:10px; position:relative;}
+.index_img ul.time_piont li a{ display:block;width:69px;height:27px;line-height:27px;text-align:center; color:#fff; font-size:10px;}
+.current{border:1px solid #d9d9d9;border-top:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;}
+.index_img ul.time_piont li{ background-color:#029774;padding-left:0;}
+.ri_bd{ border-right:1px solid #d9d9d9;}
+/*.last_li{border-right:none;}*/
+.index_img ul.time_piont{ margin-left:30px; margin-right:30px;}
+.instructions{color:#524e4e;font-size:10px;padding-top:40px; padding-bottom:35px;width:580px;}
+.instructions h3 img{ vertical-align:middle;}
+.notice_cpy{ font-size:22px; color:#f8031a;}
+.cn_ntc{ text-align:right;}
+.data_report{ clear:both; background-color:#029774; padding:40px 0 35px;margin-top:0px;}
+.report_left{ float:left;padding-left:75px;}
+.report_left h1{ 
+	font-size:22px; 
+	color:#fff;
+	font-weight: 200;
+}
+.report_left p{padding-left:10px; padding-top:35px; font-size:12px;}
+.report_left p a{
+	display: inline-block;
+	font-size: 14px;
+	width:89px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	color: #000;
+	margin-left:40px;
+	background-image: url(../images/check_bg_03.png);
+	background-repeat: no-repeat;
+}
+.report_right{ float:right;padding-right:105px; margin-top:3px;}
+.report_right p{ font-size:18px; color:#fff; line-height:28px;}
+.report_right p span{ color:#000; font-size:20px;}
+.categrey h2{ font-size:16px; color:#00436d;}
+.industry_list ul li.first_con{  background-color:#029774;height:45px;line-height:45px;padding-top:0;}
+.industry_list ul li.first_con a{color:#fff;
+}
+.industry_list ul li{ text-align:center;color:#292727;padding-top:15px; font-size:14px;}
+.industry_list ul li a{ display:block;color:#292727;}
+.industry_list ul{ float:left;width:230px;margin-left:10px; display:inline; background-color:#e4e6e8;padding-bottom:15px;}
+.industry{ padding-top:70px;}
+.categrey h2{ padding:0 0 15px 30px;}
+.area{margin-top:45px;}
+.area_list ul li{ float:left;margin-right:4px;margin-bottom:8px;}
+.area_list ul li a{ display:block;width:112px;height:44px;line-height:44px; background-color:#029774;text-align:center;color:#fff;font-size: 14px}
+.area_list{padding-left:30px;}
+.reward {
+	text-align: center;
+}
+.reward h2 {
+	width: 600px;
+	margin:  125px auto 45px;
+	padding-bottom: 20px;
+	font-size: 24px;
+	font-weight: 600;
+	color: #636363;
+	border-bottom: 1PX solid #636363;
+}
+.reward ul{}
+.reward ul li {
+	float: left;
+	margin-right:13px;
+	display: inline;
+	text-align: center;
+	width:226px;
+}
+.reward ul li.last {
+	margin-right: 0;
+}
+.reward ul li p {
+	color: #D74836;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.reward.character ul li {
+	margin-right: 48px;
+	width: 200px;
+}
+.reward.character ul li.last {
+	margin-right: 0;
+}
+.character ul li {
+	font-size: 20px;
+}
+.data_con ul li{ float:left; width:194px; display:inline; text-align:center;}
+.data_con ul li.data_con_last{margin-right:0px;}
+.data_con ul li p{color:#443f3f;font-size:12px;padding-top:30px;}
+.data_con ul li p span{ font-size:18px;}
+.data_con ul li p span.red{ color:#d74836}
+.data_con ul li p span.blue{ color:#0cacd5}
+.data_con ul li p span.orage{ color:#f45a16}
+.data_con ul li p span.green{ color:#024e3c}
+.data_con ul li p span.deep_blue{ color:#06286d}
+.data_con ul li p span.sky_blue{ color:#4176e1}
+.data_con{ padding-top:90px;}
+.new_data{ padding:120px 0 170px 0;}
+.new_data_left{ float:left; width:390px;}
+.new_data_left p{ line-height:30px; font-size:16px; padding:55px 15px 80px; background-color:#f0f2f3; color:#2d2d30;}
+.new_data h2{ font-size:20px; color:#fff; background-color:#fc6827; text-align:center; line-height:75px;height:75px; font-weight:normal;}
+.new_data_right p{ font-size:22px; color:#151a78;}
+.new_data_right{float:right; width:800px;padding:25px 0 0 0;}
+.img_show_data img{ float:left; left:50px; position:relative;} 
+.img_show_data .intime_data{ float:left; padding: 25px 0 0 60px; left:50px; position:relative;}
+.intime_data p{ line-height:38px; color:#3c3939; font-size:18px;} 
+.left_para{ padding-left:80px;}
+.right_para{ text-align:right; padding:20px 50px 35px 0;}
+.dtl_lf{ float:left;margin:146px 0 0 35px;}
+.dtl_rg{ float:right; width:390px;margin-right:0px;background-color:#f0f2f3;padding-bottom:20px;}
+.dtl_rg h2{font-size:20px; color:#fff; background-color:#fc6827; text-align:center; line-height:75px;height:75px; font-weight:normal;margin-bottom:5px;}
+.dtl_rg p{ padding:12px 15px 0;color:#2d2d30;line-height:32px;}
+
+.footer{text-align:center;font-size:12px;padding-top:15px;border-top:1px solid #a0a0a0;color:#716c6c;}
+.footer ul li{ float:left;}
+.footer ul{text-align:center;}
+.footer ul li img{ vertical-align:middle; margin-right:7px;}
+.footer_link{width:490px; margin:0 auto;}
+.footer_link li a{ display:block;color:#312e2e;}
+.footer_link li{width:80px; padding:0 10px;}
+.footer_link li.last_link{ padding-right:0px;}
+.hr_cpny{width:390px;margin:30px auto 25px;}
+.hr_cpny_fst{ margin-right:28px;}
+.footer p span{ padding-left:8px;}
+.footer p{ margin-bottom:20px;}
+.payment{ padding-top:110px;}
+.payment ul li{float:left; display:inline;}
+.wage_report ul li p{text-align:center; margin-top:20px;}
+.wage_report ul li{margin-right:70px;}
+.wage_report ul li.wage_report_last{margin-right:0px;}
+.payment h2{ font-size:36px; color:#636363;border-bottom:1px solid #a0a0a0; width:760px; margin:0 auto;text-align:center;padding-bottom:25px;}
+.wage_report ul{ width:950px;margin:0 auto;padding-top:65px;}
+.wage_report{padding-top:110px;}
+.get_wage ul li{
+	border: 1px solid #a69b9b;
+	margin-right: 30px;
+	border-radius: 5px;
+	width: 225px;
+	height: 192px;
+	text-align: center;
+	background-image: url(../images/get_wage_bar_03.jpg);
+	background-repeat: repeat-x;
+}
+.get_wage ul li img{ margin-top:20px;}
+.get_wage ul{padding-top:35px;}
+.get_wage ul li p{ font-family:Arial; font-size:12px; color:#5f7d8f;text-align:left;}
+.get_wage ul li p.secd{ font-size:18px;color:#2b5977;}
+.get_wage ul li div{
+	background-image: url(../images/get_wage_arrows_03.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	margin:0 10px 0 10px;
+}
+.get_wage ul li.get_wage_last{margin-right:0px;}
+.get_wage ul{ width:1255px;margin:0 auto;}
+
+/* 按行业分类折线图 */
+.data_table{
+	height:930px;
+	width:100%;
+	margin:auto;
+	position:relative;
+}
+.data_table .industry, #recruit .title{
+	padding:0 0 0 15px;
+	font-size:15px;
+	font-weight:bold;
+	position:relative;
+	background:#029774;
+	height:40px;
+	line-height: 40px;
+	color:#fff;
+}
+#recruit #index_main{
+	 height:450px; 
+	 width:1100px; 
+	 margin:45px auto;
+}
+
+.industry .more{
+	font-size:14px;
+	font-weight:normal;
+	right:50px;
+	position:absolute;
+	cursor:pointer;
+	color:#fff;
+}
+.table-all{
+	width:100%;
+	margin-top:55px;
+	position:relative;
+	float:left;
+}
+.table-div{
+	width:550px;
+	height:349px;
+	position:relative;
+}
+.table-div .title{
+	font-weight:bold;
+	font-size:14px;
+	position:absolute;
+}
+p.sm span{
+	font-size:16px;
+	font-weight:bold;
+	width:10px;
+	height:10px;
+	float:left;
+	display:block;
+	margin-top:3px;
+	margin-right:5px;
+}
+.table-div canvas{
+	margin-top:40px;
+	margin-bottom:45px;
+}
+.img-1{
+	margin-left:50px;
+}
+.img-2{
+	float:left;
+	position:absolute;
+	right:10px;
+	top:0;
+}
+.table-div p{
+	margin:0px;
+	font-size:12px;
+	font-weight:bold;
+	/*width:100px;*/
+	bottom:5px;
+	position: absolute;
+}
+p.one{
+	left:40px;
+}
+p.two{
+	left:170px;
+}
+p.three{
+	left:300px;
+}
+p.four{
+	left:430px;
+}
+p.sm span.red{
+	background:#AA4643;
+}
+p.sm span.orange{
+	background:#ED6F2A;
+}
+p.sm span.green, p.k-assign span.green{
+	background:#029774;
+}
+p.sm span.purple, p.k-assign2 span.purple{
+	background:#80699B;
+}
+ul.hy{
+	left:295px;
+	top:2px;
+	height:22px;
+}
+ul.hy li{
+	width:45px;
+	height: 22px;
+	line-height: 22px;
+}
+
+.data-zw{
+	margin-top:0px;
+}
+
+.industry_list table{
+	text-align: center;
+	font-size:15px;
+	width:230px;
+	margin-left:10px;
+	float:left;	
+	background: #e4e6e8;
+}
+tr.first_con{
+	background:#029774;
+}
+tr.first_con a{
+	color: #fff;
+}
+.industry_list td{
+	padding:13px 0;
+	font-size:15px;
+}
+.industry_list a{
+	color:#292727;
+}
+
+/* 周月季样式 */
+.k-point{
+	width:182px;
+	height:22px;
+	line-height: 22px;
+	float:left;
+	top:-2px;
+	left:330px;
+	position: absolute;
+}
+.k-point li{
+	width:50px;
+	background: #029774;
+	text-align: center;
+	margin-right:0;
+	float:left;
+	font-size:12px;
+	border-right: 1px solid #d9d9d9;
+	cursor:pointer;
+}
+/*点击周、月、季按钮特效*/
+.k-point li.show{
+	background:#FF7F50;
+}
+.k-point li.last{
+	border-right:none;
+}
+.k-point li a{
+	color:#fff;
+}
+p.k-assign{
+	float:right;
+	right:130px;
+	top:2px;
+	position:absolute;
+	font-size:12px;
+	color: black;
+	width:80px;
+}
+p.k-assign2{
+	float:right;
+	right:40px;
+	top:2px;
+	position:absolute;
+	font-size:12px;
+	color: black;
+	width:80px;
+}
+
+p.k-assign span, p.k-assign2 span{
+	font-weight:bold;
+	margin-right:5px;
+	margin-top:4px;
+	width:10px;
+	height:10px;
+	float:left;
+}
+
+/* 顶部ESGI logo样式 */
+
+ul.bottom-logo li{
+	color:#ba1625; 
+	font-size:14px;
+	text-align:center;
+	line-height:38px;
+	float:left;	
+	width:240px;
+	color:#fff;
+}
+.bottom-logo li img{ 
+	vertical-align:middle; 
+	margin-right:12px;
+}
+
+

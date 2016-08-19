@@ -1,0 +1,68 @@
+ul{
+	list-style-type: none;
+}
+.sub_menu{
+	display: none;
+	margin-left: 20px;
+
+}
+.nav_list{
+	cursor: pointer;
+	  color: #3b5b89;
+}
+.sidebar>ul>li a{
+  text-decoration: none;
+  color: #3b5b89;
+}
+.sidebar>ul>li a:hover,.nav_list:hover{
+	color: #000
+}
+.menu{
+	background-color: #fff;
+}
+.menu p{
+	position: absolute;
+	right: 40px;
+	top:15px;
+}
+.content {
+	margin-top: 30px;
+}
+.quit:hover{
+	color:#FE5F40;
+}
+
+/*分页*/
+.page_new{
+	display: block;
+	font-family:'microsoft yahei';
+	height:25px;
+	line-height:25px;
+	width:100%;
+	bottom:20px;
+	text-align: center;
+	margin:20px auto;
+	float: left;
+}
+.page_new>span{
+	margin:0;
+	cursor: pointer;
+}
+.cur{ background-color:#00a7e7;}
+.page_new span a {
+	border: 1px solid #d9d9d9;
+	padding: 1px 6px;
+}
+.sele a {
+	background: #00a7e7;
+	color: #fff;
+	text-decoration: none;
+}
+
+span.index_page a {
+	color: #000;
+	border: 0;
+}
+span.index_page a:hover {
+	text-decoration: none;
+}

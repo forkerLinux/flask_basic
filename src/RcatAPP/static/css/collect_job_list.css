@@ -1,0 +1,138 @@
+.welfare {
+    display: none;
+}
+.job_enter {
+  padding: 20px;
+  background-color: #fff;
+}
+.jobdetail_list {
+  border: 1px dashed #f0f0f0;
+
+}
+.jobdetail_list:hover {
+  outline: 1px dashed #f0f0f0!important;
+}
+.job_detail {
+  padding: 10px 20px 5px;
+}
+.job_detail:hover{background-color:#f5f5f5;}
+/*投递记录导航*/
+.post_nav {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 10px 2% 0;
+  position: relative;
+  background-color: #f6fcff;
+}
+.post_nav p {
+  padding: 0 0 15px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  margin: 0 30px;
+  color: #666;
+}
+.post_nav span {
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  bottom: 13px;
+  height: 30px;
+  border-right: 1px solid #beedff;
+}
+p.lock {
+  border-bottom: 2px solid #00a7e7;
+  color: #00a1df;
+}
+.post_jobs .money {
+  font-size: 1.6rem;
+  margin-left: 10px;
+}
+.post_jobs .company_name {
+  color: #666;
+  margin-bottom: 10px;
+}
+.post_jobs .post_time, .op_time {
+  color: #999;
+}
+.lock_post {
+  margin-left: 20px;
+  color: #999;
+}
+.op_status {
+  margin-left: 10px;
+  color: #333;
+}
+.right_status {
+  margin-top: 65px;
+}
+/*我的消息*/
+.message_jobs .job_name a {
+  color: #333;
+  font-size: 1.6rem;
+}
+.message_jobs .company_name {
+  color: #666;
+}
+.msg_title {
+  color: #5cc7f1;
+  font-size: 1.6rem;
+  padding-left: 30px;
+}
+.post_feedback {
+  background: url(../images/post_feedback.png?v=1) left 4px no-repeat;
+}
+.system_msg {
+  background: url(../images/message.png?v=1) left 2px no-repeat;
+}
+.message_jobs .op_time {
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+.message_jobs .op_status {
+  margin-bottom: 13px;
+}
+.message_jobs .op_status span {
+  color: #999;
+}
+.lock_look {
+  color: #00a1df;
+}
+.lock_look:hover {
+  color: #00a7e7;
+}
+.recommend .no_date, .recommend .have_data {
+  display: none;
+}
+p.gray {
+  color: #999;
+}
+p.gray:hover {
+  color: #999;
+}
+.job_op a {
+  padding: 0;
+  border: 0;
+}
+.recommend_msg {
+  color: #333;
+}
+.post_job_tab{
+  background-color:#f6fcff;
+}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1} 
+.job_name  p  a{
+  color: #333;
+}
+.job_name  p  a:hover{
+  color: #00a1df;
+}
+.money {
+    color: #ff7755;
+}
+.recommend .title{padding-left: 10px;}
+.more_recommend a p {
+ top: 2px;
+ padding-left: 4px;
+}

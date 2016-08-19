@@ -1,0 +1,117 @@
+a:hover, a:focus {
+	text-decoration: none;
+}
+.head {
+	padding-bottom: 8px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.login_status {
+	float: right;
+	margin-top: 14px;
+}
+.login_status a {
+	color: #333;
+	padding-left: 20px;
+}
+.login_status a:hover, .login_status a:focus {
+	color: #37c1ff;
+	text-decoration: none;
+}
+a.company_login {
+	background: url(../images/company_login_icon.png?v=1) left 3px no-repeat;
+	margin-right: 15px;
+}
+a.company_login:hover, a.company_login:focus {
+	background: url(../images/company_login_icon_2.png?v=1) left 3px no-repeat;
+}
+a.company_register {
+	background: url(../images/company_register_icon.png?v=1) left 3px no-repeat;
+}
+a.company_register:hover, a.company_register:focus {
+	background: url(../images/company_register_icon_2.png?v=1) left 3px no-repeat;
+}
+a.company_logout {
+	background: url(../images/logout_icon.png?v=1) left 3px no-repeat;
+}
+a.company_logout:hover {
+	background: url(../images/logout_icon_2.png?v=1) left 3px no-repeat;
+}
+/*导航*/
+.tab {
+	float: left;
+	width: 100%;
+	padding: 13px 0;
+	color: #666;
+	cursor: pointer;
+	/*text-indent: 10px;*/
+}
+.tab_list {
+	float: left;
+	width: 100%;
+}
+.tab_list a {
+	color: #fff;
+	display: block!important;
+}
+.tab_list a:hover {
+	background-color: #434649;
+	color: #37c1ff;
+}
+.tab_list .title {
+	font-size: 1.6rem;
+	border-bottom: 1px solid #383c3e;
+	text-indent: 0;
+	color: #fff;
+}
+.other_nav .title {
+	/*text-indent: -20px;*/
+}
+.tab_list .title img {
+	margin-right: 7px;
+	margin-top: -2px;
+	width: 15px;
+}
+.left_manage_nav {
+	background-color: #303335;
+	padding: 0;
+	min-height: 922px;
+	max-width: 180px;
+}
+.right_content {
+	outline: 1px solid #f0f0f0;
+	/*background-color: #fff;*/
+}
+.all_cv {
+	text-indent: -10px;
+}
+.add_job {
+	text-indent: -20px;
+}
+.add_job img {
+	margin-right: 7px;
+	width: 14px;
+}
+.manage_console_show, .add_job_show, .job_manage_show, .cv_manage_show, .report_manage_show, .company_show {
+	display: none;
+}
+
+.triangle {
+	float: right;
+	margin-right: 15px;
+	margin-top: 11px;
+}
+.roll_up>a {
+	display: none!important;
+}
+.roll_up .triangle {
+	border-right: 0;
+	border-left: 4px solid;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	margin-top: 9px;
+	margin-right: 19px;
+}
+.tab_show {
+	background-color: #434649!important;
+	color: #37c1ff!important;
+}

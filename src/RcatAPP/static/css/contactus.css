@@ -1,0 +1,41 @@
+.background_img{
+	padding: 0
+}
+.contact_whole{
+	padding: 20px
+}
+.contact_title{
+	color:#333;
+	font-size: 3rem;
+	border-bottom: 1px solid #3b5b98;
+	margin-top: 20px;
+	padding-bottom: 10px
+
+}
+.other_address{
+	margin-top: 20px;
+}
+.other_address div{
+	padding:7px 0;
+
+}
+.other_title{
+	color:#0090cc;
+	font-size: 1.8rem;
+}
+.other_count{
+	font-size: 1.4rem
+}
+.container-about{
+	 color: #fff;
+    font-size: 3rem;
+    padding-left: 209px;
+    padding-top: 5px;
+}
+.middle1 {
+	width: 100%;
+	height: 120px;
+	background: url(../images/about_us_bg.png?v=1) center no-repeat;
+	background-size: 100% 100%;
+	padding: 0;
+}

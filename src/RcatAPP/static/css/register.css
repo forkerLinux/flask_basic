@@ -1,0 +1,111 @@
+.middle {
+	background-color: #5988df;
+	margin-top: -2px;
+}
+
+.left_img {
+	margin: 150px 0;
+}
+
+#login {
+	margin: 150px 0;
+	height: 430px;
+	width: 60%;
+	float: right;
+	background: rgba(255,255,255,0.7);
+}
+.title {
+	font-size: 3.0rem;
+	color: #3b5b98;
+	text-align: center;
+	margin: 5px auto;
+}
+form>div {
+	position:relative;
+	margin: 10px auto;
+}
+input[type="text"], input[type="password"]{
+	width:84%;
+	height: 36px;
+	padding-left: 30px;
+	font-size: 1.2rem;
+}
+#verify_code {
+	width: 65%;
+}
+.img-user, .img-pass, .yan_img2, .yan_img3 {
+	width: 15px;
+	left: 9%;
+	top: 3px;
+	position: relative;
+}
+.img-pass, .yan_img2 {
+	top: -1px;
+}
+.yan_img2 {
+	width: 17px;
+	margin-left: -14px;
+	left: 10%;
+}
+.yan_img3 {
+	top: 1px;
+}
+.img-check {
+	width: 23%;
+	right: 24%;
+	position: relative;
+	cursor: pointer;
+}
+.change {
+	color: #3b5b98;
+    font-size: 1.2rem;
+    right: 11%;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+/*获取验证码*/
+.get_yz{
+	height: 36px;
+	line-height: 36px;
+	padding:0 5px;
+	/*width:40%;*/
+	background-color: #3b5b98;
+	color:#fff;
+	border: none;
+	position: absolute;
+	right:10%;
+	top: 0;
+	cursor: pointer;
+	font-size: 1.2rem;
+}
+.again{
+	background-color:gray;
+}
+.check {
+	margin-left: 8%;
+}
+#go_job{
+	width:85%;
+	margin-left:8%;
+	background: #3b5b98;
+	border-radius: 0px;
+}
+.validate{
+	margin-left: 3%;
+}
+.free-reg a{
+	color: #3b5b98;
+}
+.free-reg {
+	width: 100%;
+	text-align: center;
+}
+.foot {
+	margin-top: 0!important;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin:0;
+    margin-top: 1px ;
+    line-height: normal;
+}

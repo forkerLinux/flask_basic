@@ -1,0 +1,182 @@
+/*弹出框*/
+.black_overlay {
+	display: none;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 200;
+}
+iframe{
+	display: none;
+}
+/*头像弹出框*/
+.pop_modify_pic{
+	border: 1px solid #f1f1f1;
+	padding: 15px 15px 20px;
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 50%;
+	margin: -95px 15px 0;
+	background: #fff;
+}
+.p_title{
+	font-size: 26px;
+	color: #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.pic_info {
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+}
+.upload_pic{
+	position: absolute;
+	bottom: 0;
+	right: 53%;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	width: 47%;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 9px 0;
+}
+#img_text{
+	width: 100%;
+	border: 1px solid #f1f1f1;
+	background-color: #fff;
+	height: 40px;
+	box-shadow: none;
+}
+.btn_upload{
+	width: 47%;
+	text-align: center;
+	font-size: 1.8rem;
+	display: inline-block;
+	background-color: #00a7e7;
+	color: #fff;
+	margin-right: 6%;
+	border-radius: 0;
+	margin-top: 20px;
+}
+.btn_savepic{
+	width: 47%;
+	text-align: center;
+	font-size: 1.8rem;
+	background-color: #00a7e7;
+	color: #FFF;
+	border-radius: 0;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	margin-top: 20px;
+}
+.btn_savepic:focus {
+	color: #fff;
+}
+.pic_show{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px #ccc;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.pop_close{
+	right: 10px;
+	top:10px;
+	position: absolute;
+	cursor: pointer;
+	font-size: 2.0rem;
+	color: #00a7e7;
+}
+/*地点弹出框*/
+.p_panel {
+	position: fixed;
+	border: 1px solid #f1f1f1;
+	z-index: 200;
+	background-color: #fff;
+	display: none;
+}
+.p_panel p{
+	font-size: 1.6rem; 
+	padding:10px;
+	margin: 0px
+}
+.pop_area {
+    width: 96%;
+    margin: 32% 2%;
+}
+.pop_job {
+    width: 96%;
+    margin: 32% 2%;
+}
+.area {
+	height: 290px;
+	border: 1px solid #f1f1f1;
+	position: relative;
+}
+.area>div {
+	float: left;
+}
+.province {
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	overflow: auto;
+}
+.province li {
+	padding: 5px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.city {
+	height: 100%;
+	left: 119px;
+	position: absolute;
+	background-color: #fff;
+	border-left: 1px solid #f1f1f1;
+	overflow: auto;
+}
+.city li {
+	float: left;
+	padding: 3px 10px;
+	margin: 7px  10px;
+	cursor: pointer;
+}
+
+.op_panel {
+	margin: 10px;
+	text-align: center;
+}
+.cancel {
+	color: #3b5b98;
+	padding: 6px 12px;
+	cursor: pointer;
+}
+.select {
+	color: #fff;
+	background-color: #3b5b98;
+}
+
+/*行业*/
+.pop_trade{
+	height:70%;
+	margin: 20% 2%;
+	width:96%;
+}
+.trade {
+	width: 96%;
+	border: 1px solid #f1f1f1;
+	overflow: auto;
+	margin: 0 2%;
+	height: 80%;
+
+}
+.trade span {
+	padding: 5px 4px;
+	display: inline-block;
+	cursor: pointer;
+}

@@ -1,0 +1,65 @@
+
+/*ÐÂÔö*/
+.detail_middle h1{
+
+	background-image: url(../images/cost_bg_03.jpg);
+	background-size: 20px 20px;
+
+}
+/*body{ background-color:#eaedeb;}*/
+
+.detail_middle form{ font-size:14px;padding-left:50px;}
+.clearfix:after {
+   content: ".";
+   display:block;
+   height:0;
+   clear: both; 
+   visibility: hidden;
+}
+.clearfix{zoom:1;}
+.submit{background-color:#029774;width:58px;line-height:32px;margin-top:25px;color:#fff;cursor: pointer;border:none;border-radius: 5px;margin-bottom: 20px;}
+.submit:hover{background-color: #037458}
+.cash img{ vertical-align:middle;display:inline-block;}
+.cash p{ display:inline-block;margin-top:5px;padding-right:20px; float:left;}
+.detail_middle form input{ border:none;}
+.yuan{ padding-left:8px;}
+#recharge{border:1px solid #cccccc; width:132px; height:30px; line-height:30px;}
+.paystyle{margin-top:24px;}
+.bank-sel{padding:20px 0 10px 12px;}
+.pay_bill{ padding-left:12px;}
+.pay_bill_two{ font-size:14px;height:40px;line-height: 40px;padding-left:12px;}
+.banksel{padding-top:20px;}
+.cash_blc{padding-right:5px;}
+
+
+.pays{float:left;border:1px solid #cccccc; width:102px; line-height:41px;height:41px; text-align:center;cursor: pointer;}
+.paystyle ul li.pay-mid{ border-left:none; border-right:none;}
+.paystyle ul{ margin-bottom:20px;}
+.bank p{ display:inline-block; width:188px; line-height:33px; height:33px;border:1px solid #cccccc; margin-left:8px;margin-top:0; margin-bottom:0; float:left;}
+.bank input{ _float:left;_margin-top:7px;}
+.bank p img{ vertical-align:middle;margin-left:10px; _float:left;_margin-top:6px;}
+.bank p span{ float:right;font-size:10px;width:16px;line-height:16px; display:block; background-color:#d3eef9;text-align:center; color:#666b6e;}
+.bank-list .bank{ float:left;display:inline; margin:10px 0 2px 8px;}
+.bank-list{width:905px;}
+p.prompt{ line-height:30px;border:1px solid #ccc;background-color:#f9f9f9;padding-left:12px;margin-top:20px;margin-right:10px;}
+.selected{border-top:2px solid #00a2ca; border-bottom:none;cursor: pointer;}
+.paystyle ul li:hover{background-color: #029774;color:#fff;border:none;}
+.paysel1{ display:none;}
+
+#cainiao_welcome a{padding-left:10px;color:white;}
+#count_ul li{
+/* 	background-color:red; */
+	height:30px;
+	line-height:30px;
+	/*padding-left:21px;*/
+}
+#count_ul li a{
+	color:white;
+	font-size:12px;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	font-family:microsoft yahei;
+}
+.cur{ background-color:#174577;}
+.cash_num{ font-weight:bold;font-size:14px;}

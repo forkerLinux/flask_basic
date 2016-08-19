@@ -1,0 +1,343 @@
+.check_headline{
+	color:#3b5b98!important;
+}
+a{
+	color:#333;
+	text-decoration: none;
+
+}
+a:hover{
+	text-decoration: none;
+	color:#333;
+
+}
+/*主体*/
+.headline{
+	margin-top: 30px;
+	margin-bottom:50px;
+}
+.top_title{
+	height:80px;
+	line-height: 80px;
+	font-size: 3rem;
+	background-color: #3b5b98;
+	color: #fff;
+}
+.choose_con{
+	background-color: #fff;
+	padding:40px 0px 26px 20px;
+}
+.choose_con>.list{
+	font-size: 1.4rem;
+	color:#333;
+	margin-bottom: 30px;
+	clear: both;
+	overflow: hidden;
+	position: relative;
+}
+.choose_con>.list:nth-child(2) {
+	margin-bottom: 0;
+}
+.choose_con>.list span{
+	float:left;
+	margin-top: 2px
+}
+.choose_con>.list>div{
+	float: left;
+	width:89%;
+}
+.choose_con>.list>a{
+	padding:2px 5px;
+	margin:0px 10px 0px 5px;
+	cursor: pointer;
+
+}
+.choose_con>.list>div ul{
+	list-style-type: none;
+	overflow: hidden;
+	padding:0px;
+	margin:0px;
+}
+.choose_con>.list>div ul li{
+	padding:0px;
+	margin:2px 0px 0px 5px;
+	cursor: pointer;
+	float: left;
+	color:#333;
+
+}
+.choose_con>.list>div>a>div{
+	position: relative;
+}
+#workyear{
+	margin-bottom: 0;
+}
+#workyear li{
+	margin-right:10px;
+}
+.select{
+	background-color: #3b5b98;
+	color: #fff!important;
+}
+.select>span {
+	display: block!important;
+}
+.text_description{
+	margin: 40px 0px 14px 20px;
+	color:#999;
+	font-size: 1.4rem;
+}
+.more {
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+    font-weight: normal;
+    cursor: pointer;
+    color: #777;
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+
+strong {
+    margin-left: 7px;
+    padding: 5px;
+}
+.color {
+    color: #3b5b98;
+    font-size: 1rem;
+    margin-left: 3px;
+    transition: all 0.5s ease 0s;
+}
+
+.ranking{
+	background-color: #fff;
+	margin-bottom: 50px;
+	padding-top: 20px;
+}
+.other_type{
+	border-top:1px dashed #f0f0f0;
+	padding: 14px 0px 0 66px;
+	margin-bottom: 0!important;
+	clear: both;
+	display: none;
+}
+.other_type>div{
+	width:100%!important;
+}
+.other_type>div>a{
+	padding:2px 5px;
+	margin:0px 10px 0px 5px;
+	cursor: pointer;
+}
+.other_v{
+	margin-top:14px;
+}
+.bottom_list{
+	margin-bottom: 20px;
+}
+.hide_ul{
+	position: absolute;
+	margin-top: 17px!important;
+	display: none;
+	background-color: #F7F7F7;
+	border:1px solid #f0f0f0;
+	left:70px;
+	width:84%;
+}
+.hide_ul li{
+	margin:5px!important;
+	padding:2px 5px!important;
+}
+.check_trade{
+	padding:5px;
+	position: relative;
+}
+.check_trade span {
+	bottom: -13px;
+	left: 40%;
+	position: absolute;	
+	border-top: 0px none;
+	border-bottom: 7px solid #f0f0f0;
+	display: none;
+}
+.no_set,#workyear li{
+	padding: 4px!important;
+    margin-top: -1px!important;
+}
+
+.ranking_table{
+	margin:0px 20px;
+	text-align: center;
+
+}
+.ranking_table>div{
+	height:40px;
+	line-height: 40px;
+}
+.title_table{
+	background-color: #f7f7f7;
+	border:1px solid #f0f0f0;
+}
+.check_more{
+	margin-top: 5px;
+	text-align: center;
+	padding-bottom: 35px;
+}
+.check_more span{
+	padding:6px 22px;
+	color:#999;
+	font-size: 1.4rem;
+	background-color: #f0f0f0
+
+}
+.check_more span:hover{
+	background-color: #3b5b98;
+	color:#fff;
+	cursor: pointer;
+}
+.hide_table{
+	overflow: hidden;
+}
+.avg_salary{
+	color:#ff7f58;
+}
+.zn_name{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+.zn_name span{
+	cursor: pointer;
+
+}
+.zn_name span:hover{
+	color:#3b5b98;
+}
+.no_data{
+	text-align: center;
+	margin-top: 80px;
+	display: none;
+}
+.no_data p{
+	color: #333;
+	font-size: 1.8rem;
+	margin-top: 30px
+}
+.trade_type li a:hover,.hide_ul li a:hover,#workyear li:hover{
+	color:#3b5b98;
+}
+/*列表*/
+.outer {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	padding: 0 20px 20px;
+}
+.outer li {
+	float: left;
+	width: 100%;
+	border-left: 1px solid #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+}
+.outer li:hover {
+	outline: 1px solid #6d8dcc;
+	height: 51px;
+}
+.inner {
+	width: 100%;
+	float: left;
+}
+.inner li p a{
+	color: #333;
+}
+.inner p {
+	color: #333;
+	padding: 0 5px;
+	margin: 10px 0;
+	height: 30px;
+	line-height: 30px;
+}
+.rank {
+	width: 10%;
+	padding-left: 0!important;
+}
+.develop {
+	padding-right: 0;
+}
+.rank span{
+	color: #fff;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	color: #3b5b98;
+}
+.rank span.active {
+	background-color: #3b5b98;
+	color: #fff;
+}
+p.salary {
+	color: #ff7f58;
+	font-weight: bold;
+}
+.jobname {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.jobname {
+	width: 29%;
+}
+.jobname a:hover {
+	color: #3b5b98!important;
+}
+.salary {
+	width: 17%;
+}
+.service {
+	width: 44%;
+}
+p.op_jobs {
+	padding: 0 5px;
+	width: 11%;
+}
+p.op_jobs:hover {
+	margin: 0;
+	padding: 10px 5px;
+	height: 51px;
+}
+.job_offer:hover {
+	background-color: #36A5FF;
+}
+.salary_status:hover {
+	background-color: #F56D61;
+}
+.develop:hover {
+	background-color: #40CDB5;
+}
+.course:hover {
+	background-color: #ccc;
+}
+.op_jobs a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.op_jobs a img {
+	margin-top: -4px;
+}
+.op_jobs a span {
+	display: none;
+	color: #fff;
+}
+
+.rank_table li:nth-child(1) .rank, .rank_table li:nth-child(2) .rank, .rank_table li:nth-child(3) .rank {
+	color: #3b5b98;
+	font-weight: bold;
+}
+
+.foot {
+	margin-top: 0;
+}

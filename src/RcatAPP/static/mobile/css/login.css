@@ -1,0 +1,221 @@
+html, body {
+	height: 100%;
+}
+body {
+	/*background-color: #031E4B;*/
+	background-image: url(../images/login-back.png?v=1 ) ;
+	/*background-color: #fff;*/
+	/*opacity: 0.2;*/
+	/*background-position: 8px 12px;*/
+}
+a:hover {
+	text-decoration: none;
+}
+/*登录 注册*/
+.main {
+
+	margin: 0 auto 25px;
+}
+.lock_logo {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.lock_logo img {
+	width: 40%;
+}
+.main p {
+	text-align: center;
+	font-size: 2.4rem;
+	color: #3b5b98;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+form>div {
+	margin-bottom: 20px!important;
+}
+input[type="text"], input[type="password"] {
+	border-radius: 4px;
+	height: 42px;
+	padding: 13px 12px 11px 53px;
+	box-shadow: none;
+	background-color: #fff;
+	opacity: 0.3;
+	background-size:46px;
+	background-repeat: no-repeat;
+	-webkit-appearance: none;
+	border: none;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+	box-shadow: none;
+	border: none;
+	/*border: 1px solid #3b5b98;*/
+}
+.username {
+	/*background-image: url(../images/wap_icon_1.png?v=1);*/
+	/*background-color: #fff;*/
+	/*opacity: 0.2;*/
+	/*background-position: 8px 12px;*/
+}
+.password {
+	/*background: url(../images/wap_icon_2.png?v=1);*/
+	/*background-position: 8px 9px;*/
+}
+.validate_div {
+	position: relative;
+}
+.validate_div input {
+	width: 84%;
+	/*background-image: url(../images/wap_icon_3.png?v=1);*/
+	/*background-position: 8px 12px;*/
+}
+.img-check {
+    right: 16%;
+    top: 1px;
+    width: 28%;
+    height: 95%;
+    position: absolute;
+    cursor: pointer;
+}
+.change {
+	color: #333;
+    font-size: 1.2rem;
+    right: 0;
+    position: absolute;
+    top: 30%;
+    cursor: pointer;
+}
+.change img {
+	width: 50%;
+}
+.other {
+	float: left;
+	width: 100%;
+	margin-top: -15px;
+	
+}
+.other #xieyi{
+	color:red;
+}
+.other a {
+	margin-top: 10px;
+	color: #00a1df;
+}
+.other>div {
+	color: #333;
+	font-weight: normal;
+	float: left;
+}
+.register a, .login a {
+	color: #3b5b98;
+}
+.btn_save {
+	color: #fff;
+	background-color: #00a7e7!important;
+	font-size: 1.8rem;
+	height: 44px;
+	padding: 8px 12px;
+	border: 0;
+	border-radius: 4px;
+}
+.btn_register {
+	color: #00a7e7;
+	background-color: none!important;
+	font-size: 1.8rem;
+	height: 44px;
+	padding: 8px 12px;
+	border: 0;
+	border-radius: 4px;
+	border:1px solid #00a7e7;
+	margin-top: 20px;
+
+}
+.form-control{
+	background-color: none;
+}
+.register, .login {
+	text-align: center;
+}
+.register span, .login span {
+	color: #666666;
+}
+.mobile_code {
+	position: relative;
+}
+.mobile_code {
+	/*background-image: url(../images/wap_icon_4.png?v=1);*/
+	/*background-position: 8px 11px;*/
+}
+.get_yz{
+    height: 42px;
+    line-height: 44px;
+    padding: 0 15px;
+    background-color: #00a7ed;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.again{
+	background-color:#ccc;
+	color: #fff;
+}
+#save_reset_password, .sign_up_but_sign {
+	margin-top: 40px;
+}
+.container-fluid{
+	/*background-color:#031E4B ;*/
+}
+.title_border{
+	background-color: none;
+}
+.demo{
+    position: absolute;
+    /*top: 41px;*/
+    left: 1px;
+    /*opacity: 0.2;*/
+    background-color: #446286;
+    width: 42px;
+    height: 41px;
+    text-align: center;
+    line-height: 40px;
+}
+.demo img{
+	    width: 28%;
+    height: 33%;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff!important;  
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff!important;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #fff!important;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: black!important;
+}
+.demo-form{
+	position: relative;
+}
+.register_btn{
+	border-radius: 4px;
+	height: 42px;
+	padding: 9px 12px 11px 10px;
+	box-shadow: none;
+	background-size:46px;
+	color: #00a7e7;
+	border: 1px solid #00a7e7;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 1.8rem;
+}

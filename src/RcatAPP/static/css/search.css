@@ -1,0 +1,410 @@
+
+*{
+	font-family: "微软雅黑"
+}
+html, body {
+	height: 100%;
+}
+body {
+	background-color: #3b5b98;
+}
+
+#global{
+	border-radius: 0;
+}
+.line_whole{
+	background-color: #3b5b98;
+	padding-bottom: 200px;
+}
+.whole{
+	padding-right: 0px;
+}
+.market{
+	margin: 60px 10px 0px 10px;
+}
+#search_bg{
+	background-color: #3b5b98
+
+}
+.search_box{
+	margin:auto;
+	    background-color: #4f6ca3;
+    padding: 10px 20px;
+    width:70%;
+}
+strong a,span a{
+	text-decoration: none;
+}
+#big_title{	
+	color:white;	
+	font-size: 1.8rem;
+	margin:30px 0px 30px 0px;
+	text-align: center;
+}
+#big_title>span{
+	padding:10px 30px 10px 30px ;
+	border-radius: 15px;
+	font-size: 2.4rem;
+	color:#fff;
+}
+#big_title>span>span{
+	color:#ff9966;
+}
+.title{
+    font-size: 1.8rem;
+    margin:25px 0px 15px -14px;
+    color:#fff;
+}
+.title span{
+	color:#9ebfff;
+	font-size: 1.4rem;
+	margin-left: 10px;
+}
+.title span img{
+	margin-right: 6px;
+	position: relative;
+	top:-2px;
+}
+strong{
+	margin-left:7px;
+	padding:5px;
+}
+strong a{
+	transition: all 0.5s ease 0s;
+}
+.hide_area span{
+	margin-left: 5px;
+}
+.click_bg{
+	background-color: #3b5b98;
+}
+.click_bg a{
+	color:#fff;
+}
+#has_more2 {
+    float: right;
+    margin:4px 20px 0px 0px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.color{
+	color:#3b5b98;
+	font-size: 1rem;
+	margin-left: 3px;
+}
+.screen .owned_industry{
+   height:49px;
+}
+.industry{
+	margin-bottom: 20px;
+}
+.hide_ul{
+	padding:0px;
+	list-style-type: none;
+	background-color: #fff;
+}
+.hide_area{
+    display: none;
+    position: relative;
+    background-color: #ebf0ef;
+    padding-top: 10px;
+}
+.screen .working_life{
+	padding: 10px 0px 10px 10px;
+}
+.screen_show{
+	display: block;
+	background-color: #fff;
+    border-top: 1px dashed #ebf0ef;
+}
+.little_title{
+	color:#ff9966;
+	margin-top: 10px;
+	font-size: 1.5rem
+}
+.bnt_select{
+	position: absolute;
+	right:10px;
+	top:10px;
+	background-color: none;
+}
+.bnt_select p{
+	background-color: transparent;
+	color: #DBE5FA;
+	border:1px solid #DBE5FA;
+    padding: 6px 7px;
+}
+.bnt_select p .glyphicon{
+	font-size: 10px;
+}
+.drop_box{
+	min-width: 100px;
+	max-height:350px;
+	overflow: auto;
+	opacity: 0.8;
+}
+.chart{
+	background-color: #45639d!important;
+	padding-bottom: 50px;
+	border: 1px solid #3b5b98;
+}
+.salary_range{
+	height:423px;
+}
+.salary_range .avg_salary {
+	color: #FFF187;
+}
+.salary_range .avg_salary span {
+	color: #FFF187;
+}
+.avg_work_year {
+	color: #36F4FF; 
+}
+.avg_work_year span {
+	color: #36F4FF;
+}
+.other_main{
+	position: relative;
+	height: 300px;
+    width:90%;
+    margin-top: 40px;
+}
+#section {
+	margin-top: 80px;
+}
+,#section>div,#work_chart>div{
+	top:20px;
+}
+
+.other_main>div,#work_chart>div{
+	cursor: default!important;
+}
+.company{
+	clear:both;
+}
+.job_list{
+	height:450px;
+}
+#main_2,#main_3{
+    left: -5px; 
+    height:400px;
+    margin-left:0; 
+
+}
+#trend_chart,#work_chart{
+	height:300px;
+}
+.right_list{
+	position: absolute;
+	right:40px;
+	top:75px;
+}
+.right_list p{
+	padding-top: 20px
+}
+.top{
+    position: absolute;
+    top: 49px;
+    left: 15%;
+    width: 90%;
+}
+.top p{
+	float: left;
+	padding-left: 10%;
+}
+.right_list p img,.top p img{
+	width:20px;
+}
+#other_go,#other_go_two{
+    top:80px;
+	right:22px;
+}
+#other_go p,#other_go_two p{
+	padding-top:3px;
+}
+a{
+	cursor: pointer;
+}
+#company_s ul{
+	left:-80px;
+}
+
+.foot{
+	margin-top: 0px!important;
+}
+.btn-default{
+	color:#000;
+}
+#pie_edu>div{
+	margin-left: 7%;
+}
+.go_next{
+	position: fixed;
+	right:2px;
+	top:57%;
+	z-index: 20;
+}
+.g_position{
+	padding: 8px 15px;
+	font-size: 1.5rem;
+	margin-top: 12%;
+	color:#fff;
+	background-color: #45639d;
+	cursor: pointer;
+}
+.go_next p:hover{
+	outline: 1px solid #fff
+}
+.go_show{
+    outline: 1px solid #fff
+}
+.avg_salary{
+	float: right;
+	margin: 10px 20px 0px 0px;
+	padding: 5px 10px;
+	background-color: rgba(255, 255, 255, 0.2);
+	font-size: 1.6rem;
+}
+.avg_salary span{
+    font-size: 1.6rem;
+}
+.salary_bf{
+	float: left;
+}
+.bg_col{
+	background-color: #304b7e;
+
+}
+.compatibility{
+	width:60%;
+	margin:10% auto;
+	overflow: hidden;
+	clear: both
+
+}
+.logo_tt{
+	float: left;
+	width:40%;
+}
+.logo_tt img{
+	    width: 60%;
+margin-top: 35%;
+margin-left: 30%;
+}
+.title_tt{
+	float: right;
+	width:60%;
+}
+
+.upgrade img{
+	    width: 70%;
+margin-top: 18%;
+}
+.upload{
+	margin-top: 18%
+}
+.upload img{
+	width:10%;
+	margin-right:8%
+}
+#global{
+	height:40px;
+	width:120px;
+	letter-spacing: 4px;
+	font-size: 1.6rem;
+	line-height: 25px;
+}
+#global:hover{
+	background-color: #2b4b9b;
+}
+#search{
+	height:40px;
+	border:2px solid #4f6ca3;
+}
+.no_date{
+	position: absolute;
+    font-size: 1.8rem;
+    color: #fff;
+    top: 40%;
+    text-align: center;
+    height:400px;
+    width:95%;
+}
+.describe{
+	color:#9ebfff;
+	background-color: transparent;
+}
+
+
+/*引导*/
+.black_overlay {
+    display: none;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 800;
+}
+.other_head{
+    background-color: transparent;
+    border-bottom:none; 
+}
+.other_head .lock_logo,.other_hide{
+    visibility: hidden!important;
+}
+.other_nav li a:hover{
+    color: #000!important;
+    background-color: #fff!important;
+    border-radius: 20px;
+}
+.other_show{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #0072ff;
+    border-radius: 20px;
+    padding: 7px 1.5rem!important;
+    margin: 0px 1rem;
+}
+.other_close{
+    position: absolute;
+    top: 41px;
+    right: 66px;
+
+}
+.other_close img{
+    width: 34px;
+    cursor: pointer;
+}
+.bar_know{
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    width: 40%;
+}
+
+.other_nav>li{
+    position: relative;
+}
+.bar_img{
+    width: 100%;
+    text-align: center;
+}
+.img_one{
+    width:500px;
+    margin-top: 40px;
+}
+.next_one{
+    width:130px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.now_ty{
+	margin-top: -105px;
+}
+.hidden_show{
+    display: none;
+}
+.check_search{
+    color:#3b5b98!important;
+}

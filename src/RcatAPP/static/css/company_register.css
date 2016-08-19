@@ -1,0 +1,370 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url(/static/images/background.jpg?v=1)!important;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment:fixed;
+	background-size:100% 100%;
+}
+
+.middle>div {
+	padding: 0;
+}
+.textbox {
+	height: 40px;
+	box-shadow: none;
+	padding-left: 10px;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+.textbox:focus {
+	box-shadow: none;
+	border: 1px solid #00aaf7;
+}
+input[readonly] {
+	background-color: #fff!important;
+	cursor: pointer;
+}
+.address>div {
+	width: 34%;
+	float: left;
+}
+.address>div:nth-child(2) {
+	margin-right: 2%;
+}
+.select_box span {
+	height: 40px;
+	line-height: 40px;
+	color: #ddd;
+}
+.lock_logo span {
+	display: inline-block;
+	padding-left: 6px;
+	border-left: 1px solid #3b5b98;
+	color: #3b5b98;
+	right: -18px;
+	bottom: 7px;
+	position: absolute;
+}
+.head .nav, .head .account {
+	visibility: hidden;
+}
+
+a:hover {
+	text-decoration: none;
+}
+/*登录*/
+.main {
+	margin: 50px 6%;
+	width: 88%;
+	float: left;
+	background-color: #e6f4ff;
+}
+.content {
+	width: 50%;
+	margin: 50px auto 0;
+}
+.step {
+	margin: 25px 0; 
+	float: left;
+	width: 100%;
+}
+.step>div {
+	width: 20%;
+	float: left;
+}
+.step>hr {
+	width: 20%;
+	border-top: 1px solid #ccc;
+	float: left;
+	margin-top: 13px;
+}
+.step p{
+	margin: 0;
+}
+.step>div p:first-child {
+	background-color: #dddddd;
+    border: 1px solid #f7f7f7;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.8rem;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    width: 35px;
+}
+.step>div p:last-child {
+	font-size: 1.6rem;
+	color: #999999;
+}
+
+.active p{
+	 color: #37c1ff!important;
+}
+.step .active p:first-child{
+	background-color: #37c1ff!important;
+    border: 1px solid #cff0ff!important;
+   color: #fff!important;	
+}
+/*.active + hr:nth-child(2){border-top: 1px solid #37c1ff;}*/
+hr.action {
+	border-top: 1px solid #37c1ff;
+}
+/*表单*/
+form, .success {
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+form label {
+	color: #333;
+	font-weight: normal;
+	font-size: 1.6rem;
+	padding-right: 0!important;
+	text-align: center!important;
+}
+.checkbox label {
+	font-size: 1.4rem;
+	padding-left: 20px;
+	margin-top: 5px;
+}
+.checkbox a {
+	color: #00a4ee;
+}
+.inputbox {
+	width: 70%;
+	padding: 0;
+	position: relative;
+}
+.btn_save {
+	color: #fff;
+	background-color: #00a4ee;
+	font-size: 1.6rem;
+	height: 40px;
+	border: 0;
+	border-radius: 3px;
+	padding: 0 20px;
+	margin-top: 30px;
+	width: 104px;
+}
+.btn_save:hover {
+	background-color: #009ee5;
+}
+/*底部*/
+.foot {
+	padding: 12px 0;
+	background: #111A28;
+	font-size: 1.5rem;
+	margin-top: 100px;
+	border-color: #111A28;
+}
+.foot>div {
+	margin: 0 4%;
+}
+.foot .left a {
+	color: #999;
+	    margin-left: 15px;
+}
+.foot .left a:hover {
+	color: #fff;
+}
+.foot .right {
+	text-align: right;
+	color:#777;
+	font-size: 1.2rem;
+}
+/*tips层*/
+.layui-layer {
+	margin-top: 3px!important;
+}
+.wrong {
+	border: 1px solid #ff6767;
+}
+/*上传营业执照*/
+#gs_permit{
+	position: absolute;
+	top: 0;
+	left: 0;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	width: 66px;
+	height: 34px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn_upload {
+	padding:6px 12px;
+	color: #999;
+	background-color: #fff;
+	border-radius: 3px;
+	display: inline-block;
+}
+#permit_name {
+	margin-left: 10px;
+}
+.empty {	
+	color: #999;
+}
+.contact_way>div {
+	width: 22%;
+	float: left;
+}
+.contact_way>div:nth-child(2), .contact_way>div:nth-child(3) {
+	margin-right: 2%;
+}
+.province_menu, .city_menu {
+	height: 190px;
+	overflow: auto;
+}
+/*注册成功*/
+.success .one {
+	font-size: 2.2rem;
+	color: #333;
+	margin-bottom: 30px;
+}
+.success .one img {
+	margin-top: -4px;
+	margin-right: 10px;
+}
+.success .one span {
+	color: #62b194;
+}
+.success .two {
+	color: #999;
+	line-height: 25px;
+}
+/*忘记密码*/
+/*账户验证*/
+.reset_pwd_nav {
+	width: 75%;
+	margin: 50px auto 0;
+}
+.tab {
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #ccc;
+}
+.tab>nav {
+	width: 75%;
+	margin: auto;
+}
+.tab div {
+	width: 33.33%;
+	float: left;
+}
+.tab p {
+	font-size: 1.6rem;
+	color: #999;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+.tab p span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius:50%;
+	margin-right: 10px;
+
+	background-color: #dddddd;
+    border: 1px solid #f7f7f7;
+    color: #fff;
+    font-size: 1.8rem;
+
+}
+.tab .active p {
+	color: #00a4ee;
+	border-bottom: 2px solid #37c1ff;
+}
+.tab .active span {
+	background-color: #37c1ff;
+ 	border: 1px solid #cff0ff;
+}
+.codebox {
+	width: 80%;
+}
+.img-check {
+	right: 21%;
+	top: 5px;
+	position: absolute;
+	cursor: pointer;
+}
+.change {
+	right: 0;
+	top: 10px;
+	position: absolute;
+	cursor: pointer;
+	color: #3b5b98;
+}
+/*接收邮件*/
+.success_note{padding-bottom:20px;}
+.success_note .note1 {
+	font-size: 1.5rem;
+	color: #333;
+	text-align: center;
+}
+.note2 {
+	font-size: 1.5rem;
+	color: #666;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.blue {
+	color: #00a4ee;
+	margin-left: 10px;
+}
+.notice_title {
+	color: #333;
+	margin-bottom: 20px;
+}
+.notice_con p {
+	color: #666;
+	margin-bottom: 5px;	
+}
+.notice_con a {
+	color: #666;
+	padding: 0;
+}
+.notice_con a:hover {
+	color: #666;
+}
+.red {
+	color: #FF7254;
+}
+.fail_notice {
+	margin-bottom: 100px;
+}
+
+.success .one a{
+	color: #00a4ee;
+	padding: 0;
+	font-size: 2.2rem;
+}
+.sucess .one a:hover {
+	color: #3b5b98;
+}
+
+.stepSuccess,.stepFail{	
+	display: none;
+	margin: 25px 0; 
+	float: left;
+	width: 100%;
+
+}
+.stepSuccess-foot,
+.stepFail-foot{
+	padding-top: 80px;
+}
+.stepSuccess .firstP{padding-bottom: 40px;font-size: 17px;}
+.stepFail .firstP{padding-bottom: 40px;}
+.stepSuccess span{color:#00a4ee;}
+.stepFail span{color:#00a4ee;}
+.goto_email{padding:10px; }
+.goto_email:hover{color: #fff;}
+.step2-success,.step2-fail{display: none;}

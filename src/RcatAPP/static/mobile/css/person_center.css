@@ -1,0 +1,279 @@
+body {
+	height: 100%;
+	background-color: #f5f5f5;
+}
+ul {
+	list-style-type: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.header {
+	background: url(../images/head_bg.png?v=1) center -180px no-repeat;
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+.title {
+	font-size: 1.8rem;
+	color: #fff;
+	text-align: center;
+	margin: 0 0 60px;
+	position: relative;
+}
+.title span {
+	display: inline-block;
+	width: 20px;
+	left: 20px;
+	position: absolute;
+}
+.title span img {
+	width: 70%;
+}
+.head_img_2 {
+	width: 25%;
+	float: left;
+}
+.head_img_2 img {
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+}
+.head_img {
+	padding-right: 18px;
+	background: url(../images/job_detail_icon_2.png?v=1) right center no-repeat;
+	background-size: 7px;
+}
+.head_img img {
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	border: 1px solid #eee;
+}
+.base_info p {
+	color: #fff;
+	font-size: 1.2rem;
+	margin-bottom: 2px;
+}
+p.username {
+	font-size: 1.6rem;
+	margin-bottom: 6px;
+}
+.username img {
+	width: 15px;
+	margin-left: 10px;
+}
+.middle div {
+	background-color: #fff;
+}
+.middle div a {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 35px;
+	color: #333;
+	margin: 0 15px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	font-size: 1.6rem;
+	touch-action: manipulation;
+}
+.middle div a span {
+	float: right;
+	padding-right: 15px;
+}
+.middle div a span img {
+	width: 7px;
+}
+.one {
+	margin-bottom: 10px;
+}
+.my_cv {
+	background-image: url(../images/person_center_icon_1.png?v=1);
+	background-position: 2px 17px;
+	border-bottom: 1px solid #eee;
+}
+.post_job {
+	background-position: 2px 17px;
+	background-image: url(../images/person_center_icon_2.png?v=1);
+}
+.middle div a.collect {
+	background-position: 2px 17px;
+	background-image: url(../images/person_center_icon_3.png?v=1);
+	border-bottom: 1px solid #eee;
+}
+.middle div a.recommend {
+	background-image: url(../images/person_center_icon_4.png?v=1);
+	background-position: 0 17px;
+	border-bottom: 1px solid #eee;
+	background-size: 18px;
+}
+.change_password {
+	background-position: 2px 15px;
+	background-image: url(../images/person_center_icon_5.png?v=1);
+}
+a.quit {
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	font-size: 1.8rem;
+	text-align: center;
+	background-color: #00a7e7;
+	color: #fff;
+	margin: 50px 0;
+	border-radius: 2px;
+}
+.person_center{
+	display: block;
+    right: 0;
+    top:15px;
+}
+.person_center img {
+    width: 60%;
+}
+
+.user_info {
+	float: left;
+	width: 100%;
+	padding: 15px 10px;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+.base_info {
+	width: 72%;
+	float: right;
+}
+
+.other_info span {
+	margin-left: 8px;
+}
+.other_info span:first-child {
+	margin-left: 0;
+}
+.edit_info {
+	top: 8px;
+	right: 12px;
+	position: absolute;
+}
+
+.basic{
+	display: none;
+}
+.btn_save{
+	text-align: center;
+    color: #00a1df;
+    font-size: 1.8rem;
+    border:none;
+    background-color: transparent;
+    margin-right: 15px;
+}
+.fill_content{
+	background-color: #fff;
+	margin-top:10px;
+	margin-bottom: 0;
+	float: left;
+	padding-left: 15px;
+}
+.fill_content li{
+	border-bottom: 1px solid #eee;
+	padding: 6px 0;
+	float: left;
+	width: 100%;
+}
+.fill_content li span{
+	font-size: 1.5rem;
+	color:#666;
+	float: left;
+	/*margin-left:10px; */
+	margin-top: 7px
+}
+.fill_content li label{
+	font-size: 1.5rem;
+	color:#666;
+	float: left;
+	font-weight: normal;
+	/*margin-left:10px; */
+	margin-top: 7px
+}
+.fill_content li div{
+	max-width: 80%;
+	overflow: hidden;
+	float: right;
+	text-align: right;
+	margin-right: 15px
+}
+.fill_content li div>input{
+	width: 100%;
+	font-size: 1.5rem;
+	/*text-align: right;*/
+	float: right;
+	border:none;
+	box-shadow:none;
+	background-color: transparent!important;
+	text-align: right;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding:0;
+}
+.fill_content li textarea{
+	width:96%;
+	margin: 10px 2%;
+	background-color: #f0f5ff;
+	border: none;
+	padding: 10px;
+	height:200px;
+
+}
+.fill_content li textarea:focus{
+  border:none;
+}
+.fill_content li div>select{
+    border: none;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+	box-shadow:none;
+	font-size: 1.5rem;
+    padding-right:18px;
+   	direction: rtl;
+	background-color: transparent!important;
+	background-image: url(../images/job_detail_icon_2.png);
+	background-position: right 11px;
+	background-repeat: no-repeat;
+	background-size: 7px;
+
+}
+.fill_content li div>select option{
+
+}
+.fill_content li div>input:focus{
+	box-shadow:none;
+
+	border:none;
+}
+.fill_content li div>select:focus{
+	box-shadow:none;
+	border:none;
+}
+.male {
+	margin-right: 15px;
+}
+.check_icon{
+	width:13px;
+	height:13px;
+	border-radius: 13px;
+	float: left;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+.check_text {
+	color: #ccc;
+	margin-top: 3px!important;
+	margin-left: 6px;
+}
+.checked .check_icon {
+	border: 1px solid #00a1df;
+}
+.checked .check_text {
+	color: #00a1df;
+}

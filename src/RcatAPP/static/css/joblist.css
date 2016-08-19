@@ -1,0 +1,437 @@
+html, body {
+	height: 100%;
+}
+.wrap {
+	height: auto;
+	font-family: 'microsoft yahei';
+}
+#compare {
+	color: #fff;
+	background-color: #ff9562;
+	border: 1px solid #ff9562;
+	margin-left: 10px;
+	border-radius: 0;
+}
+
+.number {
+	font-size: 1.4rem;
+	margin-top: 20px;
+}
+.number span {
+	margin-right: 2%;
+	cursor: pointer;
+	padding: 5px 8px;
+}
+.number span.select {
+	background: #00aaf7;
+	color: #fff;
+	cursor: default;
+	
+}
+.select_range span{
+cursor: pointer;
+}
+.middle2 {
+	/*background-color: #f4f6f9;*/
+    padding-top: 35px;
+}
+.middle2>div {
+	padding: 0;
+}
+
+/*筛选*/
+.condition_box{
+	background-color: #fff;
+	list-style-type: none;
+	padding:10px 0 10px 5px;
+	float: left;
+	width: 100%;
+	outline: 1px solid #f0f0f0;
+}
+.condition_box>div {
+	display: none;
+}
+.condition_box .condition{
+	width: 100%;
+    float: left;
+}
+.industry,.job_area{
+   /*height:40px;*/
+   position: relative;
+}
+.more_area{
+	width:100%;
+}
+.condition .list{
+	width:90%;
+	//overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #fff;
+	float: left;
+	padding:10px 0px 10px 10px;
+	margin-bottom: 0;
+}
+.condition .list span {
+	color: #333;
+}
+.condition .list a{
+	margin-left:7px;
+	padding:3px 5px;
+	color: #555;
+}
+.condition .list a:nth-child(2) {
+	margin-left: 0;
+}
+.condition .list a.select {
+	background: #00a7e7;
+	color: #fff;
+	text-decoration: none;
+	cursor: default;
+}
+.job_list .item li{
+
+	background-color: #fff;
+	height:162px;
+}
+.foot{
+}
+.list a, 
+.hide_ul a {
+	margin-left:7px;
+	padding:5px;
+	cursor: pointer;
+	color: #777;	
+}
+.hide_ul a.select {
+	background-color: #00aaf7;
+	color: #fff;
+	cursor: default;
+
+}
+.condition a:nth-child(2) {
+	margin-left: 0;
+}
+.condition_box li a:hover{
+	text-decoration: none;
+	background: #00aaf7;
+	color: #fff;
+}
+strong{
+	margin-left:7px;
+	padding:5px;
+}
+strong a{
+	 transition: all 0.5s ease 0s;
+}
+
+.click_bg{
+	background-color: #00aaf7;
+	color:#fff;
+}
+.more {
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+    font-weight: normal;
+    cursor: pointer;
+    color: #666;
+}
+.hide_ul {
+	 padding:5px 0;
+	 list-style-type: none;
+	 background-color: #fff;
+	 border-top: 1px dashed #d9d9d9;
+	 border-bottom: 1px solid #d9d9d9;
+	 z-index: 10;
+	 float: left;
+	 position: relative;
+	 display: none;
+}
+.hide_ul a {
+	float: left;
+	line-height: 15px;
+}
+.color{
+	color:#00aaf7;
+	font-size: 1rem;
+	margin-left: 3px;
+}
+.brief {
+	/*display: none;*/
+	padding: 10px;
+}
+.brief a {
+	padding: 3px 5px;
+	background: #00aaf7;
+	color: #fff;
+	margin-right: 2%;
+}
+.roll {
+	position: relative;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+.lock_roll {
+	display: block;
+	margin: 0 auto;
+	height: 15px;
+	width: 36px;
+	border: 1px solid #f0f0f0;
+	border-top-color: #fff;
+	display: none;
+	background-color: #fff;
+}
+.lock_roll span {
+	font-size: 12px;
+	top: -5px;
+	color: #dedede;
+}
+.show {
+	display: block;
+}
+
+/*其他条件*/
+.other {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+	background: #fff;
+	padding: 0 10px;
+	outline: 1px solid #f0f0f0;
+}
+.other .title {
+	margin-top: 9px;
+	float: left;
+	color: #333;
+}
+.other .option {
+	float: right;
+}
+.other .salary, .other .work_year, .other .education, .other .welfare_project {
+	float: left;
+	padding: 6px 0;
+}
+.other>div>span {
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+}
+.salary>div, 
+.work_year>div,
+.education>div,
+.welfare_project>div {
+	border: 1px solid #e8e8e8;
+	padding: 2px 0 2px 5px;
+	background: #fff;
+	margin-right: 20px;
+}
+.salary ul, 
+.work_year ul,
+.education ul,
+.welfare_project ul {
+	min-width: 100%;
+}
+.salary ul>li>a, 
+.work_year ul>li>a,
+.education ul>li>a,
+.welfare_project ul>li>a
+ {
+	padding: 3px 5px;
+}
+.salary span, 
+.work_year span,
+.education span,
+.welfare_project span 
+ {
+	color: #333333;
+}
+.salary span:first-child, 
+.work_year span:first-child,
+.education span:first-child,
+.welfare_project span:first-child
+ {
+	padding-right: 20px;
+}
+.icon {
+	top: 10px;
+	right: 5%;
+	position: absolute;
+	color: #666!important;
+}
+.show_apply_job {
+	margin-top: 2px;
+	margin-bottom: 0;
+	margin-left: 2%;
+	padding: 10px 0;
+	float: left;
+}
+.checkbox label.tag_con {
+	padding-left: 0;
+}
+.page {
+	float: right;
+	margin-left: 10px;
+	padding: 11px 10px 6px 20px;
+	border-left: 1px solid #f0f0f0;
+}
+.page>span {
+	font-weight: normal!important;
+	color: #a5a5a5;
+	cursor: pointer;
+}
+.page .prev {
+	float: left;
+	/*background: url(../images/icons.png) -140px -4px no-repeat;*/
+}
+.page .next {
+	float: right;
+	/*background: url(../images/icons.png) -168px -4px no-repeat;*/
+}
+.page_number {
+	float: left;
+	margin: -4px 10px 0;
+	font-size: 1.6rem;
+}
+.cur_number {
+	color: #00aaf7;
+}
+
+.lock_complete_resume {
+	display: block;
+	margin-top: 25px;
+}
+.salary_menu{
+	height:168px;
+	overflow: auto;
+}
+/*暂无记录*/
+.no_record {
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px; 
+	background-color: #fff;
+}
+.no_record p {
+	font-size: 1.6rem;
+	margin-top: 30px;
+}
+#search, #search:focus {
+	border: 2px solid #00aaf7;
+}
+#global {
+	background-color: #00a7e7;
+	border: 1px solid #00aaf7;
+}
+#global:hover{
+	background-color: #0090cc;
+}
+.check_job {
+	color: #00aaf7!important;
+	border-bottom: 2px solid #00aaf7;
+}
+
+.tab{
+    float: left;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.tab>div {
+    float: left;
+    color: #333;
+    padding: 7px 12px;
+    position: relative;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tab>div span {
+    bottom: -7px;
+    left: 33%;
+    position: absolute;
+    border-top: 7px solid #00aaf7;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+}
+.job_search {
+    display: none;
+}
+.major_search .major, .job_search .jobs {
+	color: #fff;
+    background-color: #00a7e7;
+}
+.major_search .jobs>span, .job_search .major>span {
+    display: none;
+}
+
+.typeahead {
+    border-radius: 0;
+    background-color: rgba(255,255,255);
+    border:2px solid #00a7e7;
+    padding:0;
+    margin:0;
+    border-top:none;
+}
+.typeahead li a{
+    padding: 8px 20px;
+    color:#666;
+}
+.typeahead > .active > a, .typeahead > .active > a:hover, .typeahead > .active > a:focus{
+    background-color: #00a7e7;
+}
+
+
+
+.level_ul{
+    display: block;
+    list-style-type: none;
+    margin: -19px 0 0;
+    padding: 0 0 0 67px;
+}
+.level_ul li {
+    float: left;
+	 cursor: pointer;
+}
+.hide_ul_level2{
+	list-style-type: none;			
+    background-color: #f7f7f7;
+    border: 1px solid #f0f0f0;
+    display: none;
+    left: 83px;
+    margin-top: 9px;
+    position: absolute;
+    width: 84%;
+}
+
+.level_ul2{
+    display: block;
+    list-style-type: none;
+    padding: 0 0 0 61px;
+}
+.level_ul2 li {
+    cursor: pointer;
+    float: left;
+}
+.hide_ul2_level2{
+	list-style-type: none;			
+    background-color: #f7f7f7;
+    border: 1px solid #f0f0f0;
+    display: none;
+    left: 70px;
+    position: absolute;
+    width: 84%;
+}
+.show_w{
+	color: #777;
+    cursor: pointer;
+    margin-left: 7px;
+    padding: 5px;
+}
+.show_w a ,.level_ul2 a{ text-decoration: none;}
+
+.clearfloat:after{ display:block;clear:both;content:"";visibility:hidden;height:0；} 
+.clearfloat{zoom:1} 

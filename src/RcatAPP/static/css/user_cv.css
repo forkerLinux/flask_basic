@@ -1,0 +1,692 @@
+select{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background:#fff url(../images/caret_03.png) 98% center no-repeat;
+    padding-right:6%;
+}
+.middle {
+	background: #f4f6f9;
+	padding-bottom: 100px;
+}
+.main {
+	margin-top: 35px;	
+}
+.left_con {
+	padding-left: 0;
+}
+.cv_infos {
+	background: #fff;
+	border: 1px solid #f1f1f1;
+	float: left;
+	width: 100%;
+	border-radius: 2px;
+}
+/*头像*/
+.head_bg {
+	width: 100%;
+	position: relative;
+}
+.head_bg img {
+	width: 100%;
+}
+.head_img {
+	width: 123px;
+	height: 122px;
+	left: 50%;
+	margin-left: -61.5px;
+	bottom: -45px;
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+	background: url(../images/avatar_bg.png?v=2) center top no-repeat
+}
+.head_img img {
+	border-radius: 50%;
+	width: 112px;
+	height: 112px;
+	margin: 5px 0 0 5px;
+}
+.head_img_bg {
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: -1px;
+	left: -1px;
+	position: absolute;
+	background: url(../images/head_img_bg.png?v=2) center no-repeat;
+}
+.head_img_note {
+	display: none;
+	background: #f1f1f1;
+	color: #999999;
+	font-size: 1.2rem;
+	padding: 2px 8px;
+	right: -256px;
+	bottom: 10px;
+	position: absolute;
+}
+/*基本信息*/
+.s_f_cv {
+	float: left;
+	width: 100%;
+	padding: 0 5%;
+	margin-bottom: 50px;
+}
+.show_basic, .show_will, .show_skill, .show_self, .show_other {
+	width: 100%;
+	float: left;
+	padding: 20px 40px 10px 7%;
+	position: relative;
+}
+.show_basic {
+	padding: 10px 0;
+}
+.show_basic p {
+	line-height: 25px;
+	color: #666;
+}
+.show_basic span {
+	color: #333333;
+	display: inline-block;
+}
+.show_basic:hover, .show_will:hover, .show_skill:hover, .edu_con:hover, .work_con:hover, .item_con:hover, .job_con:hover, .award_con:hover, .cv_con:hover, .show_self:hover, .show_other:hover {
+	background: #f6fcff;
+}
+.b_left {
+	padding-left: 10%;
+	float: left;
+}
+.b_right {
+	padding-right: 10%;
+	float: right;
+}
+.user_name {
+	text-align: center;
+	font-size: 2.0rem;
+	margin-bottom: 20px;
+	color: #333!important;
+}
+.my_sex, .my_edu {
+	text-indent: 28px;
+}
+.b_sex, .b_edu {
+	margin-left: -28px;
+}
+span.no_write {
+	color: #ff9866;
+}
+.op {
+	display: none;
+	width: 20px;
+    height: 20px;   
+    cursor: pointer;
+    position: absolute;
+}
+.edit_info {
+	background: url(../images/cv_icon_23.png?v=2) center no-repeat;
+	right: 10px;
+    top: 10px;
+}
+.edu_con .edit_info, .work_con .edit_info, .item_con .edit_info, .job_con .edit_info, .award_con .edit_info, .cv_con .edit_info {
+	right: 30px;
+	top: 19px;
+	background: url(../images/cv_icon_23.png?v=2) center no-repeat;
+}
+.delete_info {
+	background: url(../images/cv_icon_24.png?v=1) center no-repeat;
+	right: 10px;
+    top: 19px;
+}
+.delete_info:hover {
+	background: url(../images/cv_icon_25.png?v=1) center no-repeat;
+}
+
+.fill_cv {
+	display: none;
+	/*background-color: #f6fcff;*/
+	/*border: 1px solid #cff1ff;*/
+	padding: 35px 0 20px;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+.basic {
+	margin-top: 0;
+}
+.base_info {
+	margin-top: 60px;
+}
+
+.fill_cv table {
+	width: 100%;
+}
+.fill_cv table td {
+	padding: 10px 5px;
+}
+td.title {
+	width: 15%;
+	text-align: right;
+}
+td.con {
+	width: 35%;
+}
+.fill_cv label {
+	color: #666;
+	font-weight: normal;
+}
+.fill_cv input[type="text"], select {
+	width: 82%!important;
+	color: #333!important;
+}
+select option :hover{
+	height: 100px
+}
+.fill_cv select {
+	cursor: pointer;
+}
+.sex {
+	padding: 5px 10px;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	background-color: #fff;
+}
+.female {
+	margin-left: 10px;
+}
+.gray {
+	color: #999999;
+}
+#place, #expect_city, #gs_address, #expect_trade, #gs_trade, #expect_job {
+	cursor: pointer;
+}
+.con {
+	position: relative;
+}
+.down_icon, .down_icon2, .down_icon3, .down_icon4 {
+	color: #999999;
+	right: 24%;
+	top: 20px;
+	position: absolute;
+	cursor: pointer;
+}
+.down_icon2 {
+	right: 22%;
+}
+.down_icon3 {
+	right: 66%;
+}
+.down_icon4 {
+	right: 6%;
+	top: 10px;
+}
+input[readonly] {
+	background-color: #fff!important;
+}
+.btn_save {
+	background-color: #00a7e7;
+	border: none;
+	padding: 6px 25px;
+	color: #fff;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+.btn_cancle {
+	background: none;
+	border: none;
+	margin-left: 20px;
+	color: #00a1df;
+	padding: 5px;
+}
+.btn_save:hover{
+	color: #fff;
+}
+/*职业意向*/
+.show_will p:nth-child(3) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.show_will p span:first-child {
+	color: #666;
+}
+.show_will p span:last-child {
+	color: #333333;
+}
+
+#work_state, #expect_salary, #education2, #gs_address, #language, #hear, #read_write, #skill, #skill_level {
+	width: 35%!important;
+}
+p.cv_title {
+	text-align: center;
+	font-size: 2.0rem;
+	margin-top: -36px;
+} 
+.cv_title span {
+	padding: 6px 10px;
+	background: #fff;
+	color: #333;
+	border-radius: 30px;
+	width: 169px;
+	margin: -20px 0 0;
+	display: inline-block;
+	border: 10px solid #fff;
+}
+hr {
+	border-top: 1px solid #f0f0f0!important;
+}
+/*擅长技能*/
+.p_add {
+	text-align: center;
+	color: #7898d7;
+	margin-top: 20px;
+}
+.lock_add {
+	display: inline-block;
+	cursor: pointer;
+	color: #2ca7e0;
+	padding: 6px 12px 6px 32px;
+	border-radius: 3px;
+	border: 1px dashed #5cbce6;
+	background: url(../images/cv_add_icon.png?v=1) 12px 9.5px no-repeat;
+}
+.lock_add:hover {
+	color: #2ca7e0;
+}
+.skill {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.notice {
+	color: #999999;
+}
+.hot_tag, .add_skill, .my_skill {
+	margin-left: 55px;
+}
+.show_skill span, .hot_tag span, .my_skill span {
+	padding: 3px 10px;
+	border: 1px solid #8AA4CC;
+	color: #8AA4CC;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	font-size: 1.2rem;
+} 
+.my_skill b {
+	font-weight: normal;
+}
+span.active {
+	padding-right: 22px;
+	background-color: #E1EDFE;
+}
+span.active a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	top: 0;
+	right: 0;
+	position: absolute;
+	background: url(../images/account_icon.png?v=1) 5px -198px no-repeat; 
+}
+.have_skill p {
+	margin-top: 15px;
+}
+.add_skill {
+	width: 80%;
+	position: relative;
+	margin-bottom: 25px;
+}
+.btn_addskill {
+	right: 18%;
+	position: absolute;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 15px;
+	padding-right: 38px;
+	border: 1px solid #3b5b98;
+	border-radius: 0;
+	z-index: 10;
+	color: #fff;
+	background-color: #3b5b98;
+	cursor: pointer;
+}
+.save_skill {
+	text-align: center;
+}
+/*教育经历*/
+.show_edu, .show_work, .show_item, .show_school_job, .show_award, .show_language, .show_IT_skill, .show_certificate {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+.time {
+	width: 19%;
+	float: left;
+	margin-right: 2%;
+	position: relative;
+}
+.year, .month {
+	width: 100%!important;
+}
+#birth_year {
+	width: 82%!important;
+}
+/*工作经历*/
+.edu_con, .work_con, .item_con, .job_con, .award_con, .extra_con {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding: 20px 50px 10px 7%;
+}
+.gs, .item_name, .job_name, .award_name, .custom_title {
+	color: #333;
+	font-size: 1.6rem;
+}
+.school, .gs, .gs_job, .gs_trade {
+	color: #333333;
+	margin-right: 20px;
+}
+.item_duty, .school_name {
+	color: #333;
+	word-wrap: break-word;
+}
+.edu_time, .work_time, .item_time, .job_time, .award_time {
+	color: #999999;
+	float: right;
+	padding-right: 30px;
+	font-size: 1.2rem;
+	margin-top: 3px;
+}
+.major, .degree, .gs_address {
+	color: #666;
+}
+.major {
+	margin-right: 50px;
+}
+.job_duty, .item_des, .job_des, .award_des {
+	color: #666;
+	word-wrap: break-word;
+}
+
+textarea{
+	padding: 0 12px;
+	resize: none;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	width: 82%;
+}
+/*自我描述*/
+.show_self p, .show_other p {
+	text-indent: 29px;
+	line-height: 25px;
+	color: #555555;
+}
+.self_info, .other {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.self_info textarea, .other textarea {
+	width: 100%;
+}
+.self_info p, .other p {
+	margin-top: 15px;
+	text-align: center;
+}
+/*语言能力*/
+.my_cv>ul {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding: 20px 50px 20px 7%;
+	margin-bottom: 0;
+}
+.cv_con li {
+	float: left;
+	margin-left: 8%;
+	color: #333;
+}
+.cv_con li:nth-child(1) {
+	margin-left: 0;
+}
+.cv_con li span.one {
+	color: #666;
+}
+/*IT技能*/
+#use_time {
+	width: 15%!important;
+	float: left;
+}
+.IT_skill_info .nums {
+	display: inline-block;
+	margin: 7px 0 0 10px;
+}
+.certificate {
+	width: 40%;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+.certificate select {
+	width: 100%!important;
+}
+li.certificate_level {
+	color: #666;
+}
+li.certificate_time {
+	color: #999;
+}
+.language_name, .skill_name, .certificate_name {
+	font-size: 1.6rem;
+}
+
+/*简历完整度*/
+.right_con {
+	padding-right: 0;
+}
+.cv_range, .public {
+	padding: 20px 20px;
+	margin-bottom: 25px;
+	background: #fff;
+	border: 1px solid #f0f0f0;
+}
+.cv_range p {
+	color: #666;
+}
+.blue {
+	color: #00a1df;
+}
+.show_percent {
+	margin-top: 20px;
+	margin-bottom: 0;
+	height: 10px;
+}
+.show_percent>div {
+	background-color: #00a7e7;
+}
+/*简历公开程度*/
+.cv_name {
+	border: none;
+	box-shadow: none;
+	color: #00a1df;
+	padding: 6px 8px;
+	border-radius: 2px;
+}
+.cv_name:focus {
+	outline: none;
+    box-shadow: none;
+    background-color: #f5f5f5;
+    color: #666;
+}
+.public>div>span {
+	display: inline-block;
+	float: left;
+	margin-top: 6px;
+	color: #666;
+}
+.resume_name>p, .public_level>div {
+	margin-left: 70px;
+}
+.public>div>div>p {	
+	padding: 6px 8px;
+	border: 1px solid #f0f0f0;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.choose {
+	color: #333;
+	margin-right: 5px;
+}
+.choose_con li a {
+	color: #333;
+	padding: 3px 8px;
+}
+.choose_con li a:hover {
+	background-color: #f5f5f5;
+	color: #00a1df;
+}
+.down_icon5 {
+	color: #ddd;
+	float: right;
+	margin-top: 8px;
+}
+.action {
+	border: 1px solid #00a1df!important;
+}
+/*导航*/
+.cv_nav {
+	padding: 20px 0;
+}
+.cv_nav a {
+	color: #666;
+	display: block;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.cv_nav a:hover {
+	background-color: #fff;
+	outline: 1px solid #f0f0f0;
+}
+.cv_nav img {
+	margin: -3px 30px 0 20px;
+}
+.already_active {
+	display: none;
+}
+a.tab_select {
+	background-color: #fff;
+	outline: 1px solid #f0f0f0;
+	color: #00a1df!important;
+}
+/*底部*/
+.foot {
+	margin-top: 0;
+}
+
+/*弹出框*/
+.black_overlay {
+	display: none;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 200;
+}
+/*头像弹出框*/
+.pop_modify_pic{
+	width: 400px;
+	height: 190px;
+	border: 1px solid #f1f1f1;
+	border-radius: 3px;
+	padding: 25px;
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -95px;
+	background: #fff;
+}
+.p_title{
+	font-size: 26px;
+	color: #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.pic_info {
+	position: relative;
+	width: 100%;
+	margin-top: 45px;
+}
+.upload_pic{
+	position: absolute;
+	top: 2px;
+	right: 82px;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	width: 76%;
+	overflow: hidden;
+	cursor: pointer;
+}
+#img_text{
+	width: 55%;
+}
+.btn_upload{
+	padding:4px 15px;
+	font-size: 16px;
+	display: inline-block;
+	background-color: #00a7e7;
+	color: #FFF;
+	border-radius: 0;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+}
+.btn_savepic{
+	padding:4px 15px;
+	font-size: 16px;
+	background-color: #00a1df;
+	color: #FFF;
+	border-radius: 0;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	margin-left: 10px;
+}
+.btn_upload:hover, .btn_savepic:hover {
+	color: #fff;
+}
+.pic_show{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px #ccc;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.pop_close{
+	right: 10px;
+	top:10px;
+	position: absolute;
+	cursor: pointer;
+	font-size: 2.0rem;
+	color: #00a1df;
+}
+iframe{
+	display: none;
+}
+.form-control{
+	 border-radius: 2px;
+	 box-shadow:none;
+}
+.form-control:focus{
+	 box-shadow:none;
+}
+.cv_preview{
+	/*margin-left: 30%;*/
+	float: right;
+	padding-right: 10px;
+}
+.cv_preview a {
+	color: #00a1d1;
+}
+
+

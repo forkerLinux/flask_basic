@@ -1,0 +1,18 @@
+.contact_n{
+	background-color: #3b5b98;
+	color: #fff;
+}
+.list a{
+	color: #fff;
+	display:inline;
+
+}
+.list a:hover{
+	color: #fff;	
+}
+.list .see_msg{
+	color: #3b5b98;
+}
+.list .see_msg:hover{
+	color: #3b5b98;
+}

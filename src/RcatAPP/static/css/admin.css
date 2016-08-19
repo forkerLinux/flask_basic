@@ -1,0 +1,18 @@
+.admin_page_new {
+    display: block;
+    font-family: microsoft yahei;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    bottom: 20px;
+    margin-top: 15px;
+    width: 980px;
+    text-align: center;
+}
+.admin_page_new>span {
+    color: grey;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.op a{cursor: pointer;}

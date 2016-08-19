@@ -1,0 +1,472 @@
+a:hover {
+	text-decoration: none;
+}
+.background {
+	height: 120px;
+	width: 100%;
+	background: url(../images/major_bg.jpg?v=4) center top no-repeat;
+	background-size: cover;
+	margin-top: -30px;
+	margin-bottom: 50px;
+}
+.main {
+	margin-top: 20px;
+}
+.left_jobs {
+	padding-left: 0;
+}
+.title {
+	font-size: 2.0rem;
+	margin-bottom: 25px;
+	border-left: 5px solid #6d8dcc;
+	padding-left: 10px;
+	float: left;
+}
+.blue {
+	color: #3b5b98;
+}
+.condition {
+	float: right;
+	padding: 5px 15px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.condition .content {
+	padding-right:5px;
+	color: #666;
+}
+.down_icon {
+	color: #999;
+}
+.outer {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	padding: 0 10px 20px;
+}
+.outer li {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #f0f0f0;
+}
+.inner {
+	width: 100%;
+	float: left;
+}
+.inner li p a{
+	color: #333;
+}
+.inner p {
+	color: #333;
+	padding: 0 5px;
+	margin: 17px 0;
+	height: 30px;
+	line-height: 30px;
+}
+.rank {
+	width: 5%;
+	padding-left: 0!important;
+}
+.develop {
+	padding-right: 0;
+}
+.rank span{
+	color: #fff;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	color: #3b5b98;
+}
+.rank span.active {
+	background-color: #3b5b98;
+	color: #fff;
+}
+p.salary {
+	color: #ff7f58;
+	font-weight: bold;
+}
+.jobname {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.inner .jobname {
+	width: 29%;
+}
+.jobname a:hover {
+	color: #3b5b98!important;
+}
+.salary {
+	/*border-right: 1px solid #f0f0f0;*/
+	width: 18%;
+}
+p.op_jobs {
+	padding: 0 5px;
+	margin: 17px 0;
+	width: 12%;
+	/*border-right: 1px solid #f0f0f0;*/
+}
+p.op_jobs:hover {
+	margin: 0;
+	padding: 17px 5px;
+	height: 100%;
+}
+.job_offer:hover {
+	background-color: #36A5FF;
+}
+.salary_status:hover {
+	background-color: #F56D61;
+}
+.develop:hover {
+	background-color: #40CDB5;
+}
+.course:hover {
+	background-color: #ccc;
+}
+.op_jobs a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.op_jobs a img {
+	margin-top: -4px;
+}
+.op_jobs a span {
+	display: none;
+	color: #fff;
+}
+/*查看更多*/
+.outer>p {
+	float: left;
+	width: 100%;
+	margin: 30px 0 10px;
+}
+.lock_more {
+	background-color: #f0f0f0;
+	color: #999;
+	border: 0;
+	border-radius: 0;
+	padding: 6px 20px;
+}
+.lock_more:hover {
+	background-color: #3b5b98;
+	color: #fff;
+}
+/*相关推荐*/
+.recommend {
+	margin-top: 60px;
+	float: left;
+}
+.right_hot_jobs {
+	margin-top: 11px;
+}
+.right_hot_jobs>div {
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.hot_outer {
+	padding: 10px 10px 30px;
+	background-color: #fff;
+	float: left;
+	width: 100%;
+}
+.hot_outer ul {
+	margin: 0;
+}
+.hot_outer li p {
+	padding: 0 5px;
+	margin: 13px 0;
+}
+.hot_outer li {
+	float: left;
+	width: 100%;
+}
+.hot_list {	
+	border-bottom: 1px solid #f0f0f0;
+}
+.hot_list:hover {
+	background-color: #f7f7f7;
+}
+.jobname a {
+	color: #333!important;
+}
+.inner .jobname a {
+	font-size:  1.6rem;
+}
+.hot_salary {
+	color: #ff7f58;
+	font-weight: bold;
+}
+.hot_list:nth-child(2) .hot_rank, .hot_list:nth-child(3) .hot_rank, .hot_list:nth-child(4) .hot_rank {
+	color: #3b5b98;
+	font-weight: bold;
+}
+.top_salary_job .title {
+	width: 100%;
+}
+.top_salary_job .title a {
+	float: right;
+	padding: 5px 15px;
+	color: #999;
+	font-size: 1.4rem;
+}
+.top_salary_job .title a:hover {
+	color: #3b5b98;
+}
+
+.typeahead {
+    border-radius: 0;
+    background-color: rgba(255,255,255);
+    border:2px solid #3b5b98;
+    padding:0;
+    margin:0;
+    border-top:none;
+}
+.typeahead li a{
+    padding: 8px 20px;
+    color:#666;
+}
+.typeahead > .active > a, .typeahead > .active > a:hover, .typeahead > .active > a:focus{
+    background-color: #3b5b98;
+}
+.check_major {
+	color: #3b5b98!important;
+	border-bottom: 2px solid #3b5b98;
+}
+.text_description{
+	margin: 10px 0 0;
+	color:#999;
+}
+/*填写邀请码*/
+.middle_bg>div {
+	padding: 0;
+}
+.main_content {
+	margin-top: 80px;
+}
+.big_title {
+	font-size: 3.6rem;
+	margin-bottom: 76px;
+	color: #fff;
+}
+.tab {
+	padding-left: 80px;
+	color: #fff;
+	margin-bottom: 35px;
+	height: 84px;
+}
+.tab .con_1 {
+	font-size: 2.0rem;
+	font-weight: bold;
+}
+.tab .con_2 {
+	color: #f5f5f5;
+	margin-bottom: 0px;
+}
+.left_nav .nav_1 {
+	background: url(../images/nav_icon_1.png?v=1) left center no-repeat;
+}
+.left_nav .nav_2 {
+	background: url(../images/nav_icon_2.png?v=1) left center no-repeat;
+}
+.left_nav .nav_3 {
+	background: url(../images/nav_icon_3.png?v=1) left center no-repeat;
+}
+.left_nav .nav_4 {
+	background: url(../images/nav_icon_4.png?v=1) left center no-repeat;
+}
+.right_form form {
+	width: 100%;
+	background-color: #fff;
+	padding: 25px 15% 35px;
+}
+.code_title {
+	color: #333;
+	font-size: 2.4rem;
+	margin-bottom: 20px;
+}
+.note {
+	margin-top: 50px;
+	color: #666;
+}
+.lock_look, .lock_download {
+	background-color: #3b5b98;
+	color: #fff;
+	padding: 6px 20px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.note .lock_pay {
+	background: url(../images/weixin_icon.png?v=4) 5px 8px  no-repeat;
+   border: 1px solid #26bba4;
+    border-radius: 4px;
+    color: #26bba4;
+    text-align: center;
+    padding-left: 30px;
+    background-size: 20px 17px;
+}
+.note .lock_pay:hover{
+	background: url(../images/wx2_icon.png?v=4)  5px 8px no-repeat;
+	background-color: #26bba4;
+	color: #fff;
+}
+
+.note .lock_pay img {
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 22px;
+}
+.note .red {
+	color: #ff8066;
+}
+.weixin_code {
+	margin-top: 20px;
+}
+.scan_note {
+	background-color: #00a4ee;
+	color: #fff;
+	width: 204px;
+	margin: 20px auto 0;
+	padding: 15px 10px;
+}
+.scan_note div {
+	float: right;
+	margin-top: -4px;
+	margin-left: 10px;
+}
+.imgbox {
+	padding: 2px;
+	border: 1px solid #f0f0f0;
+	width: 204px;
+	height: 204px;
+	margin: auto;
+}
+.imgbox img {
+	width: 200px;
+	height: 200px;
+}
+.scan_note p {
+	text-align: left;
+	margin-bottom: 0px;
+	font-size: 1.4rem;
+}
+/*登录*/
+form .inputbox {
+	margin-bottom: 20px!important;
+}
+input[type="text"], input[type="password"] {
+	height: 46px;
+	box-shadow: none;
+	background-color: #f5f5f5;
+	border: 1px solid #f5f5f5;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+	box-shadow: none;
+	border: 1px solid #00aaf7;
+}
+.validate_div {
+	position: relative;
+}
+.validate_div input {
+	width: 82%;
+}
+.img-check {
+	right: 19%;
+	top: 3px;
+	width: 30%;
+	position: absolute;
+	cursor: pointer;
+}
+.change {
+	color: #333;
+    font-size: 1.2rem;
+    right: 0;
+    position: absolute;
+    top: 13px;
+    cursor: pointer;
+}
+.other {
+	float: left;
+	width: 100%;
+	margin-top: -15px;
+}
+.other a {
+	margin-top: 10px;
+	color: #00aaf7;
+}
+.other>div {
+	color: #333;
+	font-weight: normal;
+	float: left;
+}
+.register a {
+	color: #00aaf7;
+}
+.btn_save {
+	color: #fff;
+	background-color: #00aaf7!important;
+	font-size: 1.6rem;
+	height: 45px;
+	border: 0;
+}
+.register {
+	text-align: center;
+	margin-bottom: 80px;
+}
+.register span, .login span {
+	color: #666666;
+}
+
+/*底部*/
+.foot {
+	padding: 12px 0;
+	background: #2e3336;
+	font-size: 1.5rem;
+}
+.foot>div {
+	margin: 0 4%;
+}
+.foot .left a {
+	color: #999;
+	margin-left: 15px;
+	font-size: 1.2rem;
+}
+.foot .left a:hover {
+	color: #fff;
+}
+.foot .right {
+	text-align: right;
+	color:#777;
+	font-size: 1.2rem;
+}
+#cnzz_stat_icon_1258314713{
+	display: none;
+}
+/*忘记密码*/
+.step {
+	margin: 25px 15%; 
+	float: left;
+	width: 70%;
+}
+.step_1 {
+	float: left;
+	width: 38%;
+}
+hr {
+	float: left;
+	width: 30%;
+	border-top: 1px solid #3b5b98;
+}
+.step_2 {
+	float: right;
+	width: 32%;
+}
+.step p{
+	font-size: 2.0rem!important;
+	margin: 0!important;
+}
+.admin_login {
+	display: none;
+}

@@ -1,0 +1,14 @@
+.list td {
+	text-align: center;
+}
+.list>tbody>tr.title {
+	background: #3b5b98;
+	color: #fff;
+}
+.list a {
+	cursor: pointer;
+	color: #3b5b98;
+}
+.list a:hover {
+	color: #fe5f40;
+}

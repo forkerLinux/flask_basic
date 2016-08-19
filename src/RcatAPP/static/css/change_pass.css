@@ -1,0 +1,92 @@
+﻿
+/*新增*/
+.detail_middle h1{
+	background-image: url(../images/bill_bg_03.png);
+}
+input[type=password]{
+  outline:none
+}
+/*body{ background-color:#eaedeb;}*/
+.detail_middle form{padding-left:50px;}
+.clearfix:after {
+   content: ".";
+   display:block;
+   height:0;
+   clear: both; 
+   visibility: hidden;
+   
+}
+.clearfix{zoom:1;}
+
+.detail_middle{ color:#3e3e3e;}
+.detail_middle form label{ font-size:14px;}
+.detail_middle form input{ width:280px; height:40px; line-height:32px; border:1px solid rgb(204, 204, 204);margin-top:7px;padding-left:10px;font-size:15px }
+#submit{ background-color:#35aa47;color:#fff;font-size:14px;width:84px;line-height:30px;height:34px;}
+
+#count_ul>li>a:hover{
+	color:gray;
+}
+
+.navi_bar>ul>li:first-child  img{
+	display:block;
+	position:absolute;
+	left:0px;
+	top:5px;
+}
+
+.navi_bar>ul>li:first-child  a{
+	padding-left:30px;
+	position:relative;
+}
+.cur{ background-color:#174577;}
+form p{width: 300px;margin-top:20px;}
+#up_passwd{
+	background-color: #029774;
+}
+#up_passwd:hover{
+background-color: #037458;
+}
+.window{
+  width:350px;
+  /*margin:50px auto;*/
+  background-color: #fff;
+  height: 150px;
+  padding-top: 20px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-150px;
+  border: 1px solid #C5E2FE;
+  border-radius: 5px;
+  z-index: 2000;
+  display: none;
+}
+.info{
+  width:93%;
+  height:30px;
+  /*line-height:30px;*/
+  border-bottom:1px solid #ccc;
+  margin-top: -10px;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+.erro{
+  width:100%;
+  text-align: center;
+  /*height:50px;*/
+  /*line-height: 50px;*/
+  margin-top: 40px;
+}
+.window input[type=button]{
+  float:right;
+  width: 50px;
+  height: 30px;
+  
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  color: #fff;
+  background-color: rgb(2,151,116);
+  cursor: pointer;
+  border: none;
+}

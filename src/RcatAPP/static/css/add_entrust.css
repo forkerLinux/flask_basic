@@ -1,0 +1,1010 @@
+
+*{
+	margin:0px;
+	padding:0;font-family: microsoft yahei;font-size: 12px
+	
+}
+/*body{ overflow-x: hidden;}*/
+.content_email input{font-size: 14px;}
+.content_email span{font-size: 14px;}
+.resume-tit{
+	padding-left: 45px;
+	line-height: 37px;
+	height:37px;
+	background-image: url(../images/resume_03.png);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	color: #fff;
+	font-size: 16px;
+	background-color: #3b5b98;
+	margin: 15px 0 20px 36px;
+	background-size: 30px 30px;
+
+}
+.wrap_con{ background-color:#eaedeb;}
+.clearfix:after {
+   content: ".";
+   display:block;
+   height:0;
+   clear: both; 
+   visibility: hidden;
+}
+.clearfix{zoom:1;font-size:12px;}
+
+/*新增*/
+.note{font-size:12px;padding-left:40px;margin-top: -10px;
+height: 30px;}
+.note span{line-height:18px;background-color:#3cc051;padding:0 5px;display:inline-block;color:#fff;margin-right:10px;}
+.employ_job{font-size:16px;color:#3e3e3e;padding:6px 0 6px 43px; background-color:#fff;margin-bottom:10px;margin-top: -20px;height:32px;}
+.job-name{float:left;margin:5px 0; display:inline;font-size: 14px}
+.reg-level{float:right; background-color:#f86d52; color:#fff;padding:5px 20px;margin-right:10px;font-size: 14px}
+.download{
+	display: inline-block;
+	padding-left: 20px;
+	background-image: url(../images/resume_07.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-left:20px;
+	cursor: pointer;
+	background-size: 30px 30px;
+}
+.j-name{ color:#174577;font-size: 16px;}
+.seeker-info ul{ float:left; color:#3e3e3e; margin-left:65px;}
+.seeker-info ul li span{ display:inline-block;vertical-align:middle;}
+ul.info_fst{ margin-left:35px;}
+.seeker-info img{ float:left;}
+.seeker h1{ font-size:22px; letter-spacing:15px;padding-bottom:30px;}
+.seeker{width:1000px;padding:10px 0 23px 16px; background-color:#fff;margin-bottom:25px; }
+.info_icon{padding-right:5px;width:auto;}
+.info_mid{margin:15px 0;}
+.introduce_tit{font-size:16px; color:#333;padding-left:35px;}
+.bright{
+	background: url(../images/resume_43.png) no-repeat left center; margin:50px 0 24px 0;
+	background-size:15px 15px;
+}
+.bright_con li{ float:left;margin-right:8px;padding:6px 6px 6px 26px; background-color:#f2f4f7; border:1px solid #ccc; border-radius:3px;color:#656565;background: url(../images/resume_47.png) no-repeat 6px center;}
+.bright_con{padding-left:40px;}
+.education{background-color:#fff;padding:25px 0 23px 43px; color:#333;}
+.education_tit{background: url(../images/resume_51.png) no-repeat left center;margin-bottom:25px;background-size: 30px 30px;}
+.edu_con li{ float:left;font-size:12px}
+/*.edu_con li.edu_con_fst{padding-left:35px;}*/
+.edu_con{ padding-bottom:40px; position: relative;}
+.work_tit span{ display:inline-block; color:#333;font-size: 14px}
+.com_name,.work_name{ float:left; font-size: 15px;font-weight: 900;}
+.com_name{width:325px;padding-left:15px;}
+.work_time{ float:right;padding-right:95px;}
+.work_exp{background-color:#fff; color:#333;}
+.work_exp_tit{background: url(../images/resume_58.png) no-repeat left center; margin-bottom:25px;background-size: 30px 30px;}
+.work_tit{ background-color:#eaedf1;line-height:30px;}
+.work_com ul li{line-height:20px; font-size:11px;line-height: 30px}
+.work_com p{line-height:20px; font-size:11px;padding:12px 20px 12px 0;line-height: 30px}
+/*.work_com{ padding-left:35px;}*/
+.work_com ul{ padding:12px 0;}
+.pro_exp_tit{background: url(../images/resume_31.png) no-repeat left center; margin-bottom:25px;background-size: 30px 30px;}
+.will_tit{background: url(../images/resume_61.png) no-repeat left center; margin-bottom:25px;background-size: 30px 30px;}
+.work_will{background-color:#fff;
+	/*padding:25px 0 23px 43px;*/
+	 color:#333; 
+	 /*margin:10px 0;*/
+	}
+.work_will ul li{ line-height:30px;overflow:hidden;clear:both}
+.work_state{background-color:#fff;padding:25px 0 23px 43px; color:#333; margin-top:-20px; margin-bottom: 0px}
+.state_tit{background: url(../images/resume_65.png) no-repeat left center; margin-bottom:25px;background-size: 30px 30px;}
+/*.work_state p{ padding:0 20px 0 35px;font-size:12px}*/
+
+
+body{
+
+}
+a{
+text-decoration:none;
+}
+ul{
+	list-style:none;
+	font-size:12px;
+
+
+}
+.body_con{
+	width:100%;
+	/*margin:0 auto;*/
+	overflow: hidden;	
+}
+.logo_header{
+	height:60px;
+  width: 100%;
+
+}
+/*#cainiao_welcome{
+display:inline-block;
+font-family:microsoft yahei;
+font-size:12px;
+background-color:#029774;
+position:fixed;
+color:#fff;
+top:20px;
+right:40px;
+padding-left:30px;
+cursor: pointer;
+
+
+}*/
+.detail_middle2 .resume-tit{
+	padding-left: 40px;
+	line-height: 30px;
+	height:30px;
+	/*background-image: url(../images/cost_bg_03.jpg);*/
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color:#fff;
+	font-size:14px;
+	background-color:#174577;
+	margin:-15px 0px 30px 0px;
+	background-size: 30px 30px;
+}
+
+
+
+
+.navi_bar>ul>li{
+	line-height:40px;
+	position:relative;
+    width: 100%;	
+}
+
+.navi_bar>ul>li:first-child img{
+	display:block;
+	position:relative;
+	top:5px;
+	left:20px;
+}
+
+.navi_bar>ul>li>a{
+	font-size:12px;
+	color:white;
+	/* background-color:red;  */
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+	font-family:microsoft yahei;
+}
+
+.navi_bar>ul>li:first-child a{
+	padding-left:30px;
+}
+.navi_bar>ul>li>a:hover,.ul_last_li>ul>li>a:hover{
+	color:gray;
+}
+
+.ul_last_li>ul{
+	margin-left:10px;
+}
+#count_ul li{
+/* 	background-color:red; */
+	height:30px;
+	line-height:30px;
+	/*padding-left:28px;*/
+
+}
+#count_ul li a{
+	color:white;
+	font-size:12px;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	font-family:microsoft yahei;
+}
+
+.detail_middle2{
+	margin-left:20px;
+	margin-top:20px;
+	/*background-color:#fff;*/
+	padding:15px 0;
+	height: auto;
+	width: 86%;
+	font-size: 15px;
+
+	
+}
+
+
+/*上传简历*/
+.detail_middle_sc {
+   display:block;margin-top:0px;margin-left:16px;width:840px;float:left; margin-bottom:100px;
+   display: none;
+
+}
+.detail{
+	clear: both;
+	height:30px;
+	height: 30px;
+	overflow: hidden;
+	margin:20px;
+}
+.detail>p {
+
+    font-size: 15px;
+
+    width:120px;
+
+    float: left;
+}
+.detail>span{
+float: left;
+ font-size: 15px;
+}
+.save{
+	width:80px;
+	height:30px;
+	margin-left: 20px;
+	margin-top: 40px;
+	background-color: #3b5b98;
+	color:#fff;
+	font-size: 16px;
+	display: block;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+}
+.color{
+	background-color: #FF3700
+}
+
+
+
+
+
+.detail_top{
+margin-top:20px;
+margin-left:20px;
+height:50px;
+line-height:50px;
+width:850px;
+background-color:white;
+font-family:microsoft yahei;
+font-size:12px;
+}
+.detail_top>div{
+	height:25px;
+	line-height:25px;
+	padding:0 2px;
+	margin-left:12px;
+	display:inline-block;
+	color:white;
+	background-color:#3cc051;
+
+
+}
+.detail_top a{
+	color:#ff5900;
+}
+.detail_con>span{
+display:inline-block;
+font-family:microsoft yahei;
+font-size:16px;
+/* color:#909090; */
+background-color:white;
+position:absolute;
+height:25px;
+line-height:25px;
+top:-35px;
+padding-left:30px;
+
+}
+.right_bar{width: 150px;
+height: 437px;
+position: absolute;
+right: -6px;
+margin-top: -15px;
+}
+.right_bar div p:first-child{width: 150px;height: 45px;margin-top: 1px;}
+.right_bar div p:first-child img{width: 45px;height: 45px;cursor: pointer;}
+#butn{width: 130px;height:30px;background-color: #3b5b98;color:white;border: 1px solid #3b5b98 }
+
+
+.send_email{position: absolute;width: 100%;height:1000px;background-color: #fff;display: none;min-width: 1300px;}
+.title-email{
+	margin:auto;
+height: 50px;
+font-size: 25px;
+text-align: center;
+line-height: 30px;
+color: #3b5b98;
+margin-top: 30px;
+width: 1178px;
+}
+/*.content_email{width: 80%;height:500px;background-image: url("../images/email_2.png");margin:-20px auto; background-size: 100% 500px;}*/
+.content_email>div{
+	height: 20px;margin-top: 0px;margin-left: 50px;padding-top: 30px;width: 1094px;
+}
+#main_email{width: 85%;height: 300px;position: relative;}
+.font-email{font-size: 20px;}
+
+/*#you_pev{
+   margin-top: -47px;
+}*/
+
+
+/* 名片 */
+.seeker{
+	width: 100%;
+	padding: 20px;
+	position: relative;
+	/*margin-top: -20px;*/
+}
+ .self_describe,.work_exp, .education, .good_skills, .other_info,.xiangmu_exp{
+	padding: 20px;
+	position: relative;
+		margin-left: 30px;
+}
+.work_state,.work_will,.base_data{
+	margin-left: 25px;
+	margin-right: 0;
+}
+.sex_tag{
+	padding-left: 26px;
+	cursor: pointer;
+	background: url(../images/btn_radi.png?v=1) no-repeat left top;
+	font-size: 14px;
+}
+label.select{
+	background: url(../images/btn_radi.png?v=1) no-repeat left bottom;
+}
+input[type="radio"]{
+	display: none;
+}
+.fill_resume, .fill_resume2{
+	padding: 15px;
+	border-width: 5px 1px 1px;
+	border-style: solid;
+	border-color: #3b5b98;
+	display: none;
+}
+.fill_resume td, .fill_resume2 td{
+	padding: 8px 5px;
+}
+.fill_resume label, .fill_resume2 label{
+	font-size: 14px;
+}
+.fill_resume input[type="text"], .fill_resume2 input[type="text"]{
+	margin-right: 35px;
+	border: 1px solid #D9D9D9;
+	border-radius: 3px;
+	padding:6px;
+	width: 180px;
+	font-size: 14px;
+}
+.fill_resume select, .fill_resume2 select{
+	width: 180px;
+	border: 1px solid #D9D9D9;
+	border-radius: 3px;
+	padding:6px;
+	font-size: 14px;
+}
+select option{
+	font-size:14px;
+}
+#place, #gs_trade, #gs_address{
+	background: url(../images/fill_icon.png) right no-repeat;
+}
+#email{
+	margin-right: 0;
+}
+.head_img{
+	float: left;
+	margin-right: 10px;
+	/*margin-top: 8px;*/
+}
+.btn{
+	border-radius: 3px;
+	color: #fff;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.btn_save{
+	padding: 5px 33px;
+	background: #3b5b98;
+	margin-right: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.btn_save:hover {
+	color: #fff;
+}
+.btn_cancle{
+	background: #fff;
+	color: #999;
+}
+.info_con p{
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+.info_con .user_name span{
+	font-size: 28px;
+}
+.user_place span{
+	font-size: 18px;
+	color: #454545;
+}
+.user_other{
+	color: #999999;
+}
+.user_other span{
+	color: #999999;
+	padding: 0 5px;
+	font-size:14px;
+}
+.edit_info{
+	width: 20px;
+    height: 20px;
+    background: url(../images/manage8.png) center no-repeat;
+    background-size: 50px 50px;
+    cursor: pointer;
+    right: 30px;
+    top: 30px;
+    position: absolute;
+}
+
+.delete_info{
+	width: 32px;
+    height: 36px;
+    background: url(../images/delete_icon.png) center no-repeat;
+    background-size: 25px 25px;
+    cursor: pointer;
+    right: 5px;
+    top: -6px;
+    position: absolute;
+}
+
+/* 职业意向 */
+.will_value{
+width:89%;
+}
+.work_will li span{
+	font-size: 14px;
+	float: left;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.work_will input[type=text]{
+	width: 500px;
+}
+#expect_salary{
+	width: 216px;
+	margin-right: 10px
+}
+#expect_trade, #expect_city{
+	background: url(../images/fill_icon.png) right no-repeat;
+}
+
+.skill_tit{background: url(../images/skill_icon.png) no-repeat left center; margin-bottom:25px;background-size: 30px 30px;}
+.good_skills p{
+	font-size: 14px;
+}
+.p_add{
+	height: 38px;
+	line-height: 38px;
+	margin-top: 30px;
+	border: 1px dashed #E3E3E3;
+	background: #F7F7F7 none repeat scroll 0% 0%;
+	color: #3b5b98;
+	text-align: center;
+	font-weight: 700;
+	cursor: pointer;
+	margin-left: -35px;
+}
+.p_add a{
+	font-size: 14px;
+}
+.search_tag, .hot_skill{
+	width: 346px;
+	float: left;
+}
+.p_search{
+	margin: 15px 0 40px;
+	position: relative;
+}
+.p_search a{
+	width: 64px;
+	height:33px;
+	line-height: 33px;
+	background-color: #E9F1F5;
+	position: absolute;
+	right: 46px;
+	top:0;
+	border: 0px none;
+	text-align: center;
+	cursor: pointer;
+}
+.skill_con{
+	overflow: hidden;
+}
+.my_skill p, .skill_con p{
+	padding:2px 25px 2px 10px;
+	/*background: url(../images/close.png) right no-repeat;*/
+	float: left;
+	margin-right: 10px;
+	border:1px solid #E6E6E6;
+	position: relative;
+	margin-bottom: 10px;
+}
+.my_skill p b{font-weight: normal;}
+.skill_con p{
+	padding: 0  10px;
+}
+.my_skill{
+	margin-top: 15px;
+}
+.have_skill p span{
+	right: 0;
+	top:4px;
+	position: absolute;
+	cursor: pointer;
+}
+.hot_skill{
+	/*right: 20px;
+	top:16px;
+	position: absolute;*/
+}
+.hot_skill p{
+	text-align: right;
+	margin-bottom: 14px;
+}
+.skill_tag{
+	font-size: 14px;
+	padding: 5px 10px;
+	border: 1px solid #E6E6E6;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+ul.edu_con li{
+	font-size: 14px;
+	margin-left: 30px;
+	width: 120px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+ul.edu_con li.edu_con_fst{
+	margin-left: 0;
+	width: 120px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.fill_resume p{
+	font-size: 14px;
+}
+label{
+	font-size: 14px;
+}
+.work_com{
+	margin-bottom: 25px;
+	position: relative;
+}
+.work_com p span{
+	font-size: 14px;
+	float:left
+}
+.work_com p{
+	padding: 3px 0;
+	font-size:14px;
+	clear: both;
+overflow: hidden;
+word-break: break-all;
+}
+.my_resumeinfo p{
+word-break: break-all;
+}
+.zhize{width:90%}
+.jibenziliao_tit{
+	line-height:26px;
+	margin-top: -20px;
+	background: url(../images/resume_54.png?v=1) no-repeat left center;margin-bottom:25px;background-size: 30px 30px;
+}
+.self_pingjia_tit{background: url(../images/resume_58_1.png) no-repeat left center; margin-bottom:25px;background-size: 30px 30px;}
+.other_info_tit{background: url(../images/resume_58_2.png) no-repeat left center; margin-bottom:25px;background-size: 30px 30px;}
+
+.my_resumeinfo, .fill_resume, .fill_resume2{
+	margin-left: 35px;
+}
+textarea{
+	padding: 5px
+}
+a.lock{
+	color: #3b5b98;
+	cursor: pointer;
+}
+a.lock:hover{
+	color:#FF6363; 
+}
+.modify_pic{
+	margin-right: 10px;
+}
+
+/*修改头像弹出框*/
+.pop_modify_pic,.pop_modify_pic_t{
+	width: 396px;
+	height: 155px;
+	border: 1px solid #666;
+	border-radius: 3px;
+	padding: 25px;
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 50%;
+	left: 50%;
+	margin-left: -225px;
+	margin-top: -175px;
+	background: #fff;
+}
+.p_title{
+	font-size: 26px;
+	color: #ccc;
+	border-bottom: 1px solid #ccc;
+	/*margin-left:20px;*/
+}
+.pop_modify_pic span,.pop_modify_pic_2 span{
+	font-size: 14px;
+	margin-left: 20px;
+	color: #999;
+}
+.upload_pic{
+	position: absolute;
+	margin-left: -1px;
+	margin-right: -1px;
+	top: 1px;
+	font-size: 16px;
+	right: 78px;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	width: 70px;
+	overflow: hidden;
+	cursor: pointer;
+}
+#img_text,#img_text_t{
+	width: 180px;
+	height: 30px;
+	border: 1px solid #D9D9D9;
+	margin-right: 10px;
+}
+.btn_upload{
+	padding:4px 15px;
+	font-size: 16px;
+	display: inline-block;
+	background-color: #3b5b98;
+	color: #FFF;
+	border-radius: 3px;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+}
+.btn_savepic{
+	padding:4px 15px;
+	font-size: 16px;
+	background-color: #3b5b98;
+	color: #FFF;
+	border-radius: 3px;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	margin-left: 10px;
+}
+.pic_show{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px #ccc;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.op{
+	background: url(../images/pop_close.png) center no-repeat;
+	right: -14px;
+	top:-13px;
+	position: absolute;
+	width:31px;
+	height: 31px;
+	cursor: pointer;
+}
+select {
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    padding-right: 14px;
+    background: url("../images/xiala.png?v=2") no-repeat scroll right center transparent;
+    background-size: 20px 18px;
+    /*border-radius: 5px;*/   
+}
+
+.work_com h3{
+	border-left: 3px solid #3b5b98;
+}
+
+.select_color{background-color:#3b5b98;color:#fff;}
+
+textarea{
+	resize: none;
+	font-size: 14px;
+	line-height: 30px;
+}
+/*弹出框  行业（开始）*/
+
+.cb_more{
+	    width: 1100px;
+    height: 550px;
+    border: 1px solid #C5E2FE;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    /* top: -100px; */
+    /* left: 10%; */
+    /* margin-left: -600px; */
+    /* margin-top: -250px; */
+    display: none;
+    z-index: 200;
+    background-color: #fff;
+    overflow-y: auto;
+    left: 55%;
+    margin-left: -550px;
+    margin-top: -202px;
+    overflow-x: hidden;
+}
+.cb_more_area{
+	    width: 1100px;
+    height: 520px;
+    border: 1px solid #C5E2FE;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    /* top: -100px; */
+    /* left: 10%; */
+    /* margin-left: -600px; */
+    /* margin-top: -250px; */
+    display: none;
+    z-index: 200;
+    background-color: #fff;
+    overflow-y: auto;
+    left: 55%;
+    margin-left: -550px;
+    margin-top: -250px;
+    overflow-x:hidden;
+}
+.cb_more_zw{
+	    width: 1100px;
+    height: 550px;
+    border: 1px solid #C5E2FE;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    /* top: -100px; */
+    /* left: 10%; */
+    /* margin-left: -600px; */
+    /* margin-top: -250px; */
+    display: none;
+    z-index: 200;
+    background-color: #fff;
+    overflow-y: auto;
+    left: 50%;
+    margin-left: -550px;
+    margin-top: -250px;
+}
+.cb_choose{
+	width:1100px;
+	height: 477px;
+
+	position: absolute;
+
+	background-color: #fff;
+	overflow-y:auto;
+}
+.cb_list{
+	position: absolute;
+height: auto;
+width: 444px;
+border: 2px solid #CCC;
+background-color: #FFF;
+left: 130px;
+top:293px;
+display: none;
+padding-bottom: 20px;
+text-align: left;
+
+}
+.cb_list span{
+	/*float: left;*/
+	width: 50px;
+	height:30px;
+	line-height: 30px;
+	margin: 5px;
+	/*margin-top: 10px;*/
+	cursor: pointer;
+	padding:5px;
+
+
+}
+/*.cb_list span:hover{
+background-color: #3b5b98;
+color:#fff;
+}*/
+.list{
+	width:200px;
+}
+.list>span{
+		padding:7px;
+	font-size: 14px;
+}
+.list:hover{
+	  
+  color:#3b5b98;
+}
+table{
+  border-collapse: collapse;
+  margin-left: 10px;
+  border:none;
+
+}
+table>tr:hover{
+	background-color: #F5F6FA
+}
+.whole table td{
+	padding-left: 20px;
+		font-size: 14px;
+		cursor: pointer;
+line-height: 38px;
+padding-right: 1px;
+/*border: none*/
+
+}
+.whole th {
+	text-align: center;
+}
+/*.btn1{
+	width:65px;
+	height:35px;
+	margin-left: 450px;
+	border: none;
+	background-color: #029774;
+	color:#fff;
+	cursor: pointer;
+	font-size: 14px;
+}
+.btn1:hover{
+	background-color: #03795D
+}
+.btn2{
+	width:65px;
+	height:35px;
+	margin-left: 50px;
+	border: none;
+	cursor: pointer;
+}*/
+/*.btn2:hover{
+	background-color: #D6D6D6;
+}*/
+.btn1 {
+    padding: 5px 33px;
+    background: #3b5b98;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: #fff;
+    /*border: none;*/
+    margin-top: 20px;
+    cursor: pointer;
+    border:none;
+    /*margin-left: 500px;*/
+}
+
+.btn2 {
+    background: #fff;
+    color: #999;
+    border-radius: 3px;
+    /*color: #fff;*/
+    /*border: none;*/
+    padding: 10px 0;
+    cursor: pointer;
+    border:none;
+    font-size: 14px;
+}
+/*.btn1:hover{
+	background-color: #03795D;
+}*/
+.note2{
+font-size: 16px;
+margin-left: 10px;
+text-align: left;
+line-height: 60px;
+background-color: #fff;
+position: fixed;
+width: 1062px;
+border-bottom: 1px solid #ccc;
+}
+.whole{
+	margin-top: 10px;
+}
+.whole:hover{
+	background-color: #DDE7FF
+}
+/*弹出框  行业（结束）*/
+.ruk{
+background-color: #FF3700;
+padding: 10px;
+width: -132px;
+float: left;
+
+margin-left: 51px;
+/*cursor: pointer;*/
+border-radius: 5px;
+width: 100px;
+text-align: center;
+
+
+}
+.ruk a{
+	font-size: 17px;
+	color: rgb(255, 255, 255);
+}
+	.bar{
+	 
+    border-top:3px solid #3b5b98;
+    border-bottom: 3px solid #0099CC;
+    border-radius: 10px;
+    margin-top: 63px;
+    /*border-left: 3px solid #fff;*/
+     /*border-right: 3px solid #fff;*/
+}
+.bar>div{
+	    margin: 18px 20px;
+    /* color: #000; */
+    font-size: 22px;
+    line-height: 26px;
+    clear: both;
+    overflow: hidden;
+
+
+}
+.bar>div>p{
+	float: left;
+	/*color:#000;*/
+	font-size: 14px;
+	width:65%;
+	/*margin-right: 5px*/
+
+
+}
+.bar>div>p:first-child{
+	width:20%;
+	margin-right:26px;
+}
+.bar>div>p:last-child img{
+margin-top: 20px;
+}
+.bar>div>p>img{
+	width:30px;
+	height:30px;
+
+	
+}
+
+#gs_trade,#gs_address,#place,#expect_trade,#expect_city:hover{
+	cursor: pointer;
+}
+
+/*修改*/
+.detail_con>div {
+	padding: 0;
+}
+#add_btn{
+	padding-left: 38%
+}
+#add_btn a{
+	background: #3b5b98;
+	color: #fff;
+	font-size: 2rem;
+	width: 200px;
+}

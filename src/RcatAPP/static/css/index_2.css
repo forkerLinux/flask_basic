@@ -1,0 +1,275 @@
+body, div,iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, table,th, td, input, button, select,textarea,p {margin:0; padding:0;font-family:"Microsoft Yahei";}
+input, button, select,textarea{ border:none;font-family: microsoft yahei;font-size: 12px}
+h1, h2, h3, h4{ font-weight:normal;}
+ul,ol,li{ list-style:none;}
+a{ text-decoration:none;}
+.clearfix:after {
+   content: ".";
+   display:block;
+   height:0;
+   clear: both; 
+   visibility: hidden;
+}
+.clearfix{zoom:1;}
+.header{ 
+	width:1200px; 
+	margin:10px auto 0;
+	padding-bottom:65px;
+	position:relative;
+}
+.header .link-index{
+	width:300px;
+	position:absolute;
+}
+.header .userinfo{
+	top:20px;
+	right: 0;
+	position:absolute;
+	background:url(../images/caret_03.png) right no-repeat ;
+	padding-right:20px;
+	cursor:pointer;
+}
+.header .all-op{
+	right:0px;
+	top:42px;
+	position: absolute;
+	font-size:14px;
+	width:140px;
+	padding:20px 5px 5px;
+	border-radius: 4px;
+	background:#44BE9F;
+	text-align:center;
+}
+.hide{
+	display:none;
+}
+.header ul li{
+	cursor:pointer;
+	margin-bottom:8px;
+}
+.header ul li a{
+	display:block;
+}
+.header p{ 
+	font-size:16px;
+	color:#3c3939;
+	padding-top:0;
+}
+.header h1{ 
+	font-size:24px;
+	color:#fe6000; 
+	border-bottom:solid 2px #012367; 
+	width:112px;
+	padding-bottom:0;
+	font-weight:bold;
+}
+.header h1 span.index_sp{ 
+	color:#012367;
+	margin-left: 5px;
+}
+.header_search{ background-color:#44be9f;}
+.engine-key-wrapper{ float:left;}
+.btn-engine{height: 35px;width:110px; background-color:#30997f;font-size:16px; color:#fff;border-radius:5px;}
+.btn-engine-bg{ float:left;}
+.search{ 
+	width:1200px;
+	margin:0 auto;
+	padding:26px 0px;
+}
+.engine-key{
+	height: 35px;
+	width: 290px;
+	background-color:#fff;
+	background-image: url(../images/check_03.jpg);
+	background-repeat: no-repeat;
+	background-position: 260px center;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	cursor: pointer;
+}
+.search_box_left{ float:left;}
+.search_box_right{ float:right;height:45px;line-height:45px;color:#fff;font-size:16px;position: relative;}
+.search_box_right select{ width:115px;height:28px;opacity1:0;}
+.search_box_right span{position: absolute;top:9px;width:115px;height:28px;background:#fff url("../images/caret_03.png") no-repeat 100px center;color: #414141;line-height: 30px;font-size: 15px;text-indent: 5px;}
+.search_box_right label{margin-left:25px;}
+.content{ width:1200px;margin:0 auto;}
+.header_search  h1{ text-align:center; font-size:20px; height:67px;line-height:67px; background-color:#30997f;color:#fff;}
+.data_list ul li{
+	float:left;
+	display:inline;
+	font-size:12px;
+	padding-left: 25px;
+	height: 24px;
+	line-height: 20px;
+	width:160px;
+}
+.data_list ul li.data_list_fst{margin-left:0px;background:url("../images/data_icon_03.png") no-repeat left center;}
+.data_list ul li.employ_com{background:url("../images/data_icon_05.jpg") no-repeat left center;}
+.data_list ul li.wage_info{background:url("../images/data_icon_07.jpg") no-repeat left center; width:185px;}
+.data_list ul li.wage_count{background:url("../images/data_icon_10.jpg") no-repeat left center;}
+.data_list ul li.wage_data_info{background:url("../images/data_icon_13.jpg") no-repeat left center; width:180px;}
+.data_list ul li.city_wage_info{
+	background:url("../images/data_icon_16.jpg") no-repeat left center;
+	margin-left: 0;
+	margin-right: 0px;
+}
+.data_list ul li img{vertical-align:middle;margin-right:13px;}
+
+.wage_data_left{float: left;}
+.wage_data_right{float: right;background-color: #2cc2a7;padding: 35px 32px 25px;margin-top: 22px;margin-right:30px; }
+.wage_data_right p{ font-family: "黑体";font-size:22px;color:#fff;letter-spacing: 1px;}
+.hitcheck{ margin-top: 25px;}
+.wage_data_right img{float:left;}
+.wage_data_right a{width:255px;height:39px;display:inline-block;line-height:33px;text-align:center;color: #a31c11; font-size: 15px; background:url("../images/check_report_03.png") center center no-repeat;float: right; background-size: 80% 100%;}
+.wage_data h1 span{color:#f84b0f;font-size:22px;padding-right:15px;}
+.wage_data h1 { font-size:14px;color:#4c4847;}
+/* .data_list ul li  span{ font-size:18px;} */
+.data_list ul li  span.red{ 
+	color:#d74836;
+	font-weight: 600;
+	margin: 0 1px;
+	font-size: 16px;
+}
+.data_list ul li  span.blue{ 
+	color:#0cacd5;
+	font-weight: 600;
+	margin: 0 1px;
+	font-size: 18px;
+}
+.data_list ul li  span.orage{ 
+	color:#f45a16;
+	font-weight: 600;
+	margin: 0 1px;
+	font-size: 16px;
+}
+.data_list ul li  span.green{ 
+	color:#024e3c;
+	font-weight: 600;
+	margin: 0 1px;
+	font-size: 16px;
+}
+.data_list ul li  span.deep_blue{ 
+	color:#06286d;
+	font-weight: 600;
+	margin: 0 1px;
+	font-size: 16px;
+}
+.data_list ul li  span.sky_blue{ 
+	color:#4176e1;
+	font-weight: 600;
+	margin: 0 1px;
+	font-size: 16px;
+}
+.data_list{ padding:30px 0 35px 0;}
+
+.num_list{
+	padding:10px 0 25px 0;
+}
+.num_list span.rmb{font-size:40px;color:red;float:left;}
+.num_list span.sample{font-size:12px;float:left;color:#0f3e9f;margin:25px 0 0 40px;display:block;}
+.num_list span.sample img{ vertical-align:middle;margin-left:8px;}
+.date{
+	padding-right:20px;
+	background-image: url(../images/rise_03.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.date_list li{ float:left;margin-left:40px; display:inline;}
+.date_list li a{color:#0f3e9f;}
+.date_list li img{ vertical-align:middle;margin-left:5px;}
+.date_list{margin-top:20px;}
+.date_list{float:left;}
+.active{ background-color:#d2d2d2;padding:2px 5px;}
+
+#result_show_1 .statistics .sts_inner:first-child ul li{
+	padding: 0;
+}
+#result_show_1 .statistics .sts_inner:last-child ul li.edu_bg:first-child {
+	padding-right: 20px;
+	padding-left: 80px;
+}
+#result_show_1 .statistics .sts_inner:last-child ul li .sheet_area {
+	font-size: 12px;
+}
+#result_show_1 .statistics .sts_inner:last-child ul li.edu_bg:first-child .sheet_area .title {}
+#result_show_1 .statistics .sts_inner:last-child ul li.edu_bg:last-child {
+	padding-left: 160px;
+	padding-right: 0;
+}
+.statistics .sts_inner {
+	margin-top: -40px;
+}
+.edu_bg .sheet_area {}
+.sts_sheet{margin-top:70px;}
+.sts_sheet li.quantile{ 
+	/*padding-top:24px;*/
+}
+.sts_sheet li{float:left; text-align:center;padding:0px 50px 0 40px;}
+.sts_sheet li.interval ul li.itv_name{padding:0 122px 0 245px;}
+.sts_sheet li.interval ul li.percent{padding:0 0;}
+.sts_sheet li.interval ul{padding-bottom:2px;}
+.sts_sheet li.edu_bg ul li{padding:0 0;} 
+.sts_sheet li.edu_bg ul.coordinate_name li{padding: 0 40px 0 0px;}
+.sts_sheet li.edu_bg ul.coordinate_name{ padding-left:40px;}
+.sts_sheet li h2{ 
+	font-size:18px; 
+	color:#383b40;
+	padding-top:40px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+.sts_sheet li.data_in{float:right; right:16px; position:relative;}
+
+.sts_sheet li ul li{margin-top:0px;}
+.sheet_area{padding:0 40px 0 0px;}
+.sheet_area ul li{height:48px;line-height:48px;}
+.footer{text-align:center;font-size:12px; margin-top:110px;padding-top:15px;border-top:1px solid #a0a0a0;color:#716c6c;}
+.footer ul li{ float:left;}
+.footer ul{text-align:center;}
+.footer ul li img{ vertical-align:middle; margin-right:7px;}
+.footer_link{width:342px; margin:0 auto;}
+.footer_link li a{ display:block;color:#312e2e;}
+.footer_link li{ padding-right:50px;}
+.footer_link li.last_link{ padding-right:0px;}
+.hr_cpny{width:360px;margin:30px auto 25px;}
+.hr_cpny_fst{ margin-right:28px;}
+.footer p span{ padding-left:8px;}
+.footer p{ margin-bottom:20px;}
+
+.wage_data_right{
+	width:450px;
+	height:120px;
+	position:relative;
+}
+.wage_data_right p{
+	text-align: center;
+	position:relative;
+}
+p.hitcheck img{
+	left:40px;
+	position: absolute;
+}
+p.hitcheck a{
+	left:109px;
+	position: absolute;
+}
+.introduce{
+	width:512px;
+	height:260px;
+	border:1px solid #2cc2a7;
+	left:0;
+	top:180px;
+	position:absolute;
+}
+.wage_data .clearfix{
+	height:450px;
+}
+.introduce p{
+	color:black;
+	font-size:16px;
+	text-indent: 34px;
+	height:30px;
+	line-height: 30px;
+	margin:18px;
+	text-align:left;
+}

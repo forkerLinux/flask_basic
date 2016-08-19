@@ -1,0 +1,812 @@
+.head {
+	padding-bottom: 8px;
+}
+.middle {
+	background: #f4f6f9;
+}
+.main {
+	/*margin-top: 35px;	*/
+}
+.publish_job_list {
+	background-color: #fff;
+	width: 100%;
+	float: left;
+	border-radius: 2px;
+	border: 1px solid #dee0e1;
+}
+.right_content>.title {
+	border-bottom: 1px solid #dee0e1;
+	margin-bottom: 20px;
+}
+.right_content>.title p {
+	padding: 15px;
+	color: #333;
+	font-size: 2.0rem;
+	margin-bottom: 0;
+}
+.left_con {
+	width: 100%;
+	margin: auto;
+	float: left;
+	background-color: #fff;
+}
+.cv_infos {
+	background: #fff;
+	border: 1px solid #f1f1f1;
+	float: left;
+	width: 76%;
+	border-radius: 2px;
+	box-shadow: 0 0 10px #ccc;
+	margin-left: 12%;
+	margin-bottom: 80px;
+}
+/*头像*/
+.head_bg {
+	width: 100%;
+	position: relative;
+}
+.head_bg img {
+	width: 100%;
+}
+.head_img {
+	width: 123px;
+	height: 122px;
+	left: 50%;
+	margin-left: -61.5px;
+	bottom: -45px;
+	position: absolute;
+	text-align: center;
+	cursor: pointer;
+	background: url(../images/avatar_bg.png?v=1) center top no-repeat
+}
+.head_img img {
+	border-radius: 50%;
+	width: 112px;
+	height: 112px;
+	margin: 5px 0 0 5px;
+}
+.head_img_bg {
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	background: url(../images/head_img_bg.png?v=1) center no-repeat;
+}
+.head_img_note {
+	display: none;
+	background: #f1f1f1;
+	color: #999999;
+	font-size: 1.2rem;
+	padding: 2px 8px;
+	right: -256px;
+	bottom: 10px;
+	position: absolute;
+}
+/*基本信息*/
+.s_f_cv {
+	float: left;
+	width: 100%;
+	padding: 0 5%;
+	margin-bottom: 50px;
+}
+.show_basic, .show_will, .show_skill, .show_self, .show_other {
+	width: 100%;
+	float: left;
+	padding: 20px 40px 10px 7%;
+	position: relative;
+}
+.show_basic {
+	padding: 10px 0;
+}
+.show_basic p {
+	line-height: 25px;
+	color: #666;
+}
+.show_basic span {
+	color: #333333;
+	display: inline-block;
+}
+.b_left {
+	padding-left: 10%;
+	float: left;
+}
+.b_right {
+	padding-right: 10%;
+	float: right;
+}
+.user_name {
+	text-align: center;
+	font-size: 2.0rem;
+	margin-bottom: 20px;
+	color: #333!important;
+}
+.my_sex, .my_edu {
+	text-indent: 28px;
+}
+.b_sex, .b_edu {
+	margin-left: -28px;
+}
+span.no_write {
+	color: #ff9866;
+}
+
+.base_info {
+	margin-top: 60px;
+}
+
+/*职业意向*/
+.show_will p:nth-child(3) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.show_will p span:first-child {
+	color: #666;
+}
+.show_will p span:last-child {
+	color: #333333;
+}
+
+#work_state, #expect_salary, #education2, #gs_address, #language, #hear, #read_write, #skill, #skill_level {
+	width: 35%!important;
+}
+p.cv_title {
+	text-align: center;
+	font-size: 2.0rem;
+	margin-top: -36px;
+} 
+.cv_title span {
+	padding: 6px 10px;
+	background: #f1fbff;
+	color: #333;
+	border-radius: 30px;
+	width: 169px;
+	margin: -20px 0 0;
+	display: inline-block;
+	border: 10px solid #fff;
+}
+hr {
+	border-top: 1px solid #f0f0f0!important;
+}
+/*擅长技能*/
+.lock_contact {
+	background-color: #00a7e7;
+	color: #fff;
+	margin-top: 5px;
+	float: left;
+	padding: 6px 12px;
+	font-size: 1.6rem;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.lock_contact:hover {
+	background-color: #00a1df;
+}
+.skill {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.notice {
+	color: #999999;
+}
+.hot_tag, .add_skill, .my_skill {
+	margin-left: 55px;
+}
+.show_skill span, .hot_tag span, .my_skill span {
+	padding: 3px 10px;
+	border: 1px solid #8AA4CC;
+	color: #8AA4CC;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	font-size: 1.2rem;
+} 
+.my_skill b {
+	font-weight: normal;
+}
+span.active {
+	padding-right: 22px;
+	background-color: #E1EDFE;
+}
+span.active a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	top: 0;
+	right: 0;
+	position: absolute;
+	background: url(../images/account_icon.png?v=1) 5px -198px no-repeat; 
+}
+.have_skill p {
+	margin-top: 15px;
+}
+.add_skill {
+	width: 80%;
+	position: relative;
+	margin-bottom: 25px;
+}
+.btn_addskill {
+	right: 18%;
+	position: absolute;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 15px;
+	padding-right: 38px;
+	border: 1px solid #3b5b98;
+	border-radius: 0;
+	z-index: 10;
+	color: #fff;
+	background-color: #3b5b98;
+	cursor: pointer;
+}
+.save_skill {
+	text-align: center;
+}
+/*教育经历*/
+.show_edu, .show_work, .show_item, .show_school_job, .show_award, .show_language, .show_IT_skill, .show_certificate {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+.time {
+	width: 19%;
+	float: left;
+	margin-right: 2%;
+	position: relative;
+}
+.year, .month {
+	width: 100%!important;
+}
+#birth_year {
+	width: 82%!important;
+}
+/*工作经历*/
+.edu_con, .work_con, .item_con, .job_con, .award_con, .extra_con {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding: 20px 50px 10px 7%;
+}
+.gs, .item_name, .job_name, .award_name, .custom_title {
+	color: #333;
+	font-size: 1.6rem;
+}
+.school, .gs, .gs_job, .gs_trade {
+	color: #333333;
+	margin-right: 20px;
+}
+.item_duty, .school_name {
+	color: #333;
+	word-wrap: break-word;
+}
+.edu_time, .work_time, .item_time, .job_time, .award_time {
+	color: #999999;
+	float: right;
+	padding-right: 30px;
+	font-size: 1.2rem;
+	margin-top: 3px;
+}
+.major, .degree, .gs_address {
+	color: #666;
+}
+.major {
+	margin-right: 50px;
+}
+.job_duty, .item_des, .job_des, .award_des {
+	color: #666;
+	word-wrap: break-word;
+}
+
+textarea{
+	padding: 0 12px;
+	resize: none;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	width: 82%;
+}
+/*自我描述*/
+.show_self p, .show_other p {
+	text-indent: 29px;
+	line-height: 25px;
+	color: #555555;
+}
+.self_info, .other {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.self_info textarea, .other textarea {
+	width: 100%;
+}
+.self_info p, .other p {
+	margin-top: 15px;
+	text-align: center;
+}
+/*语言能力*/
+.my_cv>ul {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding: 20px 50px 20px 7%;
+	margin-bottom: 0;
+}
+.cv_con li {
+	float: left;
+	margin-left: 8%;
+	color: #333;
+}
+.cv_con li:nth-child(1) {
+	margin-left: 0;
+}
+.cv_con li span.one {
+	color: #666;
+}
+/*IT技能*/
+#use_time {
+	width: 15%!important;
+	float: left;
+}
+.IT_skill_info .nums {
+	display: inline-block;
+	margin: 7px 0 0 10px;
+}
+.certificate {
+	width: 40%;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+.certificate select {
+	width: 100%!important;
+}
+li.certificate_level {
+	color: #666;
+}
+li.certificate_time {
+	color: #999;
+}
+.language_name, .skill_name, .certificate_name {
+	font-size: 1.6rem;
+}
+/*.phonenum, .email {
+	display: none;
+}*/
+
+/*底部*/
+.foot {
+	margin-top: 0;
+}
+
+/*弹出框*/
+.black_overlay {
+	display: none;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 200;
+}
+.cv_code {
+	color: #999;
+	/*float: left;*/
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 12%;
+}
+.cv_code span {
+	color: #666;
+}
+.cv_option {
+	float: right;
+	margin-top: -70px;
+}
+.cv_option>div {
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.cv_option>p {
+	color: #999;
+	font-size: 1.2rem;
+	text-align: right;
+}
+.download_cv {
+	/*float: right;
+	color: #fff;
+	background-color: #6d8dcc;
+	padding: 3px 10px 3px 30px;
+	background-image: url(../images/cv_download_icon.png?v=1);
+	background-position: 10px 5px;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	cursor: pointer;*/
+}
+.pop_panel {
+	width: 500px;
+	height: 180px;
+	left: 50%;
+	margin-left: -250px;
+	top: 50%;
+	margin-top: -90px;
+	position: fixed;
+	z-index: 300;
+	background-color: #fff;
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+	font-size: 1.5rem;
+	border-radius: 3px;
+	display: none;
+}
+.pop_panel .inner {
+	background-color: #fff;
+	height: 100%;
+	border-radius: 3px;
+	float: left;
+	width: 100%;
+}
+.pop_panel .title {
+	padding: 8px 8px 8px 10px;
+	background-color: #00a7e7;
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.pop_panel .title p {
+	margin-bottom: 0;
+	float: left;
+	color: #fff;
+	font-size: 1.6rem;
+}
+.pop_panel .title img {
+	float: right;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.confirm_panel .content p {
+	margin-left: 30px;
+	color: #333;
+	margin-bottom: 25px;
+}
+.option>div {
+	padding: 6px 12px;
+	border-radius: 3px;
+	cursor: pointer;
+	float: right;
+}
+.lock_confirm {
+	background-color: #00a7e7;
+	color: #fff;
+}
+.lock_close {
+	background-color: #f0f0f0;
+	color: #999;
+	margin-right: 30px;
+	margin-left: 15px;
+}
+
+.download_panel, .look_panel {
+	height: 300px;
+	margin-top: -150px;
+}
+.content .one {
+	color: #333;
+	font-size: 1.8rem;
+	margin-bottom: 10px;
+}
+.red {
+	color: #ff7150;
+}
+.content .two {
+	color: #666;
+	font-size: 1.6rem;
+	margin-bottom: 43px;
+}
+.blue {
+	color: #6d8dcc;
+}
+.note {
+	margin-top: 43px;
+	color: #999;
+}
+.lock_look, .lock_download {
+	background-color: #00a7e7;
+	color: #fff;
+	padding: 6px 20px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.note span {
+	margin: 0 10px;
+	color: #55ba9d;
+	cursor: pointer;
+}
+.note span img {
+	margin-right: 5px;
+}
+
+.rechange_panel {
+	width: 600px;
+	margin-left: -300px;
+	height: 500px;
+	margin-top: -250px; 
+}
+.rechange_panel .title {
+	margin-bottom: 15px;
+}
+.rechange_note {
+	font-size: 1.6rem;
+	margin-bottom: 16px;
+}
+.rechange_note span {
+	font-size: 1.3rem;
+}
+.choose_money span {
+	display: inline-block;
+	padding: 8px 0;
+	border: 3px solid #5cbce6;
+	color: #00a1d1;
+	margin-left: 25px;
+	font-size: 1.6rem;
+	width: 95px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.choose_money span:first-child {
+	margin-left: 0;
+}
+.weixin_code {
+	margin-top: 20px;
+}
+.scan_note {
+	background-color: #1daceb;
+	color: #fff;
+	width: 218px;
+	margin: 20px auto 0;
+	padding: 15px 10px;
+}
+.scan_note div {
+	float: right;
+	margin-top: -4px;
+	margin-left: 10px;
+}
+.scan_note p {
+	text-align: left;
+	margin-bottom: 0px;
+	font-size: 1.4rem;
+}
+.checked {
+	background: url(../images/money_checked.png?v=1) right bottom no-repeat;
+}
+.success_panel {
+	height: 270px;
+	margin-top: -135px;
+}
+.success_panel .content img {
+	margin: 20px 0;
+}
+.success_panel .content p {
+	font-size: 1.8rem;
+	color: #333;
+}
+.rechange_note .blue{color:#ff7755;}
+
+.cv_view_title {
+	padding: 15px;
+	border-bottom: 1px solid #dee0e1;
+	margin-bottom: 15px;
+}
+.cv_job_name {
+	color: #333;
+	font-size: 1.6rem;
+	margin-bottom: 20px;
+}
+.cv_job_name span {
+	color: #999;
+}
+.lock_add_tag {
+	color: #00a1df;
+	padding: 3px 8px 3px 25px;
+	border: 1px solid #00a7e7;
+	background: url(../images/add_edit_tag_2.png?v=1) 8px 5px no-repeat;
+	cursor: pointer;
+	font-size: 1.2rem;
+}
+.lock_add_tag:hover {
+	color: #00a1df;
+	/*border: 1px solid #00a7e7;
+	background: url(../images/add_edit_tag_2.png?v=1) 5px 4px no-repeat;*/
+}
+
+.add_tag {
+	width: 60%;
+	margin-left: 15px;
+	margin-top: 10px;
+	float: left;
+}
+.add_tag span{
+	height: auto;
+	line-height: 0;
+	color: #fff;
+	background-color: #5cbce6;
+	border: 1px solid #5cbce6;
+	cursor: pointer;
+	border-radius: 2px;
+	padding: 6px 15px;
+}
+.add_tag input {
+	border: 1px solid #dee0e1;
+	box-shadow: none;
+	height: 40px;
+}
+.add_tag input:focus {
+	box-shadow: none;
+	border: 1px solid #42aade;
+}
+.tag_panel {
+	height: 230px;
+	margin-top: -115px;
+}
+.tag_panel .note {
+	color: #ffbd9c;
+	font-size: 1.2rem;
+	margin-left: 15px;
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+}
+.show_tag {
+	float: left;
+	width: 100%;
+	padding-left: 15px;
+}
+.show_tag p {
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #5cbce6;
+	padding: 0 3px 0 5px;
+	color: #5cbce6;
+	font-size: 1.4rem;
+}
+.show_tag p:first-child {
+	/*margin-left: 15px;*/
+}
+.show_tag p:last-child {
+	margin-right: 0;
+}
+.show_tag p span {
+	/*height: 25px;
+	line-height: 25px;*/
+	color: #42aade;
+	font-size: 1.4rem;
+}
+.show_tag p img {
+	padding: 0 0 4px 5px;
+	cursor: pointer;
+}
+.tag_note {
+	padding: 2px 5px;
+	color: #999;
+	background-color: #fffcdd;
+	font-size: 1.2rem;
+	margin-left: 10px;
+	display: none;
+}
+.tag_con {
+	padding: 2px 5px;
+	border: 1px solid #dee0e1;
+	color: #5cbce6;
+	margin-right: 8px;
+	font-size: 1.2rem;
+}
+/*通知*/
+.rechange_panel_2 {
+    height: 710px;
+    margin-left: -300px;
+    margin-top: -300px;
+    width: 600px;
+    position: absolute;
+}
+.form_content table td{
+	border-top: 0!important;
+}
+.title_box {
+	text-align: right;
+	width: 20%;
+}
+.title_box label {
+	color: #333;
+	font-weight: normal;
+	position: relative;
+	padding-left: 15px;
+	margin-right: 4px;
+	margin-top: 10px;
+}
+.title_box .red {
+	color: #ff6767;
+	top: 2px;
+	left: 0;
+	position: absolute;
+}
+.textbox {
+	height: 40px;
+	box-shadow: none;
+	padding-left: 10px;
+	border: 1px solid #d5dadf;
+	width: 85%;
+}
+.textbox:focus {
+	box-shadow: none;
+	border: 1px solid #00a7e7;
+}
+/*职位描述*/
+.notice_type, .salary2 {
+	display: inline-block;
+	padding: 9px 15px;
+	border: 1px solid #f0f0f0;
+	color: #999;
+	margin-right: 20px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.selected {
+	border: 1px solid #00a7e7;
+	color: #00a7e7;
+	background: url(../images/checked_icon.png?v=1) right bottom no-repeat;
+}
+.textfield{
+	padding: 6px 10px;
+	resize: none;
+	line-height: 25px;
+	border: 1px solid #d5dadf;
+	width: 85%;
+	box-shadow: none;
+}
+.textfield:focus {
+	box-shadow: none;
+	border: 1px solid #00a7e7;
+}
+.textfield[disabled]{
+	background-color: #fff!important;
+}
+.notice_tab{
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.notice_tab .notice_type, .salary2 {
+      font-size: 16px;
+    padding: 13px 52px;
+}
+.btn_publish, .btn_publish_2 {
+	color: #fff;
+	background-color: #00a7e7;
+	padding: 8px 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1.6rem;
+	border-radius: 2px;
+}
+.btn_publish:hover, .btn_publish_2:hover {
+	background-color: #0090cc;
+	color: #fff;
+}
+.notice_tab .selected {
+	background: url(../images/checked_icon2.png?v=1) right top no-repeat;
+}
+
+.form1, .form2{
+	display: none;
+}
+.formshow{
+	display: block;
+}
+.form-control {
+    border-radius: 2px;
+}
+
+
+

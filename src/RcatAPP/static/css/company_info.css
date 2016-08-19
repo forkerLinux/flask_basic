@@ -1,0 +1,650 @@
+.main {
+	/*margin-top: 50px;*/
+}
+/*发布中职位*/
+.publish_job_list {
+	background-color: #fff;
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+	border-radius: 2px;
+	border: 1px solid #d5dadf;
+}
+/*.right_content .title {
+	border-bottom: 1px solid #d5dadf;
+	margin-bottom: 20px;
+}
+.right_content .title p {
+	    color: #666;
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 12px;
+    padding: 15px;
+}*/
+.right_content>.title {
+	border-bottom: 1px solid #dee0e1;
+	margin-bottom: 20px;
+}
+.right_content>.title p {
+	padding: 15px;
+	color: #333;
+	font-size: 2.0rem;
+	margin-bottom: 0;
+}
+.job_list {
+	padding: 15px 15px 0;
+	margin-bottom: 20px;
+}
+.job_list table {
+	margin-bottom: 0;
+}
+.job_list td {
+	text-align: center;
+}
+.job_list .list_th {
+	background-color: #f7faff;
+}
+.job_list .list_th td {
+	border: none;
+}
+.job_list .list_th span {
+	display: inline-block;
+	color: #f0f0f0;
+	float: right;
+	margin-right: -8px;
+}
+.job_list .list_con {
+	font-size: 1.2rem;
+}
+.job_list .list_con td {
+	border-top: 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+td.job_name_td {
+	text-align: left;
+}
+.choose_job {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-top: 10px;
+	float: left;
+	cursor: pointer;
+	background: url(../images/no_select_icon.png?v=1) left top no-repeat;
+}
+.list_con a {
+	font-size: 1.2rem;
+}
+.list_con a:hover {
+	color: #3b5b98;
+}
+a.job_name {
+	color: #3b5b98;
+	font-size: 1.4rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+a.job_name:hover {
+	color: #2b4e9b;
+}
+a.cv_number {
+	color: #6d8dcc;
+	font-size: 1.4rem;
+}
+a.cv_number:hover {
+	color: #3b5b98;
+}
+.color {
+	color: #666;
+	padding-top: 14px!important;
+}
+.color2 {
+	color: #6d8dcc;
+	padding-top: 14px!important;
+}
+.color3 {
+	color: #999;
+	padding-top: 14px!important;
+}
+tr.active {
+	background-color: #fff5ef;
+}
+tr.active .choose_job {
+	background: url(../images/select_icon.png?v=1) left top no-repeat;
+}
+.list_con:hover {
+	background-color: #fafcff;
+}
+td.option {
+	padding: 8px 0!important;
+}
+td.option a {
+	padding: 5px;
+}
+#page {
+	margin-top: 50px;
+}
+/*发布新职位*/
+.publish_job_list .notice {
+	float: right;
+	color: #666;
+	margin-top: -25px;
+}
+.new_job {
+	margin: 20px 42px;
+}
+.job_title {
+	font-size: 1.8rem;
+	color: #6d8dcc;
+	margin-bottom: 20px;
+}
+.form_content table td{
+	border-top: 0!important;
+}
+.title_box {
+	text-align: right;
+	width: 20%;
+}
+.title_box label {
+	color: #333;
+	font-weight: normal;
+	position: relative;
+	padding-left: 15px;
+	margin-right: 4px;
+	margin-top: 10px;
+}
+span.red {
+	color: #ff6767;
+	top: 2px;
+	left: 0;
+}
+.textbox {
+	height: 40px;
+	box-shadow: none;
+	padding-left: 10px;
+	border: 1px solid #d5dadf;
+	width: 85%;
+}
+.textbox:focus {
+	box-shadow: none;
+	border: 1px solid #00a7e7;
+}
+.select_box {
+	position: relative;
+}
+.select_box span {
+	height: 40px;
+	line-height: 40px;
+	color: #555;
+	right: 15%;
+}
+input[readonly], input[disabled] {
+	background-color: #fff!important;
+	cursor: pointer;
+}
+.wrong {
+	border: 1px solid #ff6767!important;
+}
+.textfield{
+	padding: 6px 10px;
+	resize: none;
+	line-height: 25px;
+	border: 1px solid #d5dadf;
+	width: 85%;
+	box-shadow: none;
+}
+.textfield:focus {
+	box-shadow: none;
+	border: 1px solid #00a7e7;
+}
+.address_box {
+	float: left;
+	width: 20%;
+	margin-right: 1%;
+	position: relative;
+}
+.address_box span {
+	height: 40px;
+	line-height: 40px;
+	color: #555;
+}
+.address_box input {
+	width: 100%;
+}
+#detail_address {
+	width: 43%;
+	float: left;
+}
+.province_menu, .city_menu {
+	height: 170px;
+	overflow: auto;
+}
+/*企业logo*/
+/*LOGO*/
+.head_img {
+	width: 110px;
+	height: 110px;
+	cursor: pointer;
+	background: url(../images/company_logo_bg_3.png?v=1) center top no-repeat;
+	position: relative;
+	left: 46%;
+	top: 10%;
+	bottom: 10%;
+}
+.head_img img {
+	width: 106px;
+	height: 106px;
+	margin: 2px 0 0 2px;
+}
+.head_img_bg {
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	background: url(../images/logo_img_bg.png?v=1) center no-repeat;
+}
+.head_img_note {
+	color: #999999;
+	padding: 2px 8px;
+	right: -355px;
+	bottom: 40px;
+	position: absolute;
+}
+.head_img_note span {
+	color: #ff7150;
+}
+
+/*logo弹出框*/
+.pop_modify_pic{
+	width: 400px;
+	height: 190px;
+	border: 1px solid #f1f1f1;
+	border-radius: 3px;
+	padding: 25px;
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -95px;
+	background: #fff;
+}
+.pop_modify_pic_life{
+	width: 400px;
+	height: 190px;
+	border: 1px solid #f1f1f1;
+	border-radius: 3px;
+	padding: 25px;
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -95px;
+	background: #fff;
+}
+.p_title{
+	font-size: 26px;
+	color: #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.pic_info {
+	position: relative;
+	width: 100%;
+	margin-top: 45px;
+}
+.pic_info2 {
+	position: relative;
+	width: 100%;
+	 top: -27px;
+}
+.upload_pic{
+	position: absolute;
+	top: 2px;
+	right: 82px;
+	filter:alpha(opacity:0);
+	opacity: 0;
+	width: 76%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.upload_pic2{
+	position: absolute;
+	top: 2px;
+	/*right: 82px;*/
+	filter:alpha(opacity:0);
+	opacity: 0;
+	width: 6%;
+	overflow: hidden;
+	cursor: pointer;
+}
+#img_text2{
+
+	width: 55%;
+}
+#img_text{
+	width: 55%;
+}
+.btn_upload{
+	padding:4px 15px;
+	font-size: 16px;
+	display: inline-block;
+	background-color: #37c1ff;
+	color: #FFF;
+	border-radius: 0;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+}
+.btn_savepic{
+	padding:4px 15px;
+	font-size: 16px;
+	background-color: #37c1ff;
+	color: #FFF;
+	border-radius: 0;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	margin-left: 10px;
+}
+.btn_upload:hover, .btn_savepic:hover {
+	color: #fff;
+}
+.pic_show{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	box-shadow: 3px 3px 3px #ccc;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.pop_close{
+	right: 10px;
+	top:10px;
+	position: absolute;
+	cursor: pointer;
+	font-size: 2.0rem;
+	color: #37c1ff;
+}
+iframe{
+	display: none;
+}
+/*.btn_save {
+	color: #fff;
+	background-color: #00a7e7;
+	padding: 8px 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1.6rem;
+}*/
+/*.btn_save:hover {
+	color: #fff;
+	background-color: #0090cc;
+}*/
+
+.layui-layer {
+	margin-top: 3px!important;
+}
+/*我的消息*/
+.my_msg {
+	float: left;
+	width: 100%;
+	padding: 15px 10px 5px;
+	margin-bottom: 20px;
+	border-top: 1px solid #beedff;
+	border-bottom: 1px dashed #f0f0f0;
+	border-left: 1px dashed #f0f0f0;
+	border-right: 1px dashed #f0f0f0;
+	background-color: #fefefe;
+}
+.msg_title {
+	margin-bottom: 30px;
+	color: #999;
+	padding-left: 25px;
+	background: url(../images/company_message_icon.png?v=1) left 4px no-repeat;
+}
+.msg_con {
+	margin-left: 25px;
+}
+.msg_con p {
+	color: #333;
+	float: left;
+	padding-right: 20px;
+}
+.new_msg {
+	background: url(../images/new_message_icon.png?v=1) right top no-repeat;
+}
+.msg_con .btn_look, .btn_look:hover {
+	margin-left: 20px;
+	margin-top: -7px;
+	color: #00a1df;
+}
+.msg_time {
+	float: right;
+	color: #999;
+}
+/*暂无数据*/
+.no_record {
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	background-color: #fff;
+}
+.no_record p {
+	font-size: 1.6rem;
+	margin-top: 30px;
+}
+/*修改密码*/
+.changebox {
+	width: 60%;
+}
+.company_detail_tab{
+
+}
+.company_detail_tab span {
+    display: inline-block;
+    margin: 20px 30px 16px;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.company_detail_tab span.select_tab{
+	color: #00a1df;
+	border-bottom: 1px solid #00a1df;
+}
+.cv_name {
+	margin-top: 40px;
+    border: none;
+    box-shadow: none;
+    color: #00a1df;
+    padding: 6px 8px;
+    border-radius: 2px;
+    width: 	100px;
+}
+.add_welfare {
+	width: 50%;
+}
+.add_welfare span{
+	height: auto;
+	line-height: 0;
+	color: #fff;
+	background-color: #42aade;
+	border: 1px solid #42aade;
+	cursor: pointer;
+}
+.add_welfare input {
+	border: 1px solid #f0f0f0;
+	box-shadow: none;
+}
+.add_welfare input:focus {
+	box-shadow: none;
+	border: 1px solid #42aade;
+}
+.allow_select_welfare {
+	margin-top: 25px;
+}
+.welfare_list li {
+	float: left;
+	margin-right: 10px;
+	padding: 3px 5px;
+	color: #42aade;
+	border: 1px solid #ceeefe;
+	background-color: #f7fcff;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.welfare_list li.welfare_checked {
+	color: #ccc;
+	background-color: #f9f9f9;
+	border: 1px solid #f0f0f0;
+}
+ .welfare_menu {
+	border: 1px solid #f0f0f0;
+	border-radius: 3px;
+	float: left;
+	width: 85%;
+	/*display: none;*/
+	padding: 0;
+}
+.welfare_menu {
+	padding: 10px 10px 0;
+}
+.show_checked {
+	float: left;
+	width: 100%;
+}
+.show_checked p {
+	float: left;
+	margin-left: 10px;
+	border: 1px solid #ceeefe;
+	padding: 0 3px 0 10px;
+	background-color: #f7fcff;
+}
+.show_checked p span {
+	height: 25px;
+	line-height: 25px;
+	color: #42aade;
+}
+.show_checked p img {
+	padding: 0 0 12px 10px;
+	cursor: pointer;
+}
+.welfare_title {
+	color: #333;
+}
+.no_welfare {
+	padding: 10px;
+	color: #999;
+	background-color: #f9f9f9;
+}
+.add_welfare {
+	width: 50%;
+}
+.add_welfare span{
+	height: auto;
+	line-height: 0;
+	color: #fff;
+	background-color: #42aade;
+	border: 1px solid #42aade;
+	cursor: pointer;
+}
+.add_welfare input {
+	border: 1px solid #f0f0f0;
+	box-shadow: none;
+}
+.add_welfare input:focus {
+	box-shadow: none;
+	border: 1px solid #42aade;
+}
+.allow_select_welfare {
+	margin-top: 25px;
+}
+.welfare_list li {
+	float: left;
+	margin-right: 10px;
+	padding: 3px 5px;
+	color: #42aade;
+	border: 1px solid #ceeefe;
+	background-color: #f7fcff;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.welfare_list li.welfare_checked {
+	color: #ccc;
+	background-color: #f9f9f9;
+	border: 1px solid #f0f0f0;
+}
+.optionbox {
+	margin-top: 15px;
+	padding-bottom: 25px;
+	float: left;
+	width: 100%;
+}
+.btn_save, .btn_save:hover {
+	color: #fff;
+	background-color: #00a7e7;
+	margin-right: 10px;
+}
+.btn_cancel, .btn_cancel:hover {
+	color: #999;
+	background-color: #f9f9f9;
+	border: 1px solid #d5dadf;
+}
+.edit_option {
+	margin-top: 3px;
+	cursor: pointer;
+	color: #00a7e7
+}
+.edit_option img {
+	margin-top: -3px;
+	margin-right: 5px;
+}
+
+ .my_welfare_show{
+	display: none;
+	margin-top: 7px;
+}
+ .my_welfare_show p:first-child {
+	margin-left: 0;
+}
+ .my_welfare_show>div {
+	float: left;
+}
+.my_welfare_list {
+	margin-right: 20px;
+}
+.descForbtn{
+	 left: 100px;
+    position: relative;
+    top: 9px;
+
+}
+
+.img_upload{
+	border: 1px solid #f0f0f0;
+	margin:4px;
+}
+.edit_upimg {
+    cursor: pointer;
+    left: -116px;
+    position: relative;
+    top: 42px;
+    color: #fff;
+}
+#saveFormImgs{
+	margin-top: 20px;
+}
+.delete_upimg{
+    cursor: pointer;
+    left: -41px;
+    position: relative;
+    top: 64px;
+    color: #00a1df;
+}
+
+
+

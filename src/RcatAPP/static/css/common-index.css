@@ -1,0 +1,511 @@
+a{
+ text-decoration:none !important;
+	}
+.clear{
+
+	clear: both;
+}
+.header{
+    margin-top: 50px;
+	margin-bottom: 5px;
+	margin-left: 5%;
+	padding-left: 0px;
+
+}
+.header .col-xs-4.col-xs-push-1{
+	padding-top: 9px;
+}
+#account{
+	margin-right: 5%;
+}
+#accout img{
+	margin-bottom:1000px;
+	padding-bottom: 100px;
+	vertical-align: top !important;
+}
+#menu>li>a {
+	padding-left: 30px; 
+}
+#menu li a {
+	background-image: url(../images/account_icon.png?v=1);
+	background-repeat: no-repeat;
+}
+#menu li a:hover {
+	color: #fff;
+	background-color: #3b5b98;
+}
+#menu li:nth-child(1) a {
+	background-position: 5px 2px;
+}
+#menu li:nth-child(1) a:hover {
+	background-position: -19px 2px;
+}
+#menu li:nth-child(2) a {
+	background-position: 5px -20px;
+}
+#menu li:nth-child(2) a:hover {
+	background-position: -19px -20px;
+}
+#menu li:nth-child(3) a {
+	background-position: 5px -42px;
+}
+#menu li:nth-child(3) a:hover {
+	background-position: -19px -42px;
+}
+#menu li:nth-child(4) a {
+	background-position: 5px -65px;
+}
+#menu li:nth-child(4) a:hover {
+	background-position: -19px -65px;
+}
+#menu li:nth-child(5) a {
+	background-position: 5px -90px;
+}
+#menu li:nth-child(5) a:hover {
+	background-position: -19px -90px;
+}
+.logo img{
+    display: block;
+    width: 200px;
+}
+
+#search{
+    border: 3px solid #3b5b98;
+    height: 38px;
+
+}
+#input-group{
+	width:120%;
+}
+#search-btn{
+
+}
+#global{
+    background-color:#3b5b98; ;
+    color:#fff;
+    font-weight: bold;
+	 border: 1px solid #3b5b98;
+	 height: 38px;
+	 border-radius:0;
+}
+#nav-list{
+	/*position: absolute
+	border: 10px solid red;;*/
+}
+#nav-box{
+	margin-left:5%;
+	padding-left:0;
+	padding-top: 0px;
+
+}
+#nav-list ul li{
+	margin-right:3%;
+	float: left;
+}
+#nav-list ul #total-job{
+	margin-top: 5px;;
+	margin-right: 100px;
+	background: #3b5b98;
+}
+#nav-list ul li a{
+	color: #000;
+	font-size:2rem;
+	padding: 5px 15px  
+}
+#nav-list ul li a:hover{
+	color:#3b5b98;
+	background:rgba(0,0,0,0)
+}
+#nav-list ul #total-job a {
+	font-size: 14px;
+	font-weight:normal;
+	color: #fff;
+}
+
+#nav-list ul #total-job a:hover{
+color: #fff;
+}
+#nav-list li a:hover{
+	color: #3b5b98;
+}
+.current{
+	background:black;
+	}
+#total-job{
+	width:26.6%;
+	padding:0px;
+
+}
+#total-job a:hover {
+	color: #3b5b98;
+}
+
+#banner{
+	position: relative;
+	height: 500px;
+	width: 100%;
+}
+#banner-container .img{
+	position: absolute;
+	left: 0;
+	top:0;
+	height: 500px;
+	width:100%;
+	background-position: center;
+}
+
+#banner-btn{
+	position: absolute;
+	left: 50%;
+	bottom:0;
+	margin-left: -40px;
+
+
+}
+#banner-btn li{
+	float: left;
+	margin: 0 15px;
+	position: relative;
+
+}
+.current-li span img{
+	position: absolute;
+	width: 14px;
+	left: 5px;
+	top: 5px;
+}
+#banner-btn li>img{
+	width: 25px;
+}
+#nav{
+	position:absolute;
+	background-color:rgba(0,0,0,0.3);
+	left:0;
+	top: 0;
+	width:25%;
+	margin-left:5%;
+	height: 500px;
+	}
+#nav a:hover,	.job-detail a:hover{
+	color:#3b5b98;
+	}
+#nav a,.guid{
+	color:#fff;
+		font-size:14px;
+	}
+.list{
+	background:rgba(0,0,0,0);
+	overflow: hidden;
+
+	}
+#all-job a{
+	color: #fff !important;
+	font-size: 14px;
+}
+.list li{
+	float: left;
+}
+.list .guid{
+	float: right;
+margin-right:3px;
+}
+#total>li img{
+	display: inline;
+	width:45px;
+}
+#total .guid{
+	width:13px;
+}
+
+.guid{
+padding-top:2px;
+	}
+.icon{
+	display:inline-block;
+	margin-right:15px;
+	}
+.job-list{
+	display:inline-block;
+	width:12px !important;
+	margin-right:12px;
+	}
+.job-detail{
+		position:absolute;
+		width:200%;
+		background-color:rgba(255,255,255,.8);
+		left:100%;
+		top:0px;}
+.list{
+	color:rgba(0,0,0,0) !important;
+	padding:6px 0 5px 14px;
+	background:rgba(0,0,0,0);
+	overflow: hidden;
+	width: 100%;
+}
+.list li{
+	width:94%;
+}
+	.list:hover{
+		background:black;
+		}
+	.list-job ol{
+		margin-bottom:0px;
+		}
+	.job-detail li{
+		padding:5px 10px;
+		padding-top: 8px;
+		}
+	.list-job{
+		background:rgba(0,0,0,0);
+		position: relative;
+		line-height:20px;
+		/*height:31px;*/
+	}
+.job-detail a{
+	color:black !important;
+
+	}
+#menu{
+	top: 97%;
+    min-width: 120px;
+    left: 20px;
+}
+.list-job dl .total{
+float: left;
+	width:83px;
+	line-height: 28px;
+}
+.list-job dl .detail-position{
+	margin-left:80px;
+}
+#nav .list-job .detail-position a{
+	padding:0px 10px;
+	margin-left: -1px;
+	margin-top: 10px;
+	color:#333;
+	background: url(/static/images/arr_6c6ecd7.png) -29px center no-repeat;
+	line-height: 28px;
+	
+}
+.detail-position a:hover{
+	color: #3b5b98
+}
+.list-job .total a{
+	margin-right: 20px;
+}
+.list-job ul,.list-job ul li{
+padding: 0;
+
+}
+.list-job ul li{
+	margin-right: 5px;
+}
+.job-detail a:hover{
+	color:#3b5b98 !important;
+}
+	#call-us{
+		clear:both;
+		padding-top:15px;
+		border:1px solid red;
+		border-color:rgba(0,0,0,0);
+		padding-right: 6%;
+		}
+
+.detail-job{
+	margin-left: 20px;
+}
+#call-us a{
+	color:#333;
+	font-size:14px;
+	}
+#call-us a:hover{
+	color: #3b5b98;
+}
+.hover{
+		background:black;
+		}
+#login{
+	position: absolute;
+	width:22%;
+	background:rgba(255,255,255,0.7);
+	height:400px;
+	left:72%;
+	top: 10%
+}
+#username-c{
+	display: none;
+}
+.keep,#change{
+font-weight: normal;
+color: #3b5b98;
+}
+.username,.password, .code{
+	width:80%;
+	height:36px;
+	border: 1px solid #3b5b98;;
+}
+/*#login-port form{
+	margin-top: 30px !important;
+}*/
+#change{
+	margin-right: 12%;
+	padding-top: 7px;
+	cursor:pointer;
+
+}
+#btn-group{
+	padding-top: 30px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+
+}
+#btn-group p{
+	font-size: 30px;
+	font-family: "微软雅黑";
+	color: #3b5b98;
+	text-align: center;
+}
+
+#validate{
+	width: 88%;
+
+	height: 36px;
+}
+#validate{
+	padding-left: 34px;;
+
+}
+.validate{
+	margin-left: 9%;
+	position: relative;
+	padding-bottom: 8px;
+
+}
+.img-check{
+	    width: 28%;
+    position: absolute;
+    top: 0px;
+    left: 61%;
+    height: 35px;
+}
+#btn-group a{
+	width: 44%;
+	border-radius: 0px;
+	font-size: 12px;
+	color: #000;
+	border: none;
+	background-color:#ccc;
+}
+#btn-group a:first-child{
+	background-color:#3b5b98 ;
+	color:#fff;
+}
+#submit{
+	width:80%;
+	margin-left:10%;
+	background: #3b5b98;
+	border-radius: 0px;
+}
+.check{
+	margin-left: 10%;
+	margin-bottom: 30px;
+
+}
+.user,.pass{ position: relative;
+	margin:18px auto
+}
+.img-user{
+	position: absolute;
+	left:12%;
+	top:9px;
+}
+.free-reg{
+margin-top:5px;
+	margin-right:30%;
+}
+.free-reg span{
+	color:#666;
+}
+.free-reg a{
+	color: #3b5b98;
+}
+.img-pass, .yan_img, .yan_img2{
+	position: absolute;
+	left:12%;
+	top:9px;
+	width:15px;
+}
+.yan_img, .yan_img2 {
+	width: 20px;
+	top: 7px;
+	left: 10%;
+}
+.yan_img {
+	left: 2%;
+}
+
+
+.f-pass{
+padding-right: 12%;
+}
+.f-pass{
+	color: #3b5b98;
+	padding-left:15%
+}
+.username,.password, .code{
+	padding-left: 35px;
+	margin-left:9%;
+}
+#seeker{
+/*	display: none;*/
+}
+
+#back-g{
+    width: 100%;
+    height: 110px;
+    
+    bottom: 0px;
+    left: 0px;
+    background: url(../images/bg.png) no-repeat center bottom;
+    position: relative;
+}
+#back-g img{
+	position:absolute;
+	left:50%;
+	top: 0px;
+	margin-left: -830px;
+	overflow: hidden;
+}
+#copy{
+	position: absolute;
+	width: 800px;
+	left:50%;
+	margin-top: 30px;
+	margin-left: -400px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+dl{
+	margin-bottom: 0px;
+}
+#outside_link{
+	position: absolute;
+	bottom: 10px;
+	left:16%;
+}
+#outside_link li{
+list-style: none;
+float: left;
+margin: 0 10px
+}
+#outside_link li a{
+	color: #333;
+}
+#outside_link li a:hover{
+color: #3b5b98;
+}
+@media(max-width:1024px){
+#btn-group p{
+	margin-left: 0;
+}	
+}

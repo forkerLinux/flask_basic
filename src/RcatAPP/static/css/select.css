@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;font-family: microsoft yahei;font-size: 12px}
+
+.select{width:180px;position: absolute;left:1048px;top: 10px;padding-left: 10px;border: 1px solid #E1E1E1}
+.select option{padding-left: 10px;height: 25px;line-height: 25px}
+.select p{width: 94%;height: 30px;line-height: 30px;font-size: 13px;padding-left: 10px;background-color: #EBE9E9;display: none}
+.select p:hover{background-color: gray}
+#select-img{display: none}

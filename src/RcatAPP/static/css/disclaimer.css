@@ -1,0 +1,51 @@
+body, div,iframe, ul, ol, dl, dt, dd, li, dl, 
+h1, h2, h3, h4, table,th, td, input, button, select,
+ textarea,p{margin:0; padding:0;font-family: microsoft yahei;font-size: 12px}
+ a{ text-decoration:none;}
+ ul,ol,li{
+	list-style: none;
+}
+input, button, select,
+ textarea{ border:none;}
+body{font-family:"Microsoft Yahei";}
+.clearfix:after {
+   content: ".";
+   display:block;
+   height:0;
+   clear: both; 
+   visibility: hidden;
+
+}
+.clearfix{zoom:1;}
+
+/* 文字部分 */
+.content{
+	width:1200px;
+	margin:20px auto;
+	position: relative;
+	overflow: hidden;
+}
+.title{
+	width:100%;
+	text-align:center;
+	font-size:22px;
+	font-weight:bold;
+	margin-bottom: 35px;
+}
+.sm-con{
+	font-size:15px;
+	text-indent: 30px;
+	/*height:35px;*/
+	line-height: 35px;
+	/*margin-bottom:30px;*/
+	margin-top: 10px
+}
+.content .sm-con:nth-child(2){
+	padding-top: 10px;
+/*border-top: 3px solid rgb(2, 151, 116);*/
+}
+.exchange{width: 550px;height: 300px;margin: auto;border: 1px solid black}
+
+
+.left a{font-size: 1.5rem}
+.right{font-size: 1.5rem}

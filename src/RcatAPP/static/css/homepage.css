@@ -1,0 +1,125 @@
+.companyinfo-title2{
+				font-size: 16px;
+        }
+        .companyinfo-title2 span{
+				font-size: 13px;		
+        }
+        .title {
+			border-bottom: 1px solid #d5dadf;
+			/*background-color: #63c1d9;*/
+			/*margin-bottom: 20px;*/
+			height: 177px;
+			background: url(/static/images/company-info-title.png) left 0px no-repeat;
+			/*background-color: #63c1d9;*/
+			background-size:100% 100%;
+		}
+		.title p {
+	        color: #fff;
+            font-size: 2rem;
+            margin-bottom: 0;
+            margin-top: 12px;
+            padding: 15px;
+            text-align: center;
+        }
+ .head_img {
+	width: 110px;
+	height: 110px;
+	position: relative;
+	left: 46%;
+	top: 10%;
+	bottom: 10%;
+}
+.head_img img {
+	width: 106px;
+	height: 106px;
+	margin: 2px 0 0 2px;
+}
+.headerdiv{
+	padding-left:0;
+	padding-right: 0;
+}
+.company_detail_tab span {
+    display: inline-block;
+    margin: 20px 30px 16px;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.company_detail_tab span.select_tab{
+	color: #00a1df;
+	border-bottom: 1px solid #00a1df;
+}
+.left_con{
+	padding-top: 0;
+}
+.company_detail_div,.recruitment_div{
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #fff;
+	padding-top:20px;
+	min-height:300px;
+}
+.content_title{
+	font-size: 16px;
+	height: 40px;
+	/*font-weight: bold;*/
+	color: #000;
+}
+.boonbody span{
+	border:1px solid #00a1df;
+	border-radius: 4px;
+	padding: 2px 5px;
+	margin-left: 4px;
+}
+.company_des_body{
+	text-indent:2em;
+}
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.recruitment_div {
+	display: none;
+}
+.chosen_div{
+	display: block;
+}
+.content_body img{
+	border:1px solid #f0f0f0;
+	margin:4px;
+	display: none
+}
+.content_body img.show{
+display: inline;
+}
+.update_time{
+	padding-top: 32px;
+	background-image: none;
+}
+.item img{
+		width: 	500px!important;
+		height:350px!important;
+}
+.department_tab{
+	margin-bottom:20px;
+}
+.department_tab span{
+	 margin: 4px;
+    color: #333;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+.department_tab span.dp_chosen{
+	color: #fff;
+	background-color: #00a7e7;
+
+}
+.row{
+	margin-left: 0px;
+    margin-right: 0px;
+}

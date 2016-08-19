@@ -1,0 +1,108 @@
+body {
+	font-family: 'microsoft yahei';
+	color: #333;
+}
+a, a:hover, a:focus {
+	color: #00a1df;
+	text-decoration: none;
+}
+.head>div {
+	padding: 20px 0;
+}
+.head .logo span {
+	margin-left: 20px;
+	font-size: 2.0rem;
+	color: #333;
+	vertical-align: bottom;
+}
+.main>div {
+	padding: 0;
+}
+.middle1 img {
+	width: 100%;
+}
+.middle2 {
+	background-color: #f7f7f7;
+}
+.recruit_step {
+	width: 70%;
+	margin: auto;
+}
+.recruit_step .tab {
+	width: 22%;
+	float: left;
+	margin: 25px 0;
+}
+.recruit_step .step_con p {
+	color: #333;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+.recruit_step hr {
+	float: left;
+	border-bottom: 1px solid #a3ddf7;
+	width: 4%;
+	margin-top: 65px;
+}
+.title {
+	margin-bottom: 20px;
+	color: #00a1df;
+	font-size: 2.0rem;
+}
+.company_des .title {
+	margin-top: 40px;
+}
+.company_des .content {
+	margin-bottom: 80px;
+	line-height: 25px;
+	text-indent: 30px;
+}
+.list {
+	margin-bottom: 80px;
+}
+.list td {
+	border-top: 0!important;
+	border-bottom: 1px solid #f0f0f0;
+}
+.list .list_title {
+	background-color: #2f99ce;
+}
+.list .list_title td {
+	color: #fff;
+	padding: 10px 8px;
+}
+.list .list_con td {
+	padding: 20px 8px;
+}
+.question {
+	margin-bottom: 30px;
+}
+.small_title {
+	font-size: 1.8rem;
+}
+.small_title span {
+	margin-right: 10px;
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border-radius: 2.5px;
+	background-color: #00a7e7;
+	vertical-align: middle;
+}
+.answer {
+	color: #666;
+	line-height: 25px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f0f0f0;
+	margin-left: 15px;
+}
+.foot {
+	color: #999;
+	padding: 16px;
+	background-color: #2E3336;
+	font-size: 1.2rem;
+	margin-top: 60px;
+}
+.company_link span {
+	margin: 0 10px;
+}

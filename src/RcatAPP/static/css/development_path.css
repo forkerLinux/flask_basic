@@ -1,0 +1,237 @@
+html, body {
+	height: 100%;
+}
+body {
+	background-color: #3b5b98;
+}
+.middle>div {
+	padding: 0;
+}
+.main {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.middle .title {
+	color: #fff;
+	font-size: 2.4rem;
+	text-align: center;
+	padding: 20px 0;
+	background-color: #3b5b98;
+	margin-bottom: 30px;
+}
+/*tab*/
+.tab {
+	width: 100%;
+	margin: auto;
+}
+.tab nav {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #4470BA;
+}
+.path_tab {
+	width: 75%;
+	margin: auto;
+}
+.path_tab>div{
+	text-align: center;
+	color: #9ABEFB;
+	padding: 10px;
+	float: left;	
+	width: 20%;
+	font-size: 1.6rem;
+	cursor: pointer;
+}
+.path_tab>div:hover {
+	color: #00BFFB;
+}
+div.select {
+	color: #00BFFB;
+	border-bottom: 2px solid #00BFFB;
+}
+/*阶梯*/
+.step {
+	width: 100%;
+	margin: 120px auto;
+}
+.step .content {
+	float: left;
+	width: 100%;
+	position: relative;
+	height: 530px;
+	margin-bottom: 50px;
+}
+.jobname {
+	float: left;
+	width: 20%;
+	position: relative;
+}
+.jobname p {
+	text-align: center;
+	padding: 0 10px;
+	top: -120px;
+	position: relative;
+	height: 25px;
+}
+.jobname p a {
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	font-size: 2.0rem;
+}
+/*.jobname p a:hover {
+	color: #FF7332;
+}*/
+.step_1 p {
+	top: -55px;
+}
+.jobname p a.active {
+	color: #FF7F5D;
+	font-size: 2.2rem;
+}
+.step .outer {
+	padding: 12px 0 15px 15px;
+	float: left;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+.step .inner {
+	height: 90px;
+	text-align: center;
+	position: relative;
+}
+.step .border {
+	display: block;
+	height: 12px;
+	margin-top: -12px;
+	background-color: #00BFFB;
+}
+.border1 {
+	width: 100%;
+    height: 12px;
+    position: absolute;
+    top: -12px;
+    left: 0px;
+	background-color: #00F6FE;
+}
+.find_op {
+	width: 100%;
+	margin-top: -10px
+}
+.find_op>div {
+	margin-top: 25px;
+}
+.avg_job{
+	text-align: left;
+	color:#fff;
+	padding-left: 20px;
+    padding-bottom: 25px;
+}
+.avg_job div{
+	 padding-bottom: 10px;
+}
+.avg_job span{
+	color:#ff8c69;
+	font-weight: bolder;
+	margin-right: 5px;
+}
+.find_op a {
+	font-size: 1.6rem;
+	color: #fff;
+	padding: 5px 0 5px 40px;
+}
+.find_salary a {
+	background: url(../images/path_icon_2.png?v=1) left top no-repeat;
+}
+.find_salary a:hover {
+	color: #DACE9B;
+	background: url(../images/path_icon_2.png?v=1) left -35px no-repeat;
+}
+.find_job a {
+	background: url(../images/path_icon_2.png?v=1) left -67px no-repeat;
+}
+.find_job a:hover {
+	color: #51C9FC;
+	background: url(../images/path_icon_2.png?v=1) left -99px no-repeat;
+}
+.find_course a {
+	color: #ccc;
+	background: url(../images/path_icon_3.png?v=1) left top no-repeat;
+}
+.step_1 {
+	margin-top: 425px;
+}
+.step_2 {
+	margin-top: 405px;
+}
+.step_3 {
+	margin-top: 320px;
+}
+.step_4 {
+	margin-top: 235px;
+}
+.step_5 {
+	margin-top: 150px;
+}
+.step_1 .outer {
+	padding: 10px 0 0;
+	background-color: #00BFFB;
+}
+.step_1 .inner {
+	height: 0;
+	margin-right: -15px;
+}
+.step_2 .outer, .step_3 .outer, .step_4 .outer, .step_5 .outer {
+	margin-top: -67px;
+	background-color: #00BFFB;
+}
+.step_2 .inner, .step_3 .inner, .step_4 .inner, .step_5 .inner {
+	margin-bottom: -20px;
+	background-color: #3b5b98;
+	margin-right: -15px;
+}
+.step_5 .inner {
+	margin-right: 0;
+}
+.outer img {
+	top: -41px;
+	left: 45%;
+	position: absolute;
+}
+
+/*推荐职位*/
+.middle2>div {
+	padding: 0;
+}
+.recommend {
+	background-color: #fff;
+}
+.recommend .title {
+	font-size: 1.6rem;
+	color: #333;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f1f1f1;
+	margin: 20px 30px;
+}
+.jobdetail_list {
+	border: 1px solid #f1f1f1;
+	margin: 0 30px 20px;
+}
+/*暂无数据*/
+.no_record {
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px; 
+	background-color: #fff;
+}
+.no_record p {
+	font-size: 1.6rem;
+	margin-top: 30px;
+}
+.no_record p span {
+	color: #aaa;
+}
+
+

@@ -1,0 +1,182 @@
+.fortune_center_div {
+	background-color: #fff;
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+	border-radius: 2px;
+	border: 1px solid #d5dadf;
+}
+.fortune_center_div .title {
+	border-bottom: 1px solid #d5dadf;
+}
+.fortune_center_div .title p {
+	padding: 15px;
+	color: #333;
+	font-size: 2.0rem;
+	margin-bottom: 0;
+}
+.myaccount_title{
+	color: #333333;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 16px 0;
+    text-indent: 10px;
+    width: 100%;
+}
+.tag{
+	float:left;
+	margin-left:17px; 
+	width: 3px;
+	height: 25px;
+	border-left:5px solid #00a7e7;
+}
+.myaccount_content{
+	margin:4px 10px 5px 10px;
+	padding:4px 10px 40px 10px;
+	border:1px solid #d5dadf;
+}
+.myaccount_content>p {
+	margin-left:10px;
+	padding-left:20px;
+	background:url(../images/light_icon.png?v=1) left 2px no-repeat;
+	color: #ff8d70;
+}
+.myaccount_content>p a {
+	color: #00a1df;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.download_time{
+	color: #333333;
+	font-size: 1.6rem;
+	padding-left:90px;
+	padding-top:20px;
+}
+.download_time span{
+	color: #ff7755;
+	font-size: 2rem;
+}
+.download_done{
+	color: #999999;
+	font-size: 1.5rem;
+	padding-left:90px;
+	padding-top:20px;
+}
+.download_done span{
+	color: #666;
+	font-size: 1.9rem;
+}
+
+.btn_pay_div{
+	float: right;	
+	padding-right: 100px;
+	margin-top: -60px;
+}
+.btn_pay:hover {
+    background-color: #0090cc;
+    color: #fff;
+     font-size: 14px;
+    padding: 6px 12px;
+}
+.btn_pay{
+	 color: #fff;
+	 cursor: pointer;
+    border: 1px solid transparent;
+   border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #00a7e7;
+}
+.transaction_info{
+	color: #333333;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 16px 0;
+    text-indent: 10px;
+    width: 100%;
+}
+.myaccount_table{
+
+}
+.myaccount_tbl_title{
+	width: 100%;
+	clear:both;
+}
+.myaccount_tbl_title,.myaccount_tbl_body {
+	padding: 6px 12px;
+	width:100%;
+}
+.myaccount_tbl_title div{
+	float: left;
+	width: 25%;
+	background:#48a9d7;
+	color: #fff;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+.myaccount_tbl_title>div>span {
+	right: 0; 
+	height: 20px;
+	top: 10px;
+	position: absolute;
+	border-left: 1px solid #8DCFED;
+}
+
+.myaccount_tbl_body .myaccount_no_img{
+	text-align: center;
+    padding-top: 10%;
+}
+.myaccount_no_p{
+	text-align: center;
+	padding-top:10px;
+}
+.myaccount_tbl_title input{
+	color: red;
+}
+.drop1{
+	 margin-left: 25%;
+}
+.drop1 p{
+	 line-height: 22px;
+    margin: 10px 2px 2px;
+    width: 90px;
+   cursor: pointer;
+}
+.myaccount_tbl_body .record_detail{
+	float: left;
+	width: 25%;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.drop1 .dropdown-menu {
+	background-color: #f7faff!important;
+    min-width: 90px!important;
+}
+.drop1 li a:hover{
+	background-color: #f0f0f0!important;
+	color: #48a9d7;
+}
+.tbl_div{
+	border-bottom: 1px solid #f0f0f0;
+	height:40px;
+	width: 100%;
+	clear:both;
+}
+.tbl_div:hover {
+	background-color: #F1FBFF;
+}

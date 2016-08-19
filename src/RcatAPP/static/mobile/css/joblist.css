@@ -1,0 +1,355 @@
+a:focus, a:hover {
+	text-decoration: none;
+}
+body {
+	height: 100%;
+	background-color: #f7f7f7;
+}
+#search:focus{
+	box-shadow:none;
+}
+.search_salary{
+	padding-top: 15px;
+    padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	background-color: #fff;
+	position: relative;
+}
+#search{
+	border:1px solid #eee;
+	box-shadow: none;
+	border-left: 0;
+}
+#global{
+	background-color: #3b5b98;
+	color: #fff;
+	border:none;
+	padding:7px 7px 6px;
+
+	border-radius: 0;
+	font-size: 1.5rem
+}
+#compare{
+	background-color: #ff9059;
+	color: #fff;
+	border:none;
+	padding:7px 7px 6px;
+	border-radius: 0;
+	margin-left: 3%;
+	font-size: 1.5rem
+
+}
+.other{
+	background-color: #fff;
+	padding:10px 15px;
+	overflow: auto;
+	position: relative;
+	border-bottom: 1px solid #eee;
+}
+.choose{
+	text-align: center;
+	/*width: 280%;*/
+	width:100%;
+}
+.choose>div{
+	/*background:url("../images/job_down.png")right center no-repeat;*/
+	background-size: 13%;
+	font-size: 1.2rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 10px 0px;
+    float: left;
+}
+
+ .show_list, .show_more, .show_more_2, .show_industry{
+    list-style-type: none;
+    /*position: absolute;*/
+    display: none;
+	background-color: #fff;
+	width:100%;
+	/*z-index: 100;*/
+    /*left: 0;*/
+    overflow: auto;
+    height: 100%;
+}
+ .show_list li, .show_more li {
+	padding: 13px 10px;
+	margin: 0px 15px;
+	border-bottom: 1px solid #eee;
+	/*background-image:none;*/
+}
+.show_more .select_con {
+	float: right;
+	display: inline-block;
+	max-width: 70%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+ .show_list li a{
+	color: #333;
+}
+.up_toggle{
+	height:15px;
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+	display: none;
+}
+.job_list{
+    background-color: #fff;
+    position: absolute;
+    top: 132px;
+    bottom: 0;
+    overflow: auto;
+    z-index: 200;
+    width: 100%;
+}
+.jobdetail_list{
+	margin: 15px 0px;
+	border-bottom: 1px solid #eee
+}
+.job_name{
+   margin-bottom: 10px;
+}
+.job_name p{
+	font-size: 1.7rem;
+	width:100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	overflow: hidden;
+
+
+}
+.job_name p a{
+font-size: 1.7rem;
+	color: #333;
+}
+.company_name{
+	color: #666;
+    font-size: 1.7rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	overflow: hidden;
+}
+.industry_name{
+	color: #999;
+    font-size: 1.4rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	overflow: hidden;
+
+}
+.interval{
+	padding: 0px 2%
+}
+.time{
+	color: #aaa;
+    font-size: 1.3rem;
+    text-align: right;
+
+}
+.money{
+	color: #ff9059;
+    font-size: 1.8rem;
+    text-align: right;
+
+
+}
+
+/*弹出框*/
+.black_overlay {
+	width: 100%;
+	background-color: rgba(204,204,204, 0.5);
+	z-index: 50;
+	position: fixed;
+	top:117px;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+.select_choose{
+	background: url("../images/job_choose.png?v=1") right no-repeat;
+	background-size: 5%;
+}
+.select_choose a {
+	color: #00a1df!important;
+}
+.more{
+	text-align: center;
+	margin: 10px 0px;
+	padding: 10px 0;
+	background-color: #00a7e7;
+	color: #fff;
+	font-size: 1.5rem;
+}
+.go_down{
+	width:100%;
+	text-align: center;
+	height:25px ;
+	line-height: 25px;
+	z-index: 40;
+	/*background-color:#fff;*/
+	position: absolute;
+	text-align: center;
+	display: none;
+}
+
+ul {
+	list-style-type: none;
+	margin-bottom: 0;
+}
+.search_head {
+	position: fixed;
+	z-index: 200;
+}
+.search_box {
+	width: 80%;
+	margin: auto;
+}
+.search_box>div {
+	position: relative;
+}
+.search_box .choose_name {
+	padding: 6px 8px; 
+	border-radius: 2px; 
+	border: 1px solid #eee;
+	color: #666;
+	background-color: #fff;
+	font-size: 1.4rem;
+}
+.search_box .btn_search {
+	padding: 2px 5px; 
+	border-radius: 2px; 
+	color: #bbb;
+	background-color: #fff;
+	font-size: 1.6rem;
+	top: 1px;
+	right:1px;
+	position: absolute;
+	z-index: 10;
+	border: 1px solid #fff;
+}
+.btn_search img {
+	width: 20px;
+}
+.choose_name span {
+	color: #999;
+}
+.search_icon {
+	color: #bbb;
+}
+.go_back {
+	top: 19px;
+}
+.search_menu {
+	border-radius: 2px;
+	min-width: 50px;
+	border: 1px solid #eee;
+}
+.search_menu a {
+	padding: 3px 15px!important;
+}
+.choose .choose_con {
+	color: #333;
+	font-size: 1.3rem;
+}
+.choose .down_icon {
+	color: #666;
+	margin-left: -3px;
+}
+.roll_up {
+	border-top: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 4px solid #00a7e7;
+}
+.action {
+	color: #00a1df!important;
+}
+.show_more_2, .show_industry {
+	background-color: #f7f7f7;
+	/*bottom: 0;
+	position: fixed;
+	top: 117px;*/
+	/*z-index: 100;*/
+}
+.show_more_2 li, .show_industry li {
+	float: left;
+}
+.show_more_2 .left_list, .show_industry .left_list {
+	width: 40%;
+	height: 100%;
+	overflow: auto;
+}
+.show_more_2 .right_list, .show_industry .right_list {
+	width: 60%;
+	background-color: #fff;
+	height: 100%;
+	overflow: auto;
+}
+.show_more_2 ul li, .show_industry ul li {
+	width: 100%;
+	padding: 13px 10px 13px 25px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.show_more_2 .right_list li, .show_industry .right_list li {
+	padding: 13px 25px 13px 15px;
+}
+.select_choose_2 {
+	background: url("../images/job_choose.png?v=1") 95% no-repeat;
+	background-size: 7%;
+	color: #00a1df;
+}
+.no_record {
+	background-color: #f7f7f7;
+	height: 100%;
+}
+.no_data_note {
+	margin: 25px 0 35px;
+}
+.no_data_note p {
+	margin-top: 10px;
+	color: #aaa;
+}
+.hot_search p {
+	color: #333;
+	font-size: 1.8rem;
+	padding-top: 10px;
+	margin: 0 15px;
+	border-top: 1px solid #eee;
+}
+.hot_search ul {
+	width: 100%;
+	padding: 0 15px;
+	float: left;
+}
+.hot_search ul li {
+	float: left;
+	margin-right: 10px;
+}
+.hot_search ul li:last-child {
+	margin-right: 0;
+}
+.hot_search ul li a {
+	border-radius: 10px;
+	background-color: #fff;
+	border: 1px solid #00a1df;
+	color: #00a1df;
+	padding: 3px 10px;
+	margin-top: 15px;
+	display: inline-block;
+}
+.condition_list {
+	width: 100%;
+	top: 117px;
+	bottom: 0;
+	position: absolute;
+	border-top: 1px solid #eee;
+	overflow: auto;
+	z-index: 100;
+	/*display: none;*/
+}

@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑"
+}
+body{
+	background-color: #eff1f5;
+}
+input[type="text"], input[type="password"]{
+    -webkit-appearance: none;
+}
+#cnzz_stat_icon_1258282739{
+    display: none;
+}
+/*标题部分*/
+.title_border{
+	padding: 13px 0px;
+	background-color: #fff;
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+}
+.go_back{
+    position: absolute;
+    left:15px;
+    top:16px;
+}
+.go_back img{
+	width: 67%;
+}
+.big_title{
+text-align: center;
+	color: #333;
+	font-size: 1.9rem;
+}
+.person_center{
+	position: absolute;
+	right:5px;
+	top:13px;
+}
+.person_center img{
+	width: 77%;
+}
+
+/*返回顶部 用户反馈*/
+.message {
+	width: 46px;
+	height: 82px;
+	right: 3%;
+	bottom: 80px;
+	position: fixed;
+	z-index:500;
+}
+.message a {
+	width: 100%;
+	height: 50%;
+	left: 0;
+	position: absolute;
+	cursor: pointer;
+}
+.gotop {
+	top: 0;
+	background: url(../images/index-top.png?v=10) right top no-repeat;
+	display: none;
+	background-size: 80%;
+}
+.couple_back {
+	bottom: 0;
+	background: url(../images/icon_2.png?v=10) right bottom no-repeat;
+	background-size: 80%;
+
+}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1} 

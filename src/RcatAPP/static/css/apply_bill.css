@@ -1,0 +1,64 @@
+
+
+.detail_middle{
+	margin-left:20px;
+	margin-top:20px;
+	background-color:#fff;
+	padding-top:15px;
+	padding-bottom:13px;
+	height: auto;
+}
+/*ÐÂÔö*/
+.detail_middle h1{
+	background-image: url(../images/bill_bg_03.png);
+}
+body{ background-color:#eaedeb;}
+
+.detail_middle form{padding-left:50px;}
+.clearfix:after {
+   content: ".";
+   display:block;
+   height:0;
+   clear: both; 
+   visibility: hidden;
+}
+.clearfix{zoom:1;}
+.detail_middle label{ width:70px; text-align:right;display:inline-block; font-size:14px;}
+.radiobtn{font-size: 13px;}
+.radiobtn span{ display:inline-block; vertical-align:middle;}
+.detail_middle label span{ color:#F00; display:inline-block; line-height:37px; padding-right:2px;}
+#submit{background-color:#3cc051;width:70px;line-height:34px;margin-top:10px; color:#fff;margin-left:120px;cursor: pointer;}
+.detail_middle input{ margin-left:50px; vertical-align:middle;}
+#bill-top{ width:303px;line-height:30px;border:1px solid #ccc;height:30px;}
+#bill_type{ boder:none;}
+.bill-sty span{ padding-left:5px; font-size:14px;}
+.bill-sty{height:37px;line-height:37px}
+input#bill_com{ margin-left:20px;}
+
+
+.detail_middle{ color:#3e3e3e;}
+#count_ul>li>a{
+    font-size:12px;
+	color:white;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	font-family:microsoft yahei;
+}
+#count_ul>li>a:hover{
+	color:gray;
+}
+.navi_bar>ul>li:first-child  img{
+	display:block;
+	position:absolute;
+	left:0px;
+	top:5px;
+}
+
+.navi_bar>ul>li:first-child  a{
+	padding-left:30px;
+	position:relative;
+}
+.cur{ background-color:#174577;}
+.company_bill{ display:none;}
+.person_bill span.pers{ diaplay:inline-block;height:37px;line-height:37px;margin-left:50px;}

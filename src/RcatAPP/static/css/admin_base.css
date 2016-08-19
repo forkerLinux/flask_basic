@@ -1,0 +1,8 @@
+ tr span, tr a{ cursor: pointer; }
+ #compay_right{position: relative;}
+ .compay_detail{
+    position: absolute;left:5%;top:10%;
+               width: 90%;
+               height: auto;
+               background-color:#E2E1E1;
+ }

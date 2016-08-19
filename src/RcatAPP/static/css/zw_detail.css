@@ -1,0 +1,200 @@
+.detail_con2{
+	height: auto;
+	top: 90px;
+	position: relative;
+}
+.job_all{
+	width:1000px;
+	height:auto;
+	border: 1px solid #ccc;
+	/*background-color: #000;*/
+	/*margin-left: 30px;*/
+	padding-bottom: 20px;
+	/*margin-bottom: 30px*/
+	margin: 0 auto 30px;    
+}
+.cam_name>h1,.cam_name>h2{
+font-weight: 400;
+margin: 20px;
+font-size: 18px;
+color:#029774;
+
+
+}
+h1{
+	font-size: 24px;
+	float:left;
+}
+h2{
+	font-size: 18px;
+	clear: both;
+}
+.back{
+   float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #029774;
+    /* background-color: #029774; */
+    /* color: #fff; */
+    padding: 5px;
+    font-size: 16px;
+  
+}
+.back:hover{
+	color:#FF6363;
+	text-decoration: underline;
+}
+.job_main{
+	padding: 0px 16px 20px 20px;
+/*border-bottom: 1px dotted #CCC;*/
+/*position: relative;*/
+overflow: hidden;
+/*padding-bottom: 20px*/
+}
+.job_left {
+    float: left;
+    width: 650px;
+}
+.job_salary{
+	font-size: 22px;
+color: #FF7F00;
+padding: 0px 0px 0px 5px;
+margin-bottom: 15px;
+}
+.job_area>img{
+	width:20px;
+	/*height:24px;*/
+}
+.job_area>span{
+	position:relative;
+	top:-6px; 
+	font-size: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.job_area>span>span{
+		font-size: 15px;
+}
+.job_area2{
+	margin-top: 10px
+}
+.job_area2>span{
+	/*position:relative;*/
+	/*top:-6px; */
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 2px solid #ccc;
+
+}
+.job_right{
+	    float: right;
+    width: 254px;
+}
+.apply{
+/*width: 82px; */
+    height: 36px;
+    background-color: #FF6363;
+    /*border-radius: 5px;*/
+    text-align: center;
+    line-height: 36px;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+p.change .apply{
+	background-color: #ccc;
+	color: #000;
+}
+/*.apply:hover{
+	background-color: #037C5F
+}*/
+/*.apply a{
+	color:#fff;
+	font-size: 14px
+}*/
+.fank{
+	/*width:140px;*/
+	text-align: right;
+	margin-top: 10px;
+	float: left;
+
+}
+.fank span{
+	    /* padding: 5px; */
+    font-size: 13px;
+    color: black;
+    cursor: pointer;
+    /* width: 58px; */
+    /* height: 36px; */
+    /*background-color: #029774;*/
+    /*border-radius: 5px;*/
+    text-align: center;
+    line-height: 36px;
+    float: left;
+    /*color: #fff;*/
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+/*.fank span:hover{
+	color:#FF6363;
+}*/
+.change{
+	background-color:gray;
+}
+/*职位描述*/
+.massage{
+		padding: 0px 16px 20px 20px;
+border-top: 1px dotted #CCC;
+/*position: relative;*/
+overflow: hidden;
+
+}
+.mag_title{
+border-left: 3px solid #029774;
+	margin-top: 20px;
+
+}
+.mag_title span{
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.main{
+	padding: 10px 0px 0px 15px;
+	width:940px;
+}
+.main p{
+	font-size: 16px;
+	/*height: 30px;*/
+	line-height: 30px;
+}
+.main ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+.main ul li{
+	float:left;
+	width:450px;
+	height:30px;
+	line-height: 30px
+	
+}
+.main ul li span{
+	font-size: 16px;
+}
+.main>ul>li>span:first-child{
+	color:gray;
+}
+
+a.apchange{background-color:#ccc;color:#000}

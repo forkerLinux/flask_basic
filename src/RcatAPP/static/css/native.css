@@ -1,0 +1,21 @@
+.cost_finish{
+	margin-left: 10px;color:#556B2F;font-size:30px;font-weight: bolder;width:100%;text-align:center
+}
+.two_wei img{
+	width:200px;height:200px;
+	margin-left:500px;
+}
+.sign_shuoming{
+	width:100%;text-align: center;
+}
+input[type=button]{
+	float:right;
+	width:100px;
+	height:40px;
+	margin-right: 50px;
+	background-color: transparent;
+	border:none;
+	text-decoration: underline;
+	color:#029774;
+	cursor: pointer;
+}

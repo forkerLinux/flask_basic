@@ -1,0 +1,163 @@
+body {
+	font-family: 'microsoft yahei';
+}
+.fixed_nav {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+	z-index: 10000000;
+}
+.search_box {
+	margin-top: 15px;
+	padding: 0 15px;
+}
+.search_icon {
+	left: 0;
+	color: #ccc;
+	z-index: 10;
+}
+#search {
+	padding-left: 30px;
+}
+#search:focus {
+	border: 1px solid #3b5b98;
+	box-shadow: none;
+}
+#global {
+	color: #fff;
+	border-radius: 0;
+	border: 1px solid #3b5b98;
+	background-color: #3b5b98;
+}
+/*导航*/
+.menu {
+	background-color: #3b5b98;
+}
+.menu .title {
+	color: #fff;
+	font-size: 1.8rem;
+	padding: 20px 0;
+	text-align: center;
+	margin-bottom: 0;
+}
+.title span {
+	color: #ff9059;
+}
+.menu>nav {
+	border: 0;
+	margin-bottom: 0;
+}
+.nav>div{
+	text-align: center;
+	color: #fff;
+	background-color: #cddeff;
+	border-right: 1px solid #6d8dcc;
+	padding: 10px;	
+	font-size: 1.6rem;
+}
+div.nav_4 {
+	border: 0;
+}
+div.select {
+	background-color: #6d8dcc;
+}
+/*图表*/
+.content {
+	margin-top:224px;
+	background-color: #164083;
+}
+.graph {
+	padding: 0 15px;
+}
+.graph>div {
+	margin-bottom: 60px;
+	display: none;
+}
+div.show {
+	display: block;
+}
+.explain {
+	padding-bottom: 25px;
+}
+.explain p {
+	text-align: center;
+	color: #fff;
+	font-size: 1.6rem;
+	margin: 20px 0 10px;
+}
+.explain span {
+	color: #6d8dcc;
+}
+/*概况图*/
+.maps {
+	border: 1px solid #6386c2;
+	background-color: #3b5b98;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	position: relative;
+}
+.maps .title {
+	color: #fff;
+	font-size: 1.6rem;
+	margin: 20px 0 10px;
+	text-align: center;
+}
+.avg {
+	text-align: center;
+}
+.avg_salary {
+	color: #FFEF88;
+}
+.avg_work_year {
+	color: #64F4FF;
+}
+.main_chart {
+	height: 220px;
+}
+.work_year_map {
+	padding-bottom: 5px;
+}
+/*分位图*/
+.trade_map, .edu_map2 {
+	padding-bottom: 60px;
+}
+.work_year_map2, .scale_map {
+	padding-bottom: 45px;
+}
+.gs_top_salary_map {
+	padding-bottom: 60px;
+}
+.btn_select {
+	float: right;
+	padding-right: 10px;
+	margin-bottom: 5px;
+	z-index: 10;
+}
+.btn_select p {
+	color: #DBE5FA;
+    border: 1px solid #DBE5FA;
+    padding: 6px 7px;
+    margin-bottom: 0;
+}
+.drop_box {
+	right: 10px;
+	left: inherit;
+	overflow: auto;
+	min-width: 120px;
+}
+.trade_map .drop_box, .gs_top_salary_map .drop_box {
+	height: 220px;
+}
+/*暂无数据*/
+.no_date {
+	padding: 0 10px;
+	bottom: 90px;
+    position: absolute;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 25px;
+    text-align: center;
+}
+
+
