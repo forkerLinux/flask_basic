@@ -2,14 +2,21 @@
 # -*- coding: utf-8
 
 from flask.views import MethodView
+from flask import render_template, current_app
 from . import instance
+
+
+@instance.before_app_first_request
+def modify_auto_escape():
+    current_app.jinja_env.autoescape = lambda filename: False
 
 
 # 首页
 class IndexView(MethodView):
 
     def get(self):
-        return 'index.html'
+
+        return render_template('index.html')
 
 urls = {
     '/': (IndexView, ['GET', ]),  # 主页
