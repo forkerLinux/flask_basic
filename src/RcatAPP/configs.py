@@ -1,12 +1,15 @@
 #! /usr/bin/env python3.4
 # -*- coding: utf-8 -*-
+import warnings
 
+from flask.exthook import ExtDeprecationWarning
 from flask_sqlalchemy import SQLAlchemy
 from flask_redis import FlaskRedis as fRedis
 from flask_cache import Cache
 from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_restful import Api
+from celery import Celery
 
 db = SQLAlchemy()
 redis = fRedis()
@@ -15,6 +18,8 @@ lm = LoginManager()
 logger = None
 migrate = Migrate()
 rest_api = Api()
+celery = Celery()
+warnings.simplefilter('ignore', ExtDeprecationWarning)
 
 
 class DefaultConfig(object):
@@ -35,6 +40,13 @@ class DefaultConfig(object):
     SQLALCHEMY_POOL_TIMEOUT = 10
     SQLALCHEMY_POOL_RECYCLE = 60
     SQLALCHEMY_MAX_OVERFLOW = 20
+
+    # Celery
+    # CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
+    # CELERY_BACKEND_URL = 'amqp://guest:guest@localhost:5672//'
+
+    CELERY_BROKER_URL = 'redis://localhost:6379/2'
+    CELERY_BACKEND_URL = 'redis://localhost:6379/2'
 
 
 class TestConfig(object):

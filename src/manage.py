@@ -12,7 +12,7 @@ from RcatAPP import create_app
 from RcatAPP.configs import db
 
 
-app = create_app
+app = create_app()
 manager = Manager(app)
 
 manager.add_command('db', MigrateCommand)
@@ -63,8 +63,7 @@ def _make_context():
 
 manager.add_command('shell', Shell(make_context=_make_context))
 manager.add_command('runserver', Server('0.0.0.0', port='5000'))
-
+warnings.simplefilter('ignore', ExtDeprecationWarning)
 
 if __name__ == '__main__':
-    warnings.simplefilter('ignore', ExtDeprecationWarning)
     manager.run()
