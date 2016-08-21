@@ -1,0 +1,8 @@
+setup rabbitmq
+    sudo service rabbitmq-server start
+setup celery
+    celery worker -A celery_runner --loglevel=info
+setup regular time job
+    celery  -A celery_runner beat 
+setup celery flower
+    celery flower -A celery_runner --loglevel=info

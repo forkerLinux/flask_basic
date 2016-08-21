@@ -1,6 +1,7 @@
 #! /usr/bin/env python3.4
 # -*- coding: utf-8 -*-
 import warnings
+import datetime
 
 from flask.exthook import ExtDeprecationWarning
 from flask_sqlalchemy import SQLAlchemy
@@ -42,12 +43,21 @@ class DefaultConfig(object):
     SQLALCHEMY_MAX_OVERFLOW = 20
 
     # Celery
-    # CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
-    # CELERY_BACKEND_URL = 'amqp://guest:guest@localhost:5672//'
+    CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
+    CELERY_BACKEND_URL = 'amqp://guest:guest@localhost:5672//'
+    CELERY_TIMEZONE = 'Asia/Shanghai'
 
-    CELERY_BROKER_URL = 'redis://localhost:6379/2'
-    CELERY_BACKEND_URL = 'redis://localhost:6379/2'
+	# CELERY_BROKER_URL = 'redis://localhost:6379/2'
+	# CELERY_BACKEND_URL = 'redis://localhost:6379/2'
 
+	# Cron
+    CELERYBEAT_SCHEDULE = {
+        'log-every-30-seconds': {
+            'task': 'RcatAPP.tasks.demo_task.log',
+            'schedule': datetime.timedelta(seconds=30),
+            'args': ("Message", )
+        }
+    }
 
 class TestConfig(object):
     pass
