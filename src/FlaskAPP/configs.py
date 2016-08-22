@@ -54,7 +54,7 @@ class DefaultConfig(object):
 	# Cron
     CELERYBEAT_SCHEDULE = {
         'log-every-30-seconds': {
-            'task': 'RcatAPP.tasks.demo_task.log',
+            'task': 'FlaskAPP.tasks.demo_task.log',
             'schedule': crontab(hour=0, minute=0),
             'args': ("Message", )
         }
@@ -79,5 +79,5 @@ config = {
 
 def config_logger(app):
     global logger
-    from RcatAPP.utils.log_util import init_log
+    from FlaskAPP.utils.log_util import init_log
     logger = init_log(debug=app.config.get('DEBUG', True))

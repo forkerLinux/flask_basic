@@ -8,7 +8,7 @@ from datetime import datetime
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm.exc import NoResultFound, MultipleResultsFound
 from sqlalchemy import UniqueConstraint
-from RcatAPP.configs import db, logger
+from FlaskAPP.configs import db, logger
 
 
 class DemoModel(db.Model):

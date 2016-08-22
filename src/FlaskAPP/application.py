@@ -4,13 +4,13 @@
 import ipdb
 from flask import Flask
 
-from RcatAPP import configs
-from RcatAPP.configs import lm
-from RcatAPP.configs import db, cache, redis, migrate, rest_api
+from FlaskAPP import configs
+from FlaskAPP.configs import lm
+from FlaskAPP.configs import db, cache, redis, migrate, rest_api
 
 
 __all__ = ['create_app']
-DEFAULT_APP_NAME = 'RcatAPP'
+DEFAULT_APP_NAME = 'FlaskAPP'
 
 
 def create_app(config=None, app_name=None):
@@ -56,12 +56,12 @@ def configure_migrate(app):
 
 
 def configure_logger(app):
-    from RcatAPP.configs import config_logger
+    from FlaskAPP.configs import config_logger
     config_logger(app)
 
 
 def configure_blueprints(app):
-    from RcatAPP import flask_demo_bp
+    from FlaskAPP import flask_demo_bp
     REGISTER_BLUEPRINTS = (
         (flask_demo_bp.instance, ''),
     )

@@ -10,8 +10,8 @@ from flask_script.commands import ShowUrls, Clean
 from flask_migrate import MigrateCommand
 from flask.exthook import ExtDeprecationWarning
 
-from RcatAPP import create_app
-from RcatAPP.configs import db
+from FlaskAPP import create_app
+from FlaskAPP.configs import db
 
 
 app = create_app(os.getenv('FLASK_CONF') or 'default')

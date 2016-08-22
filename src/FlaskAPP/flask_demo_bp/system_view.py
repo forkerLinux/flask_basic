@@ -4,7 +4,7 @@
 from flask.views import MethodView
 from flask import render_template, current_app
 
-from RcatAPP.tasks.demo_task import log
+from FlaskAPP.tasks.demo_task import log
 
 from . import instance
 

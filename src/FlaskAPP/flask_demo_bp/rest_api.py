@@ -2,7 +2,7 @@
 # coding:utf-8
 
 from flask_restful import Resource
-from RcatAPP.configs import rest_api
+from FlaskAPP.configs import rest_api
 
 
 class PostApi(Resource):

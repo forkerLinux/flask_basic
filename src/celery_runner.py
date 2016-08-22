@@ -4,8 +4,8 @@
 import os
 from celery import Celery
 
-from RcatAPP import create_app
-from RcatAPP.tasks.demo_task import log
+from FlaskAPP import create_app
+from FlaskAPP.tasks.demo_task import log
 
 
 def make_celery(app):
