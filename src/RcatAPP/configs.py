@@ -63,7 +63,7 @@ class DefaultConfig(object):
 class TestConfig(object):
     CELERY_TASK_SERIALIZER = 'json'
     CELERY_RESULT_SERIALIZER = 'json'
-    CELERY_ACCEPT_CONTENT = ['json']
+    CELERY_ACCEPT_CONTENT = ['json', 'pickle']
     CELERY_TIMEZONE = 'Asia/Shanghai'
     CELERY_ENABLE_UTC = True
 

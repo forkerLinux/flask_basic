@@ -3,6 +3,9 @@
 
 from flask.views import MethodView
 from flask import render_template, current_app
+
+from RcatAPP.tasks.demo_task import log
+
 from . import instance
 
 
@@ -15,6 +18,8 @@ def modify_auto_escape():
 class IndexView(MethodView):
 
     def get(self):
+        # log.apply_async(args=['lelel'])
+        log.delay('lelllelell')
 
         return render_template('index.html')
 
