@@ -10,7 +10,9 @@ from flask_cache import Cache
 from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_restful import Api
+
 from celery import Celery
+from celery.schedules import crontab
 
 db = SQLAlchemy()
 redis = fRedis()
@@ -53,7 +55,7 @@ class DefaultConfig(object):
     CELERYBEAT_SCHEDULE = {
         'log-every-30-seconds': {
             'task': 'RcatAPP.tasks.demo_task.log',
-            'schedule': datetime.timedelta(seconds=30),
+            'schedule': crontab(hour=0, minute=0),
             'args': ("Message", )
         }
     }
