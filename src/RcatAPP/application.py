@@ -25,7 +25,10 @@ def configure_app(app, config):
     app.config.from_object(configs.DefaultConfig())
 
     if config is not None:
-        app.config.from_object(config)
+        app.config.from_object(configs.config[config])
+        print('\n' * 5)
+        print(configs.config[config])
+        print('\n' * 5)
 
     app.config.from_envvar('RCAT_CONFIG', silent=True)
     configure_cache(app)

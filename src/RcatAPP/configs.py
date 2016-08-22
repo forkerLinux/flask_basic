@@ -45,7 +45,6 @@ class DefaultConfig(object):
     # Celery
     CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
     CELERY_BACKEND_URL = 'amqp://guest:guest@localhost:5672//'
-    CELERY_TIMEZONE = 'Asia/Shanghai'
 
 	# CELERY_BROKER_URL = 'redis://localhost:6379/2'
 	# CELERY_BACKEND_URL = 'redis://localhost:6379/2'
@@ -60,12 +59,21 @@ class DefaultConfig(object):
     }
 
 class TestConfig(object):
-    pass
+    CELERY_TASK_SERIALIZER = 'json'
+    CELERY_RESULT_SERIALIZER = 'json'
+    CELERY_ACCEPT_CONTENT = ['json']
+    CELERY_TIMEZONE = 'Asia/Shanghai'
+    CELERY_ENABLE_UTC = True
 
 
 class ProductConfig(object):
     pass
 
+config = {
+    'default': DefaultConfig,
+    'test': TestConfig,
+    'product': ProductConfig,
+}
 
 def config_logger(app):
     global logger

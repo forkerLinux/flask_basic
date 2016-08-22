@@ -27,6 +27,6 @@ def make_celery(app):
     celery.Task = ContextTask
     return celery
 
-flask_app = create_app()
+flask_app = create_app(os.getenv('FLASK_CONF') or 'default')
 
 celery = make_celery(flask_app)

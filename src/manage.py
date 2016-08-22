@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import warnings
 
 from flask import url_for
@@ -13,7 +14,7 @@ from RcatAPP import create_app
 from RcatAPP.configs import db
 
 
-app = create_app()
+app = create_app(os.getenv('FLASK_CONF') or 'default')
 manager = Manager(app)
 
 manager.add_command('db', MigrateCommand)
