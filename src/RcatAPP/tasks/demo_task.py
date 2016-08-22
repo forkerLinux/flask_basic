@@ -4,6 +4,6 @@
 from RcatAPP.configs import celery
 
 
-@celery.task()
+@celery.task(serializer='json')
 def log(msg):
     return msg
